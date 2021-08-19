@@ -10,6 +10,7 @@ import { fetchInternshipRegisterMap } from '../../redux/InternshipRegisterMap/In
 import {fetchemiDetail} from '../../redux/EMIDetail/EMIDetailAction'
 
 const InternshipForm = (props) => {
+  console.log('price',props)
   const [price, setPrice] = useState()
   const [registerId, setRegisterId] = useState()
   const [emiDetail, setemiDetail] =useState([]);
@@ -51,7 +52,6 @@ const InternshipForm = (props) => {
         email: '', 
         phoneNo: '',
         gender: '',
-        emi:''
         // usn: '',
         // college: '',
         // university: '',
@@ -63,7 +63,7 @@ const InternshipForm = (props) => {
   })
   const handleFormSubmit = (e) => {
     e.preventDefault()
-    props.hitInternshipRegistration(formDetails, sessionStorage.getItem('internshipSubjectId'), sessionStorage.getItem('internshipPackageId'))
+    props.hitInternshipRegistration(formDetails,sessionStorage.getItem('internshipPackageId'),sessionStorage.getItem('emiStatus'))
 
   }
 
@@ -170,6 +170,32 @@ const InternshipForm = (props) => {
                 <label className="IF_Emi_Container">No</label>
             </div>
             </div>
+            {/* <div>
+                  {
+                    emiDetail && emiDetail.map((emielem,emiindex) => {
+                      return(
+                        <div>
+                          {
+                            emielem  && emielem.type === '2' &&
+                            <div>
+                              <p>{emielem.emi_rate}</p>
+                            </div>
+                          }
+                          {
+                            emielem && emielem.instalment.map((instalmentelem,instailmentindex) => {
+                              return(
+                                <div>
+                                  <p>{instalmentelem}</p>
+                                </div>
+                              )
+                            })
+                          }
+                          </div>
+                      )
+                    })
+                  }
+                </div> */}
+
             
 
             <div className="app-form-group buttons">
@@ -198,32 +224,7 @@ const InternshipForm = (props) => {
   </div>
 </div>
 
-                {/* <div>
-                  {
-                    emiDetail && emiDetail.map((emielem,emiindex) => {
-                      return(
-                        <div>
-                          {
-                            emielem  && emielem.type === '2' &&
-                            <div>
-                              <p>{emielem.emi_rate}</p>
-                            </div>
-                          }
-                          {
-                            emielem && emielem.instalment.map((instalmentelem,instailmentindex) => {
-                              return(
-                                <div>
-                                  <p>{instalmentelem}</p>
-                                </div>
-                              )
-                            })
-                          }
-                          </div>
-                      )
-                    })
-                  }
-                </div> */}
-
+               
         </div>
     )
 }

@@ -20,7 +20,7 @@ const InternshipCard = (props) => {
         
     },[props.InternshipSubjectsApi.InternshipSubjects.internshipSubjectsGetApi.internshipSubjectsSuccess])
     const handleCourseClick = (sub_id) => {
-        sessionStorage.setItem('SubId',sub_id)
+        sessionStorage.setItem('internshipSubjectId',sub_id)
         sessionStorage.setItem('emiStatus',0)
         // props.fetchInternshipCoursesDetails(sub_id)
 

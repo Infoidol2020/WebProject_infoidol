@@ -33,7 +33,7 @@ const CourseDetail = (props) => {
                                     featureelem && featureelem.type === "1" &&
                                     <div>
                                         {
-                                            featureelem && featureelem.intern_value.map((valelem,valindex) => {
+                                            featureelem.intern_value && featureelem.intern_value.map((valelem,valindex) => {
                                                 return(
                                                     <div className="course-value-list">
                                                         <ul style={{listStyleType: 'none'}}>

@@ -12,6 +12,12 @@ const CourseDescription = (props) => {
     const [CourseDescription,setCourseDescription]= useState();
 
     useEffect(() => {
+        // sessionStorage.setItem('internshipSubjectId',)
+        // props.fetchInternshipCourses()
+        props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
+    }, [])
+
+    useEffect(() => {
     if(props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess &&
         props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails){
             setCourseDescription( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails)

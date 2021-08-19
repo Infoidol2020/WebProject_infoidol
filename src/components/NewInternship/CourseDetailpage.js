@@ -24,7 +24,7 @@ const CourseDetailpage = (props) => {
     useEffect(() => {
         // sessionStorage.setItem('internshipSubjectId',)
         // props.fetchInternshipCourses()
-        props.fetchInternshipCoursesDetails(sessionStorage.getItem('SubId'))
+        props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
     }, [])
     return (
         <div>

@@ -24,7 +24,7 @@ const CourseToolCovered = (props) => {
                                 toolelem && toolelem.type === '1' &&
                                 <div style={{display:'flex'}}>
                                 {
-                                    toolelem && toolelem.tools_covered.map((toolscoveredelem,toolscoveredindex) => {
+                                    toolelem.tools_covered && toolelem.tools_covered.map((toolscoveredelem,toolscoveredindex) => {
                                         return(
                                             <div className="course-tools" >
                                                 <img src={toolscoveredelem} />
