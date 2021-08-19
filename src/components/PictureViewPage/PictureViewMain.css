@@ -1,0 +1,218 @@
+.PV_FirstContainer{
+    /* width:95%;
+    margin:2%;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 8px 19px 17px #00000029;
+    border: 1px solid #707070;
+    border-radius: 21px;
+    opacity: 1; */
+}
+.PV_elems{
+    width: 48vw;
+    height: 67vh;
+}
+.PV_BaseImg img{
+    width: 48vw;
+    height: 48vh;
+    margin:4% 4% -2%;
+}
+.PV_information{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    width:47vw;
+    height:5vh; 
+    margin-top: 1vh;
+
+}
+.PV_Title_section{
+    /* width:35vw; */
+}
+
+.PV_Heading h3{
+
+    color:00B1FF;
+    width: 48rem;
+    /* opacity: 1; */
+}
+.PV_dropDown{
+    margin-top: -3rem;
+}
+.PV_additional_information{
+    display: flex;
+    color: black;
+    margin-top: 1vh;
+
+    /* opacity: 0.65; */
+}
+.PV_Created_Time{
+    margin-left: 0.5rem;
+}
+.subscribe_PV button{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    margin-top: 3vh;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.pictureCaption::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.pictureCaption::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.pictureCaption::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.pictureCaption::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+/* jester/gallery photo viewer */
+.JesterBox div 
+{ 
+    visibility: hidden;
+    position: fixed;
+    top: 5%; right: 5%; bottom: 5%; left: 5%;
+    z-index: 75;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JesterBox div:before
+{
+    content: '';
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 74;
+    
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease-out;
+}
+
+.JesterBox div img
+{
+    position: relative;
+    z-index: 77;
+    width: 65%;
+    height: 80%;
+    
+    margin-left: -9999px;
+    opacity: 0;
+    transition-property: all, opacity;
+    transition-duration: 0.5s, 0.2s;
+    transition-timing-function: ease-in-out, ease-out;
+}
+
+.JesterBox div:target { visibility: visible; }
+
+.JesterBox div:target:before {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-image: url("https://i.gifer.com/DMy.gif"); 
+    opacity: 0.2;
+}
+
+.JesterBox div:target img
+{
+    margin-left: 0px;
+    opacity: 1;
+}
+.subscribe_PV button{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%); 
+    border: 0;
+    outline: none; 
+    color: #fff; 
+    width: 9vw;
+    margin-left: -2vw; 
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width:320px){
+    .PV_BaseImg img {
+        width: 73vw;
+        height: 36vh;
+        margin: 4% 4% -2%;
+    }
+    .subscribe_PV button {
+        width: 38vw;
+        margin-left: -34vw;
+    }
+    .PV_Heading h3 {
+        color: 00B1FF;
+        width: 12rem;
+    font-size: large;
+        /* opacity: 1; */
+    }
+    .pictureCaption{
+        height: 8vh;
+        width: 70vw;
+        overflow-y:auto;
+    }
+    .PV_elems {
+        width: 48vw;
+        height: 57vh;
+    }
+}
+
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .PV_BaseImg img {
+        width: 75vw;
+        height: 48vh;
+        margin: 4% 4% -2%;
+    }
+    .PV_Heading h3 {
+        color: 00B1FF;
+        width: 16rem;
+    font-size: large;
+        /* opacity: 1; */
+    }
+    .subscribe_PV button{
+        width: 33vw;
+        margin-left: -27vw;
+    }
+    .pictureCaption{
+        height: 8vh;
+        width: 70vw;
+        overflow-y:auto;
+    }
+    .PV_elems {
+        width: 48vw;
+        height: 69vh;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .PV_BaseImg img {
+        width: 75vw;
+        height: 48vh;
+        margin: 4% 4% -2%;
+    }
+    .PV_Heading h3 {
+        color: 00B1FF;
+        width: 18rem;
+        /* opacity: 1; */
+    }
+    .subscribe_PV button {
+        width: 29vw;
+        margin-left: -30vw;
+    }
+    .pictureCaption{
+        height: 8vh;
+        width: 76vw;
+        overflow-y:auto;
+    }
+    .PV_elems {
+        width: 48vw;
+        height: 69vh;
+    }
+}

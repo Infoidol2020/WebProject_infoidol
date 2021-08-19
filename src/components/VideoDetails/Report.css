@@ -1,0 +1,30 @@
+#VD_repoticon{
+    font-size: xx-large;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+}
+
+@media only screen and (max-width:320px){
+    #VD_repoticon {
+        font-size: xx-large;
+        margin-left: 7rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    #VD_repoticon{
+        font-size: xx-large;
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    #VD_repoticon{
+        font-size: xx-large;
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,120 @@
+.PictureViewRecommend{
+    /* border:crimson solid; */
+    /* display:inline-flex; */
+    width:100%;
+    margin-left: 1vw;
+    overflow-y: scroll;
+   height:84vh;
+}
+.PV_subBlockWrrapper{
+    margin-left: 2%;
+    margin-top:1%;
+    width: 23%;
+    height: 37vh;
+    padding: 1%;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    margin-bottom: 2%;
+    box-shadow: 6px 10px 10px #00000029;
+}
+.PV_Img img{
+    border:darkblue solid;
+    width: 15vw;
+    border-radius: 16px;
+    margin: 2rem;
+    height: 27vh;
+}
+.PD_recommend_Arrow i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 4vw;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+.PD_recommend_rightArrow i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+
+@media only screen and (max-width:400px){
+    .PD_recommend_Arrow i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        margin-right: 4vw;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .PD_recommend_rightArrow i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width:13vw;
+        height: 5vh;
+    }
+    .PV_Img img {
+        border: darkblue solid;
+        width: 69vw;
+        border-radius: 16px;
+        margin: 2rem;
+        height: 27vh;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .PD_recommend_Arrow i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        margin-right: 4vw;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .PD_recommend_rightArrow i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width:13vw;
+        height: 5vh;
+    }
+    .PV_Img img {
+        border: darkblue solid;
+        width: 69vw;
+        border-radius: 16px;
+        margin: 2rem;
+        height: 27vh;
+    }
+}

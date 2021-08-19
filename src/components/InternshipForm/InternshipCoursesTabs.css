@@ -1,0 +1,260 @@
+.internshipCourses_Container {
+    display: flex;
+    margin-top: 7rem;
+}
+.internshipCourses {
+    width: 9%;
+    margin-top: 5.5rem;
+}
+.internshipCoursesBtn {
+    width: 100%;
+    height: 3rem;
+    margin: 0rem 2rem 3rem 0rem;
+    border: none;
+    background: #83a4d4;
+    color: white;
+    font-weight: bold;
+}
+.internshipCoursesBtn:hover {
+    transform: skewX(10deg);
+    height: 3.5rem;
+    width: 101%;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    color: black;
+}
+.internshipCoursesDesc_Container {
+    width: 85%;
+    margin-left: 3rem;
+    font-size: medium;
+}
+.internshipCoursesDetail {
+    margin-bottom: 7rem;
+}
+.internshipCoursesHeading {
+    text-align: center;
+    margin-top: -3rem;
+}
+.internshipCourseName {
+    color: goldenrod;
+    font-weight: bold;
+}
+.internshipCoursesDescription {
+    letter-spacing: 0.2rem;
+    word-spacing: 0.3rem;
+    color: black;
+}
+.internshipCoursesContent {
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+.internshipCoursePurchase {
+    margin-left: 42%;
+    height: 4rem;
+    width: 20rem;
+    background-color: #ED4264;
+    color: white;
+    font-size: larger;
+}
+.internshipCourses-regd-note {
+    text-align: center;
+    margin-top: 1rem;
+}
+.internshipCoursesDetail {
+    margin-bottom: 7rem;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    border-radius: 7rem;
+    padding: 2rem 2rem;
+}
+.internshipCoursesHeading {
+    text-align: center;
+    margin-top: -3rem;
+}
+@media only screen and (max-width: 320px)
+{
+    .About_Internship_Container {
+        margin-top: 4rem;
+        margin-left: 11rem;
+    }
+    .internshipCoursePurchase {
+        margin-left: 4.5rem;
+        height: 3rem;
+        width: 13rem;
+        color: white;
+        background: black;
+        margin-top: 1rem;
+}
+.internshipCourses {
+    margin-left: -3rem;
+}
+.internshipCoursesBtn {
+    width: 7rem;
+    height: 3.5rem;
+    margin: 0rem 2rem 3rem 0rem;
+    border: none;
+    background: #83a4d4;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+}
+.internshipCoursesBtn:hover {
+    transform: skewX(
+10deg
+);
+    height: 4rem;
+    width: 7rem;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    color: black;
+    font-size: 1.2rem;
+}
+.internshipCoursesDesc_Container {
+    width: 89%;
+    margin-left: 5.3rem;
+    font-size: medium;
+}
+.internshipCoursesDescription {
+    letter-spacing: 0rem;
+    word-spacing: 0.1rem;
+    color: black;
+    font-size: 1.6rem;
+}
+.internshipCoursesContent {
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-size: 1.4rem;
+}
+.internshipCoursesDetail {
+    margin-bottom: 7rem;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    border-radius: 3rem;
+    padding: 2rem 1rem;
+    width: 24rem;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 400px){
+    .About_Internship_Container {
+        margin-top: 6rem;
+    }
+    .internshipCoursesDesc_Container {
+        width: 84%;
+        margin-left: 3rem;
+        font-size: medium;
+    }
+    .internshipCourses {
+        width: 9%;
+        margin-left: -0.5rem;
+        margin-top: 5.5rem;
+    }
+    /* .sidebar-container {
+        width: 11%;
+    } */
+    /* .nav_wrapper {
+        height: 5rem;
+        margin-left: 1.1rem;
+    } */
+    /* .logoBlock img {
+        width: 16rem;
+        margin-top: -1rem;
+        margin-left: -2rem;
+        height: 7rem;
+    } */
+    .internshipCoursesBtn {
+        width: 6rem;
+        height: 4rem;
+        font-size: x-small;
+        margin-left: -2.3rem;
+    }
+    .internshipCoursesDetail {
+        margin-left: -1rem;
+        border-radius: 3rem;
+    }
+    .internshipCoursesDescription {
+        letter-spacing: 0.1rem;
+    /* word-spacing: 0.1rem; */
+    font-size: smaller;
+    }
+    .internshipCoursesContent {
+        word-spacing: 0rem;
+        letter-spacing: 0rem;
+        font-size: smaller;
+        height: 26rem;
+        overflow-y: scroll;
+    }
+    .internshipCoursePurchase {
+        margin-left: 4.5rem;
+        height: 3rem;
+        width: 13rem;
+        color: white;
+        background: black;
+        margin-top: 1rem;
+        font-size: small;
+    }
+    .internshipCoursesBtn:hover {
+        transform: skewX(
+    10deg
+    );
+        height: 3.5rem;
+        width: 6rem;
+        background: linear-gradient(to right, #ddd6f3, #faaca8);
+        color: black;
+    }
+    /* .SideBar_ContentTitle {
+        display: none;
+    } */
+}
+@media only screen and (min-width: 401px) and (max-width: 500px)
+{
+    .internshipCourses {
+        margin-top: 6rem;
+    }
+    .internshipCoursesDescription {
+        font-size: 2.9rem;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.18rem;
+    }
+    .internshipCourses {
+        margin-top: 11rem;
+        font-size: x-large;
+        margin-left: -3rem;;
+    }
+    .internshipCoursesBtn {
+        height: 8rem;
+        width: 14rem;
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+    }
+    .internshipCoursesDesc_Container {
+        width: 91%;
+    }
+    .internshipCoursesDetail {
+        margin-left: 6rem;
+        margin-bottom: 7rem;
+        background: linear-gradient(to right, #ddd6f3, #faaca8);
+        border-radius: 7rem;
+        padding: 3rem 3rem;
+        font-size: 2.7rem;
+    }
+    .internshipCoursesHeading> h3{
+        font-size: xx-large;
+    }
+    .internshipCoursePurchase {
+        margin-left: 29%;
+        height: 6rem;
+        width: 20rem;
+        background-color: #a94442;
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+    } 
+    .internshipCoursesBtn:hover {
+        transform: skewX( 
+10deg
+ );
+    height: 7.5rem;
+    width: 15rem;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    color: black;
+    font-size: 2.7rem;
+    }
+}

@@ -1,0 +1,508 @@
+.BlogView_elems{
+    width: 43vw;
+    height: 67vh;
+    color: darkslategray;
+}
+.TrendingBlogfollowInCommentBtn {
+    margin-top: -2rem;
+    margin-left: 4rem;
+}
+/* .BlogView_elems img {
+    height: 39vh;
+    width: 46.5vw;
+    margin: 2rem 1rem 1rem 2rem;
+    border-radius: 14px;
+} */
+.BlogViewContentsData {
+    /* background: yellow; */
+    width: 70rem;
+    height: 27rem;
+    margin-top: 2rem;
+}
+.BlogViewContentVideo {
+    width: 38vw;
+    height: 36vh;
+    border-radius: 10px;
+}
+img.BlogViewContentImage {
+    width: 37.9vw;
+    height: 36vh;
+    border-radius: 10px;
+    /* margin-top: 2rem; */
+}
+.BlogViewContentImageWrapper {
+    /* background: deepskyblue; */
+    width: 100%;
+    height: 98%;
+}
+.BlogViewContentWrapper {
+    height: 27rem;
+    width: 58rem;
+    /* background: green; */
+}
+.BlogView_information{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    width:47vw;
+    height:5vh; 
+    margin-top: -2vh;
+
+}
+.BlogView_Title_section{
+    /* width:35vw; */
+}
+h2.BlogViewMain_BlogTitle {
+    margin-top: 1rem;
+    /* background: black; */
+    /* margin-left: 2rem; */
+    /* margin-bottom: 2rem; */
+    color: burlywood;
+    width: 61rem;
+    height: 5rem;
+    font-size: x-large;
+    overflow-y: scroll;
+}
+
+.BlogView_Heading h3{
+
+    color:00B1FF;
+    width: 48rem;
+    /* opacity: 1; */
+}
+.BlogView_additional_information{
+    display: flex;
+    color: black;
+    margin-top: 1vh;
+
+    /* opacity: 0.65; */
+}
+.BlogView_Created_Time{
+    margin-left: 0.5rem;
+}
+.subscribe_BlogView button {
+    background: transparent linear-gradient(
+90deg
+, #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    margin-top: 1vh;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    font-size: larger;
+    border-radius: 20px;
+}
+.BlogView_Blog_Description {
+    margin: 4rem 0 4rem 3rem;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 1.1px;
+    width: 112%;
+    height: 38vh;
+    text-align: justify;
+    font-size: medium;
+    overflow-y: scroll;
+}
+.rightSectionBlogShow {
+    margin-left: 73rem;
+    margin-top: -30rem;
+}
+.BD_Profilepic{
+    border-radius: 50%;
+    width: 6vw;
+    height: 7vh;
+}
+/* width */
+.BlogView_Blog_Description::-webkit-scrollbar {
+    width: 9px;
+  }
+  /* Handle */
+.BlogView_Blog_Description::-webkit-scrollbar-thumb {
+     
+    border-radius: 5px;
+    background: #1E9FC8; 
+
+  }
+  .BlogView_Blog_Description::-webkit-scrollbar-thumb:hover {
+    background: transparent linear-gradient(
+        90deg
+        , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+  }
+  .TrendingBlogViewDescription {
+    color: teal;
+    /* margin: 0px 0px 2rem 2rem; */
+    width: 61rem;
+    font-size: initial;
+    height: 45rem;
+    word-spacing: 0.1rem;
+    overflow-y: scroll;
+}
+.TrendingBlogViewDescription{
+    color: teal;
+    margin: 0px 0px 2rem 2rem;
+    width: 61rem;
+    font-size: initial;
+    height: 41rem;
+    overflow-y: scroll;
+}
+.TrendingBloglikeShareSection{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    margin-left: 36rem;
+    margin-top: -0.5rem;
+}
+.BD_Title h2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    color: burlywood;
+    width: 61rem;
+    font-size: x-large;
+}
+.TrendingBlogfollowInCommentBtn button{
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 7vw;
+    height: 5vh;
+    margin-left: 1vw;
+    margin-top: 4vh;
+    border-radius: 10px;
+
+}
+.BD_Customizebutton select{
+    margin-left: 1vw;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    width: 7vw;
+    height: 5vh;
+    margin-top: 4vh;
+    background: linear-gradient(
+90deg
+, rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent; 
+}
+.TrendingBlogfollowInCommentBtn button{
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 8vw;
+    height: 5vh;
+    margin-left: 1vw;
+    margin-top: 4vh;
+    border-radius: 10px;
+}
+  /* slick */
+/* button.slick-arrow.slick-next::before {
+    color: purple;
+    margin-left: -5vw;
+    font-size: 5vh;
+    opacity: 0.5;
+  }
+  button.slick-arrow.slick-prev{
+    border: solid 1px red;
+    margin-left: 2vw;
+  }
+  button.slick-arrow.slick-next{
+    border: solid 1px red;
+    margin-right: 1vw;
+  }
+  button.slick-arrow.slick-prev::before {
+    color: purple;
+    opacity: 0.5;
+    font-size: 5vh;
+  }
+  .slick-list {
+    height: 95px;
+    width: 86vw;
+    margin-left: 5rem;
+  } */
+@media only screen and (max-width:320px){
+    .rightSectionBlogShow{
+        margin-left: 0vw;
+        margin-top: 5vw;
+    }
+    /* .sc-dlfnbm.cukhLH.rec.rec-slider-container {
+        width: 23rem;
+    } */
+    /* .sc-jSgupP.ewJlEB.rec.rec-carousel-wrapper {
+        width: 86vw;
+        margin-left: -6vw;
+    } */
+    .BlogView_additional_information {
+        display: flex;
+        color: black;
+        margin-top: 2vh;
+        /* opacity: 0.65; */
+    }
+    .TrendingBlogViewDescription {
+        color: teal;
+        margin: 0px 0px 2rem 1rem;
+        width: 31rem;
+        font-size: medium;
+    height: 14rem;
+    word-spacing: 0.1rem;
+    overflow-y: scroll;
+    }
+    .TrendingBloglikeShareSection {
+        display: flex;
+        width: 16rem;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-top: -0.5rem;
+    }
+    .BlogView_Created_Time {
+        margin-left: 0.5rem;
+        width: 22vw;
+    }
+    .BlogView_Views {
+        display: none;
+    }
+    .BD_Profilepic {
+        border-radius: 50%;
+        width: 12vw;
+        height: 8vh;
+    }
+    .BlogViewContentsData {
+        /* background: yellow; */
+        width: 32rem;
+        height: 27rem;
+        margin-top: 0.7rem;
+        margin-left: 0rem !important;
+    }
+    .BD_Title h2 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        color: burlywood;
+        width: 32rem;
+        font-size: x-large;
+    }
+    img.BlogViewContentImage {
+        width: 62.9vw;
+        height: 36vh;
+        border-radius: 10px;
+        /* margin-top: 2rem; */
+    }    
+    .BlogViewContentWrapper {
+        height: 22rem;
+    }
+    .TrendingBlogfollowInCommentBtn button{
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 29vw;
+        height: 5vh;
+        margin-left: -11vw;
+        margin-top: 4vh;
+        border-radius: 10px;
+    
+    }
+    .BD_Customizebutton select{
+        margin-left: -9vw;
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        outline: none;
+        width: 21vw;
+        height: 5vh;
+        margin-top: 4vh;
+        background: linear-gradient(
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent; 
+    }
+
+}
+@media only screen  and (min-width:321px) and (max-width:400px){
+    .rightSectionBlogShow{
+        margin-left: 0vw;
+        margin-top: 5vw;
+    }
+    /* .sc-dlfnbm.cukhLH.rec.rec-slider-container {
+        width: 23rem;
+    } */
+    /* .sc-jSgupP.ewJlEB.rec.rec-carousel-wrapper {
+        width: 86vw;
+        margin-left: -6vw;
+    } */
+    .BlogView_additional_information {
+        display: flex;
+        color: black;
+        margin-top: 2vh;
+        /* opacity: 0.65; */
+    }
+    .TrendingBlogViewDescription {
+        color: teal;
+        margin: 0px 0px 2rem 1rem;
+        width: 32rem;
+        font-size: medium;
+    height: 14rem;
+    word-spacing: 0.1rem;
+    overflow-y: scroll;
+    }
+    .TrendingBloglikeShareSection {
+        display: flex;
+        width: 16rem;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-top: -0.5rem;
+    }
+    .BlogView_Created_Time {
+        margin-left: 0.5rem;
+        width: 22vw;
+    }
+    .BlogView_Views {
+        display: none;
+    }
+    .BD_Profilepic {
+        border-radius: 50%;
+        width: 12vw;
+        height: 8vh;
+    }
+    .BlogViewContentsData {
+        /* background: yellow; */
+        width: 33rem;
+        height: 27rem;
+        margin-top: 0.7rem;
+        margin-left: 0rem !important;
+    }
+    .BD_Title h2 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        color: burlywood;
+        width: 32rem;
+        font-size: x-large;
+    }
+    img.BlogViewContentImage {
+        width: 56.9vw;
+        height: 36vh;
+        border-radius: 10px;
+        /* margin-top: 2rem; */
+    }    
+    .BlogViewContentWrapper {
+        height: 22rem;
+    }
+    .TrendingBlogfollowInCommentBtn button{
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 25vw;
+        height: 5vh;
+        margin-left: -9vw;
+        margin-top: 4vh;
+        border-radius: 10px;
+    
+    }
+    .BD_Customizebutton select{
+        margin-left: -9vw;
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        outline: none;
+        width: 21vw;
+        height: 5vh;
+        margin-top: 4vh;
+        background: linear-gradient(
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent; 
+    }
+}
+
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .rightSectionBlogShow{
+        margin-left: 0vw;
+        margin-top: 5vw;
+    }
+    /* .sc-dlfnbm.cukhLH.rec.rec-slider-container {
+        width: 23rem;
+    } */
+    /* .sc-jSgupP.ewJlEB.rec.rec-carousel-wrapper {
+        width: 86vw;
+        margin-left: -6vw;
+    } */
+    .BlogView_additional_information {
+        display: flex;
+        color: black;
+        margin-top: 2vh;
+        /* opacity: 0.65; */
+    }
+    .TrendingBlogViewDescription {
+        color: teal;
+    /* margin: 0px 0px 2rem 2rem; */
+    width: 32rem;
+    font-size: initial;
+    height: 14rem;
+    word-spacing: 0.1rem;
+    overflow-y: scroll;
+    }
+    .TrendingBloglikeShareSection {
+        display: flex;
+        width: 16rem;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-top: -0.5rem;
+    }
+    .BlogView_Created_Time {
+        margin-left: 0.5rem;
+        width: 22vw;
+    }
+    .BlogView_Views {
+        display: none;
+    }
+    .BD_Profilepic {
+        border-radius: 50%;
+        width: 12vw;
+        height: 8vh;
+    }
+    .BlogViewContentsData {
+        /* background: yellow; */
+        width: 33rem;
+    height: 27rem;
+    margin-top: 2rem;
+    }
+    .BD_Title h2 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        color: burlywood;
+        width: 32rem;
+        font-size: x-large;
+    }
+    img.BlogViewContentImage {
+        width: 50.9vw;
+        height: 36vh;
+        border-radius: 10px;
+        /* margin-top: 2rem; */
+    }    
+    .BlogViewContentWrapper {
+        height: 22rem;
+    }
+    .TrendingBlogfollowInCommentBtn button{
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 22vw;
+        height: 5vh;
+        margin-left: -8vw;
+        margin-top: 4vh;
+        border-radius: 10px;
+    
+    }
+    .BD_Customizebutton select{
+        margin-left: -7vw;
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        outline: none;
+        width: 21vw;
+        height: 5vh;
+        margin-top: 4vh;
+        background: linear-gradient(
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent; 
+    }
+
+}

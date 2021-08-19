@@ -1,0 +1,39 @@
+.VV_commentTitle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 44.5rem;
+    height: 4rem;
+    background: transparent linear-gradient(
+270deg
+, #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+}
+.MusicCommentProfile {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+/* .MusicPageCommentsContainer {
+    margin-left: 5rem;
+} */
+.Music_commentShowContainer {
+    margin-top: 16rem;
+    margin-left: 1rem;
+}
+.MusicPagecommentTitle {
+    background: transparent linear-gradient( 
+        90deg
+         , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+            padding: 1rem 0.8rem;
+            border-radius: 15px;
+            display: flex;
+            color: white;
+            font-size: large;
+            margin-top: -16rem;
+            margin-left: 2rem;
+            width: 100%;
+            height: 5rem;
+}

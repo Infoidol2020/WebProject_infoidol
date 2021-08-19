@@ -1,0 +1,31 @@
+.NewInternshipCompaniesContainer {
+    margin-left: 8.1rem;
+    background-image: url('../../assets/mapBackgd.png');
+    width: 94%;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 5rem;
+}
+.InternshipCompanies {
+    padding: 1rem;
+}
+.InternshipCompanies-Partners {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 7rem;
+}
+.InternshipCompanies-slogan {
+    font-size: x-large;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-family: ui-sans-serif;
+}
+.InternshipCompany-author {
+    text-align: end;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.Internship-companies {
+    height: 40rem;
+    width: 54rem;
+}

@@ -1,0 +1,318 @@
+.VideoRecommended_Container {
+    width: 92%;
+    /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+    box-shadow: 8px 19px 17px #00000029;
+    border: 1px solid #707070;
+    border-radius: 21px;
+    border-radius: 10px;
+    margin-left: 6vw;
+    overflow-y: scroll;
+    height: 84vh;
+}
+.VideoRecommended_RecomWrapper {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid 1px #dadada;
+    margin: 1rem;
+    padding: 1rem;
+}
+.VideoRecommended_RecomWrapper .thumbnails {
+    width: 18vw;
+    border-radius: 16px;
+    margin: 2rem;
+    height: 20vh;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 6px 10px 10px #00000029;
+    cursor: pointer;
+    margin-left: 4rem;
+}
+.VideoRecommended_ContentContainer {
+    /* display: flex; */
+    display: flex;
+    height: 7vh;
+    width: 27rem;
+    /* margin-left: 3vw; */
+    margin-top: 1vh;
+}
+.VideoRecommended_VideoViews {
+    color: #00929D;
+    padding: 1%;
+    margin-left: 6%;
+}
+.VideoRecommended_ContentDetails {
+    border: 1px solid black;
+    border-radius: 8px;
+    /* margin: 0.5rem; */
+    width: 75%;
+    padding: 0.5rem;
+}
+.VideoRecommended_VideoTitle {
+    margin-left: 1rem;
+}
+/* .thumbnails{
+    width: 18vw; 
+    height: 20vh; 
+    margin: 0.5rem;
+    object-fit: 'cover';
+} */
+.VD_prevVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    margin-right: 4vw;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+.VD_loadmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+.VD_RecommendUserprofile{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:320px){
+    .VideoRecommended_Container {
+        width: 89%;
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        border-radius: 10px;
+        margin-left: 9vw;
+        overflow-y: scroll;
+        height: 84vh;
+    }
+    .VideoRecommended_RecomWrapper .thumbnails {
+        width: 21rem;
+        border-radius: 16px;
+        height: 28vh;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 6px 10px 10px #00000029;
+        cursor: pointer;
+        margin-left: 4rem;
+    }
+    .VideoRecommended_ContentDetails {
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 63%;
+        height: 15vw;
+        margin-left: 1vw;
+        padding: 0.5rem;
+        height: 24vvh;
+    }
+    .VideoRecommended_VideoTitle {
+        margin-left: 1rem;
+    }
+    .VideoRecommended_VideoViews {
+        color: #00929D;
+        padding: 1%;
+        margin-left: 21%;
+    }
+    .VideoRecommended_RecomWrapper {
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 10px;
+        border: solid 1px #dadada;
+        margin: 1rem;
+        width: 74vw;
+        padding: 1rem;
+    }
+    .VD_prevVideo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        margin-right: 4vw;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .VD_loadmore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .VD_RecommendUserprofile{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .VideoRecommended_Container {
+        width: 89%;
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        border-radius: 10px;
+        margin-left: 9vw;
+        overflow-y: scroll;
+        height: 84vh;
+    }
+    .VideoRecommended_RecomWrapper .thumbnails {
+        width: 26rem;
+        border-radius: 16px;
+        height: 28vh;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 6px 10px 10px #00000029;
+        cursor: pointer;
+        margin-left: 4rem;
+    }
+    .VideoRecommended_ContentDetails {
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 76%;
+        margin-left: 1vw;
+        padding: 0.5rem;
+        height: 24vvh;
+    }
+    .VideoRecommended_VideoTitle {
+        margin-left: 2rem;
+    }
+    .VideoRecommended_VideoViews {
+        color: #00929D;
+        padding: 1%;
+        margin-left: 21%;
+    }
+    .VideoRecommended_RecomWrapper {
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 10px;
+        border: solid 1px #dadada;
+        margin: 1rem;
+        width: 76vw;
+        padding: 1rem;
+    }
+    .VD_prevVideo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        margin-right: 4vw;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .VD_loadmore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .VideoRecommended_Container {
+        width: 89%;
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        border-radius: 10px;
+        margin-left: 9vw;
+        overflow-y: scroll;
+        height: 84vh;
+    }
+    .VideoRecommended_RecomWrapper .thumbnails {
+        width: 30rem;
+        border-radius: 16px;
+        height: 28vh;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 6px 10px 10px #00000029;
+        cursor: pointer;
+        margin-left: 4rem;
+    }
+    .VideoRecommended_ContentDetails {
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 80%;
+        margin-left: 1vw;
+        padding: 0.5rem;
+        height: 24vvh;
+    }
+    .VideoRecommended_VideoTitle {
+        margin-left: 2rem;
+    }
+    .VideoRecommended_VideoViews {
+        color: #00929D;
+        padding: 1%;
+        margin-left: 21%;
+    }
+    .VideoRecommended_RecomWrapper {
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 10px;
+        border: solid 1px #dadada;
+        margin: 1rem;
+        width: 76vw;
+        padding: 1rem;
+    }
+    .VD_prevVideo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        margin-right: 4vw;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    .VD_loadmore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 13vw;
+        height: 5vh;
+    }
+    
+}

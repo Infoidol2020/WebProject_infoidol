@@ -1,0 +1,44 @@
+option {
+    background: rgb(85, 85, 85);
+}
+.CSC_CustomizeBtn {
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 9vw;
+    background: linear-gradient( 
+90deg
+ , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+}
+.CSC {
+    padding: 0.5rem 0px;
+    height: 4rem;
+    width: 29vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .CSC{
+        /* border: solid 1px red; */
+        flex-direction: column;
+        width: 100%;
+        height: 15vh;
+    }
+    .audio-connect-btn{
+        width: 98% !important;
+    }
+    .audio-pending-btn{
+        width: 98% !important;
+
+    }
+    .audio-subscribe-btn{
+        width: 98% !important;
+    }
+    .CSC_CustomizeBtn{
+        width: 98% !important;
+
+    }
+}

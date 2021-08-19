@@ -1,0 +1,59 @@
+.TopArtist_InfoWrapper {
+    display: inline-grid;
+    text-align: center;
+    width: 9vw;
+    height: 23vh;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    border-radius: 16%;
+    background: transparent linear-gradient( 
+133deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+}
+.AudioContainer_TopArtists {
+    margin-top: -2.2rem;
+    /* background: yellow; */
+    margin-left: 11rem;
+    width: 74%;
+    height: 39rem;
+}
+.TopArtist_Pix{
+    border-radius: 14%;
+    width: 8vw;
+    height: 17vh;
+    margin: 0.8rem;
+}
+
+@media only screen and (max-width: 500px)
+{
+
+    .AudioContainer_TopArtists{
+        margin: 0;
+        overflow-y: scroll;
+        /* border: solid 1px green; */
+        width: 100%;
+    }
+    .TopArtist_InfoWrapper{
+        width: 20vw ;
+        margin: 1rem;
+        height: 15vh;
+
+        
+    }
+    .TopArtist_Pix{
+        border-radius: 14%;
+        width: 80%;
+        height: 10vh;
+        margin: 0.8rem;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .TopArtist_InfoWrapper{
+        width: 25vw ;
+
+
+        
+    }
+}

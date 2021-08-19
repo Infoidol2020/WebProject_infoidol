@@ -1,0 +1,15 @@
+.VideoViewBlock {
+    margin-left: 4vw;
+    margin-Top: 16vh;
+}
+.VVmainBlock{
+    width:95%;
+    margin:2%;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 8px 19px 17px #00000029;
+    border: 1px solid #707070;
+    border-radius: 21px;
+    opacity: 1;
+    display: flex;
+    
+}

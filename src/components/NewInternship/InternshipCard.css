@@ -1,0 +1,59 @@
+.Card_Container{
+    /* width:100% */
+}
+.Card_Image {
+    width: 17vw;
+    height: 14vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+.Card_Image_Points {
+    box-shadow: 0rem 1rem 1rem 0rem;
+    opacity: 0.5;
+    width: 15vw;
+    margin-left: 4vw;
+    margin-top: -3vh;
+    background: #fafbfb;
+    height: 22vh;
+}
+.CardContainer{
+    background: #0830581C 0% 0% no-repeat padding-box;
+/* border: 1px solid #B5C1CD; */
+opacity: 1;
+width: 93.9vw;
+margin-left: 4vw;
+/* margin-top: 9vh; */
+}
+#CardContainer-blank, #ninternshipCard-blank{
+    height: 6rem;
+    background: white;
+}
+.Cardsinternship{
+    margin-left: 3.2vw;
+    border: 1px solid lightgray;
+    box-shadow: -1px 5px 4px #00000029;
+    height: 43.5vh;
+    margin-bottom: 6vh;
+   
+}
+.COurses{
+  
+}
+.InternshipCard_Image{
+    width: 19vw;
+    height: 14vw;
+    border-radius: 14px
+}
+.CourseSubCard{
+    width: 18vw;
+    height: auto;
+    border-radius: 11px;
+    border: 1px solid lightgray;
+    box-shadow: -1px 5px 4px #00000029;
+    text-align: center;
+    margin-left: 0.5vw;
+    margin-top: -7vh;
+    background: #fafdff;
+    position: relative;
+    margin-bottom: 7vh;
+}

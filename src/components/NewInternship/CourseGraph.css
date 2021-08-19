@@ -1,0 +1,15 @@
+.course-graph-heading{
+    font-size: 36px;
+    font-weight: bold;
+}
+.course-graph-subheading{
+    font-size: 22px;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+.course-graph-container img{
+    width: 91vw;
+    height: 64vh;
+    margin-bottom: 10vh;
+    margin-top: 4vh;
+}

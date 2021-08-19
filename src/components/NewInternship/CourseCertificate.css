@@ -1,0 +1,18 @@
+.course-certification-heading{
+    font-size: x-large;
+    margin-left: 2vw;
+    font-weight: 600;
+}
+.course-certificate-points >ul li {
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.01rem;
+}
+.course-internship-certificate-image img{
+    margin-top: -7vh;
+    width: 25vw;
+    margin-left: 30vw;
+}

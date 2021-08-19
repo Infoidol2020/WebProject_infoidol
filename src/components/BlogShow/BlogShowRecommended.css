@@ -1,0 +1,171 @@
+section#RecommendedBlogs {
+    margin: 7vh 1vw 15vh 7vw;
+    width: 90vw;
+}
+.RecommBlogs_Wrapper {
+    /* display: inline-flex; */
+}
+/* img.blogThumbNail {
+    height: 20rem;
+    margin: 1rem 1rem;
+    width: 21rem;
+} */
+/* .BlogContainers { */
+    /* border: 1px solid red; */
+    /* background: ghostwhite; */
+    /* margin: 2rem 1.4rem; */
+    /* background: transparent linear-gradient( */
+/* 269deg */
+/* , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box; */
+    /* border-radius: 0px 0px 40px 40px; */
+    /* opacity: 1;
+    height: 25rem;
+    width: 14%; */
+    /* border-radius: 15%; */
+    /* border-radius: 14% 0; */
+/* } */
+.blogThumbNail {
+    height: 16rem;
+    /* margin: 1rem 0rem; */
+    width: 21.4rem;
+    border-radius: 10%;
+    /* border-radius: 14% 0; */
+}
+.RecBlogTitle {
+    text-align: center;
+    font-size: initial;
+    font-family: bold;
+    color: maroon;
+}
+.RecBlogDescription {
+    text-align: center;
+    color: maroon;
+    /* font-size: unset; */
+}
+.BlogContainers {
+    /* border: 1px solid red; */
+    /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+    box-shadow: 8px 19px 17px #00000029;    margin: 2rem 2.9rem;
+    background: transparent linear-gradient( 
+269deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    /* border-radius: 0px 0px 40px 40px; */
+    opacity: 1;
+    height: 21rem;
+    width: 15.6%;
+    /* border-radius: 15%; */
+    border-radius: 14% 0;
+    margin-bottom: 3rem;
+}
+.BlogContainers:hover {
+    transform: scale(1.1);
+}
+.BD_PrevButton{
+    width: 5vw;
+}
+@media only screen and (max-width:320px){
+    #RecommendedBlogs h3{
+        width: 86vw;
+        margin-left: 2vw;
+    }
+    .blogThumbNail {
+        height: 16rem;
+        /* margin: 1rem 0rem; */
+        width: 27.2rem;
+        border-radius: 10%;
+        /* border-radius: 14% 0; */
+    }
+    .BlogContainers {
+        /* border: 1px solid red; */
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        margin: 2rem 2rem;
+        background: transparent linear-gradient( 
+    269deg
+    , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+        /* border-radius: 0px 0px 40px 40px; */
+        opacity: 1;
+        height: 21rem;
+        width: 94.6%;
+        /* border-radius: 15%; */
+        border-radius: 14% 0;
+        margin-bottom: 1rem;
+    }
+    .BD_PrevButton{
+        width: 13vw;
+    }
+    .BD_LoadMore button{
+        width: 13vw !important;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    #RecommendedBlogs h3{
+        width: 86vw;
+        margin-left: 2vw;
+    }
+    .blogThumbNail {
+        height: 16rem;
+        /* margin: 1rem 0rem; */
+        width: 27.5rem;
+        border-radius: 10%;
+        /* border-radius: 14% 0; */
+    }
+    .BlogContainers {
+        /* border: 1px solid red; */
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        margin: 2rem 3rem;
+        background: transparent linear-gradient( 
+    269deg
+    , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+        /* border-radius: 0px 0px 40px 40px; */
+        opacity: 1;
+        height: 21rem;
+        width: 81.6%;
+        /* border-radius: 15%; */
+        border-radius: 14% 0;
+        margin-bottom: 1rem;
+    }
+    .BD_PrevButton{
+        width: 13vw;
+    }
+    .BD_LoadMore button{
+        width: 13vw !important;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    #RecommendedBlogs h3{
+        width: 86vw;
+        margin-left: 2vw;
+    }
+    .blogThumbNail {
+        height: 16rem;
+        /* margin: 1rem 0rem; */
+        width: 31.4rem;
+        border-radius: 10%;
+        /* border-radius: 14% 0; */
+    }
+    .BlogContainers {
+        /* border: 1px solid red; */
+        /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+        box-shadow: 8px 19px 17px #00000029;
+        margin: 2rem 3rem;
+        background: transparent linear-gradient( 
+    269deg
+    , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+        /* border-radius: 0px 0px 40px 40px; */
+        opacity: 1;
+        height: 21rem;
+        width: 81.6%;
+        /* border-radius: 15%; */
+        border-radius: 14% 0;
+        margin-bottom: 1rem;
+    }
+    .BD_PrevButton{
+        width: 13vw;
+    }
+    .BD_LoadMore button{
+        width: 13vw !important;
+    }
+}

@@ -1,0 +1,257 @@
+.ID_Wrapper {
+    display: flex;
+}
+.About_Internship_Container {
+    margin-top: 11rem;
+    margin-left: 11rem;
+}
+.Id_img {
+    margin-top: 11rem;
+    margin-left: 41rem;
+    height: 49rem;
+    width: 48rem;
+    border-radius: 4rem;
+
+}
+.InternshipDetail_Title1 {
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: oblique;
+    margin-bottom: 0rem;
+}
+.InternshipDetail_Title2 {
+    color: #4C3CFE;
+    margin-top: -1.5rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-left: 3rem;
+    transform: skewX(8deg);
+}
+.InternshipDetail_Title3 {
+    font-size: 4rem;
+    margin-top: -3rem;
+    font-weight: bold;
+    color: #4C3CFE;
+    margin-left: 11rem;
+    transform: skewX(8deg);
+}
+.InternshipDetail_Title4 {
+    color: #4C3CFE;
+    margin-top: -2.5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 7rem;
+    transform: skewX(8deg);
+}
+.InternshipDetailT4_Content {
+    color: #fb6d66;
+}
+.airplaneBanner-img {
+    height: 26rem;
+    width: 23rem;
+    margin-left: -59rem;
+    margin-top: 8rem;
+}
+.InternshipDetailsHeading {
+    font-size: larger;
+    color: black;
+    width: 75rem;
+}
+.InternshipDetailBrief {
+    font-size: large;
+}
+li::marker {
+    color: black;
+    font-size: x-large;
+}
+.InternshipDetails_Subjects {
+    margin-left: 11rem;
+}
+.internshipCoursesContentTopics, .internshipCoursesValuesTopics {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+/* .internshipCoursesValuesTopics {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+} */
+/* .Internship-values-list li{
+    font-size: larger;
+} */
+
+@media only screen and (max-width : 400px) {
+    .InternshipDetail_Title1 {
+        margin-left: 4rem;
+        width: 12rem;
+    }
+    .InternshipDetail_Title2 {
+        width: 22rem;
+        margin-left: -1rem;
+        color: #fb6d66;    }
+    .InternshipDetail_Title3 {
+        margin-left: 0rem;
+        margin-top: -2.5rem;
+        width: 22rem;
+        color: #fb6d66;
+    }
+    .InternshipDetail_Title4 {
+        color: #fb6d66;
+        margin-top: -2.5rem;
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-left: -4rem;
+        transform: skewX(8deg);
+        margin-top: -2.5rem;
+    }
+    .InternshipDetailT4_Content {
+        color: #fb6d66;
+        margin-left: 2rem;
+    }
+    .airplaneBanner-img {
+        /* margin-left: 5rem;
+    margin-top: -66rem; */
+    display: none;
+    }
+    .InternshipDetails_Subjects {
+        margin-left: 5rem;
+    }
+    .InternshipDetailBrief {
+        margin-left: -5rem;
+        font-size: medium;
+        width: 29rem;
+    }
+    .InternshipDetailsHeading {
+        font-size: medium;
+        color: black;
+        position: sticky;
+        width: 30rem;
+    }
+    .ID_Wrapper {
+        display: block;
+        margin-left: -3rem;
+    }
+    .Id_img {
+        height: 24rem;
+        width: 30rem;
+        margin-top: 0;
+        margin-left: 7rem;
+        margin-bottom: -6rem;
+        background: tomato;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 500px)
+{
+    .About_Internship_Container {
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .Internship-values {
+        font-size: unset;
+    }
+    .ID_Wrapper {
+        display: block;
+    }
+    .Id_img {
+    height: 52rem;
+    width: 73rem;
+    margin-top: 78rem;
+    margin-left: 10rem;
+    }
+    .InternshipDetails_Subjects {
+        margin-top: 3rem;
+        width: 167vw;
+        margin-left: 10rem;
+    }
+    .InternshipDetail_Title1 {
+        font-size: xx-large;
+    }
+    .InternshipDetail_Title2 {
+        font-size: 5rem;
+        color: #fb6d66;
+    }
+    .InternshipDetail_Title3 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: -3rem;
+        margin-left: 15rem;
+        color: #fb6d66;
+    }
+    p.InternshipDetail_Title4 {
+        color: #fb6d66;
+        margin-top: -2.5rem;
+        font-size: 4rem;
+        font-weight: bolder;
+        margin-left: 7rem;
+        transform: skewX( 
+    8deg
+     );
+        width: 30rem;
+    }
+    .InternshipDetailT4_Content {
+        color: black;
+    }
+    iframe.giphy-embed {
+        height: 23rem;
+        width: 24rem;
+        /* margin-left: 2rem;
+        margin-top: -6rem; */
+    }
+    .airplaneBanner-img {
+        /* height: 26rem; */
+        /* width: 23rem; */
+        /* height: 23rem; */
+        /* width: 24rem; */
+        margin-left: 51rem;
+        margin-top: -103rem;
+    }
+    .InternshipDetailBrief {
+        font-size: xx-large;
+        width: 70rem;
+    }
+    /* .Id_img {
+        height: 52rem;
+        width: 102rem;
+        margin-top: 1rem;
+        margin-left: 10rem;
+    } */
+    /* .InternshipDetails_Subjects {
+        margin-top: 3rem;
+        width: 231%;
+    } */
+    /* .internshipCourses {
+        margin-top: 7rem;
+        font-size: x-large;
+    }
+    .internshipCoursesBtn {
+        height: 8rem;
+        width: 13rem;
+    }
+    .internshipCoursesBtn {
+        height: 8rem;
+        width: 13rem;
+        margin-bottom: 3rem;
+    }
+    .internshipCoursesDesc_Container {
+        width: 85%;
+        margin-left: 3rem;
+    }
+    .internshipCoursesDetail {
+        font-size: x-large;
+        margin-left: 6rem;
+    }
+    .internshipCoursesHeading> h3{
+        font-size: xx-large;
+    }
+    .internshipCoursePurchase {
+        margin-left: 29%;
+        height: 6rem;
+        width: 20rem;
+        background-color: #a94442;
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+    } */
+
+}

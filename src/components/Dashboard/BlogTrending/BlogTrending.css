@@ -1,0 +1,196 @@
+
+   .Blog_Container{
+    width: 95%;
+    display: inline-block;
+   }
+   .Heading{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  
+  }
+  .Blog_elems{
+    display: flex;
+    height: 25rem;
+    margin-bottom: 3vh;
+}
+  
+  .internal_blog{
+    margin: 1.5rem;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 18vw !important;
+    box-shadow: -6px 20px 20px #00000029;   
+    }
+    .internal_blog .clv{
+      display: flex;
+    }
+    .internal_blog img {
+      border-radius: 10px;
+      width: 25.5rem;
+      height: 14rem;
+  }
+    .Profile_blog{
+        display: flex;
+    }
+    .Profile_blog img {
+      border-radius: 50%;
+      width: 5rem;
+      height: 5rem;
+      margin: 1rem 0.5rem 0 0;
+  }
+  .description_blog {
+    border: 1px dashed #74b3cc;
+    border-radius: 9px;
+    margin: 1rem 0rem 0 0;
+    width: 21rem;
+    height: 5rem;
+}
+    .description_blog p {
+      color: slategrey;   
+    }
+    .description_blog h4{
+      color: #74b3cc;
+      margin-left: 1rem;
+      margin-top: 0rem;
+    }
+    .blog_counts{
+      margin: 2rem 0 1rem 2rem;
+    }
+    .likes_blog {
+      border: 1px solid lightgray;
+      margin-left: 0.5rem;
+      padding-right: 0.5rem;
+      border-radius: 1rem;
+      box-shadow: -1px 5px 4px #00000029;
+    }
+
+  #left-button{
+    font-size: 6rem;
+    height: 50%;
+    margin-top: -8rem;
+  }
+  .likes_blog .b1{
+    color: tomato;
+  }
+  .likes_blog .b2{
+    color: lightslategrey;
+  }
+  .likes_blog .b3{
+    color: lightseagreen;
+  }
+
+  /* .TrendingBlog_Styling .slick-slide {
+    margin: 0 0.5rem;
+    width: 20vw !important
+} */
+@media only screen and (max-width:320px){
+  .TrendingBlog_Styling h2{
+    margin-left: 10%;
+    font-size: x-large;
+  }
+  .internal_blog img {
+    border-radius: 10px;
+    width: 19.5rem;
+    height: 11rem;
+}
+.Profile_blog img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0.5rem 0 0;
+}
+.internal_blog {
+  margin: 0.5rem;
+  padding: 10px;
+  border: 1px solid lightgray;
+  width: 70vw !important;
+  background: transparent linear-gradient(
+    232deg
+    , #383838 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+        /* box-shadow: 20px 20px 20px #00000029; */
+        box-shadow: -6px 20px 20px #00000029; 
+        border: 1px solid #707070;;
+  /* height: 31vh; */
+}
+.description_blog h4 {
+  /* color: #74b3cc; */
+  color: black;
+  margin-left: 1rem;
+  margin-top: 0rem;
+}
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+  .TrendingBlog_Styling h2{
+    margin-left: 10%;
+    font-size: x-large;
+  }
+  .internal_blog img {
+    border-radius: 10px;
+    width: 24.5rem;
+    height: 11rem;
+}
+.Profile_blog img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0.5rem 0 0;
+}
+.internal_blog {
+  margin: 0.5rem;
+  padding: 10px;
+  border: 1px solid lightgray;
+  width: 70vw !important;
+  background: transparent linear-gradient(
+    232deg
+    , #383838 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+        /* box-shadow: 20px 20px 20px #00000029; */
+        box-shadow: -6px 20px 20px #00000029; 
+        border: 1px solid #707070;;
+  /* height: 31vh; */
+}
+.description_blog h4 {
+  /* color: #74b3cc; */
+  color: black;
+  margin-left: 1rem;
+  margin-top: 0rem;
+}
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+  .TrendingBlog_Styling h2{
+    margin-left: 10%;
+    font-size: x-large;
+  }
+  .internal_blog img {
+    border-radius: 10px;
+    width: 27.5rem;
+    height: 11rem;
+}
+.Profile_blog img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0.5rem 0 0;
+}
+.internal_blog {
+  margin: 0.5rem;
+  padding: 10px;
+  border: 1px solid lightgray;
+  width: 70vw !important;
+  background: transparent linear-gradient(
+    232deg
+    , #383838 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+        /* box-shadow: 20px 20px 20px #00000029; */
+        box-shadow: -6px 20px 20px #00000029; 
+        border: 1px solid #707070;;
+  /* height: 31vh; */
+}
+.description_blog h4 {
+  /* color: #74b3cc; */
+  color: black;
+  margin-left: 1rem;
+  margin-top: 0rem;
+}
+}

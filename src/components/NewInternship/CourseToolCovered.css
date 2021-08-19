@@ -1,0 +1,17 @@
+.course-tools-heading
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+.course-tool-covered{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5vw;
+}
+.course-tools{
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+.course-tools img{
+    width:5vw;
+}

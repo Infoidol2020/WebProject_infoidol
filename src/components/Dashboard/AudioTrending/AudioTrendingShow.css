@@ -1,0 +1,108 @@
+.musicPlayerContainer{
+    margin-top: 13vh;
+    margin-left: 6vw;
+    margin-bottom: 3rem;
+    background: black;
+    height: 34vh;
+    width: 64%;
+}
+.ReactAudioPlayer {
+    margin-top: -5rem;
+    margin-left: 20rem;
+}
+audio.react-audio-player {
+    width: 88%;
+    opacity: 0.4;
+}
+.musicPlayerDescriptions {
+    margin-left: 8vw;
+    height: 37rem;
+    width: 22%;
+    overflow-y: scroll;
+    background: black;
+    color: hotpink;
+    border-radius: 19px;
+}
+
+.musicPlayerDescriptions p h2 {
+    color: white;
+    margin: 1rem 0;
+    color: lightpink;
+    text-align: center;
+}
+.musicName{
+border-bottom: 1px solid lightgray;
+border-radius: 12px;
+cursor: pointer;
+text-align: center;
+margin-bottom: 1rem;
+}
+.musicPlayerDescriptions::-webkit-scrollbar{
+    display: none;
+}
+#SongInfos, .song_Playing{
+    display: flex;
+}
+.songDescription {
+    color: white;
+    font-size: larger;
+    padding: 2rem 0;
+    margin-top: 5rem;
+}
+.song_details {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.song_Playing img{
+    height: 17rem;
+    width: 18rem;
+    margin: 2.5rem;
+    border-radius: 8%;
+}
+.likeShare {
+    margin-left: 39.7rem;
+    color: #a09797;
+    margin-top: 2.5rem;
+}
+
+.audioBanner img {
+    margin-top: 2rem;
+    height: 22rem;
+    border: 1px solid black;
+}
+/* .AP_allTrending{
+    display:flex;
+    width:100%;
+    border:tomato solid;
+    height: 100vh;
+} */
+.AudioShowRecommend{
+    margin-left: 7vw;
+    /* border: solid red; */
+    width: 91%;
+}
+/* .AP_Img{
+    border:yellow solid;
+    width:18vw;
+    height:15vh;
+} */
+.AudioPlayerBox{
+    display: flex;
+    border: blue solid;
+    border-radius: 2.0rem;
+    padding: 10px;
+    background: transparent linear-gradient(270deg, #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+opacity: 1;
+    width: 19vw;
+    margin-bottom: 2rem;
+    margin-left: 2vw;
+}
+.AP_catImg img{
+    border-radius: 1.0rem;
+    width: 5vw;
+    height: 7vh;
+} 
+.audioPlayer_description{
+    margin-left: 0.5rem;
+}

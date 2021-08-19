@@ -1,0 +1,68 @@
+.NewReleased_SongInfos {
+    background: transparent linear-gradient( 
+270deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 1rem 0rem;
+    width: 31rem;
+    height: 6rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    margin-right: 4.1rem;
+}
+.NewReleased_SongThumbnail {
+    border-radius: 29%;
+    height: 6rem;
+    width: 7rem;
+    margin-top: -1rem;
+}
+.NewReleased_SongTitle {
+    color: white;
+    font-size: medium;
+    align-self: center;
+    margin-left: 7rem;
+    margin-top: -4rem;
+}
+.NewReleased_SongTitle {
+    color: white;
+    font-size: medium;
+    margin-left: 6rem;
+    margin-top: -4.5rem;
+    width: 22rem;
+    height: 4.2rem;
+    text-align: -webkit-center;
+    font-weight: 700;
+}
+.NewReleased_Container {
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 500px)
+{
+    .NewReleased_Container{
+        /* border: solid 1px red; */
+        margin-top: 2vh;
+        margin-left: 1rem;
+        width: 100%;
+        
+    }
+    .NewReleased_SongInfos{
+        margin-left: 5vw ;
+    }
+    .audio-new-released-pagination-btns{
+        width: 18vw !important;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .NewReleased_Container{
+        width: 100vw;
+        /* border: solid 1px red; */
+
+    }
+    .NewReleased_SongInfos{
+        margin-left: 2vw ;
+    }
+    .audio-new-released-pagination-btns{
+        width: 18vw !important;
+    }
+}

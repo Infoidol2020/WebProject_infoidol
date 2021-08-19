@@ -1,0 +1,43 @@
+.nav_wrapper{
+    display: flex;
+    height: 7rem;
+    background: #0D1B27 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    margin-left: -1.2rem;
+}
+.Nav_Sec{
+    margin-left: 4.8%; 
+    width: 96%;
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+}
+@media only screen and (max-width: 320px){
+    .nav_wrapper {
+        height: 4rem;
+        margin-left: 0.03rem;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 400px)
+{
+    .nav_wrapper {
+        height: 4rem;
+    margin-left: 0.15rem;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 500px)
+{
+    .nav_wrapper {
+        margin-left: 0.6rem;
+        height: 5rem;
+    }
+    /* .Nav_Sec{
+        margin-left: 0%; 
+        width: 96%;
+        position: fixed;
+        z-index: 99999;
+        top: 0px;
+    } */
+    
+}

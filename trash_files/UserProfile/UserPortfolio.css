@@ -1,0 +1,66 @@
+.portfolio-container{
+    /* border: solid 1px red; */
+    /* margin-left: 25vw; */
+    /* overflow: hidden; */
+    background: #F0F0F0;
+    height: 8vh;
+    width: 71vw;
+    margin-left: 1vw;
+}
+.userPortfolio-left-buttons-wrapper{
+    display: flex;
+    /* border: solid 1px blue; */
+    width: 80%;
+}
+.userPortfolio-left-buttons{
+    outline: none;
+    border: none;
+    background: transparent;
+    font: normal bold 20px/20px Arial;
+}
+.userPortfolio-left-buttons-container:hover {
+    border-bottom: solid 3px black;
+}
+.userPortfolio-follow-buttons{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%);
+    border: 1px solid #707070;
+    border-radius: 15px;
+    width: 6vw;
+    height: 4vh;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+.userPortfolio-content-container{
+    width: 71vw;
+}
+.userPortfolio-content-container::-webkit-scrollbar {
+    display: none;
+}
+
+.work-section-sub-header{
+    cursor: pointer;
+    width: 10vw;
+    font-weight: bold;
+    border: solid 1px #dadada;
+    margin: 0 0.5rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px #888888;
+
+}
+
+.my-works-scrollable-section::-webkit-scrollbar {
+    display: none;
+}
+
+.followers-section-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.subscribed-section-scrollable::-webkit-scrollbar {
+    display: none;
+}

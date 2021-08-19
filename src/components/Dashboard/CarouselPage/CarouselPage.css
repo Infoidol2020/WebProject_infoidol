@@ -1,0 +1,23 @@
+.Image_tab {
+    width:84vw;
+    height:50vh; 
+}
+@media only screen and (max-width:320px){
+    .Image_tab {
+        width: 66vw;
+        height: 26vh;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    .Image_tab{
+        width: 69vw;
+        height:29vh;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .Image_tab {
+        width: 70vw;
+        height: 25vh;
+    }
+}

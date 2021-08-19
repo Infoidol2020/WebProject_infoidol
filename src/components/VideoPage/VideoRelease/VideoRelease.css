@@ -1,0 +1,38 @@
+.styling_videoRelease{
+    /* border:darkblue solid; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+}
+.ReleaseBlock{
+    /* border:gray solid; */
+    margin-left: 2rem;
+    margin-right: 4rem;
+    background: #e0dbdb 0% 0% no-repeat padding-box;
+border-radius: 32px;
+width: 13vw;
+height:31vh;
+margin-bottom: 2rem;
+opacity: 1;
+
+}
+.styling_videoRelease h2{
+    /* font: normal normal bold 40px/46px Arial Rounded MT; */
+    margin-left: 1.5rem;
+letter-spacing: 0px;
+
+}
+.ReleaseBlock video{
+    border:rgb(214, 209, 209) solid;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 32px;
+  
+}
+.VideoRelease_description{
+    margin-left: 2rem;
+    margin-top: -2vh;
+}
+.VideoRelease_description h3{
+    color: black;
+}

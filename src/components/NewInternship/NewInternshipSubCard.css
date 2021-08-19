@@ -1,0 +1,92 @@
+section.new-internship-Sub-card-container {
+    /* background: yellow; */
+    /* width: 90%; */
+    /* height: 94rem; */
+    margin-left: 10rem;
+    /* margin-top: 10rem; */
+}
+.flip-card {
+  background-color: transparent;
+  width: 19vw;
+  height: 47.5vh;
+  perspective: 1000px;
+  margin: 0rem 3rem 4rem 2rem;
+  display: inline-flex;
+}
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    transform: rotateY(180deg);
+    /* transform: rotateY(195deg); */
+  }
+  .sub_image-card-back {
+    height: 23rem;
+    width:29.3rem;
+}
+.sub_name-card-back {
+    background: #ED4264;
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    margin-top: -1rem;
+    margin-left: 2rem;
+    font-size: large;
+    font-weight: bold;
+    position: sticky;
+}
+.card-back-sub-desc-wrapper {
+    padding: 0rem 1rem;
+}
+.sub_desc-card-back {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  word-spacing: 0.25rem;
+  color: black;
+  margin-top: 1.5rem;
+}
+.card-back-bullets {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.2rem;
+}
+.new-internship-courses {
+  width: 90%;
+  margin-left: 2rem;
+  font-size: 36px;
+  font-weight: bold;
+  /* text-align: center; */
+  font-family: sans-serif;
+  margin-bottom: 4rem;
+}
+#internshipSubCard-blank ,#internshipSubpricing-blank{
+  height: 8rem;
+}

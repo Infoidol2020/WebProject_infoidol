@@ -1,0 +1,59 @@
+.VideoViewRecommend{
+    /* border:crimson solid; */
+    /* display:inline-flex; */
+    width: 99%;
+    /* background: #F1F4F5E8 0% 0% no-repeat padding-box; */
+    box-shadow: 8px 19px 17px #00000029;
+    border: 1px solid #707070;
+    border-radius: 21px;
+    border-radius: 10px;
+    margin-left: 1vw;
+    overflow-y: scroll;
+    height: 84vh;
+}
+.VV_subBlockWrrapper{
+    margin-left: 2%;
+    margin-top:1%;
+    width: 23%;
+    height: 37vh;
+    padding: 1%;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 6px 10px 10px #00000029;
+    /* background: white; */
+    /* margin-bottom: 2%; */
+}
+.VV_Video Video{
+    /* border:darkblue solid; */
+    width: 15vw;
+    border-radius: 16px;
+    margin: 2rem;
+    height: 27vh;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 6px 10px 10px #00000029;
+
+}
+.Profile_VV{
+    display:flex;
+    height: 7vh;
+    margin-left: 1vw;
+    margin-top: -2vh;
+   
+}
+.Profile_VV img{
+    border-radius: 50%;
+      width: 3vw;
+      height: 6vh;
+      margin: 0.5rem;
+}
+.description_VV{
+    border: 1px solid black;
+    border-radius: 27px;
+    /* margin:0.5rem; */
+    width: 65%;
+    padding: 0.5rem;
+}
+.VV_views{
+    color: #00929D;
+    padding: 1%;
+    margin-left: 2%;
+}

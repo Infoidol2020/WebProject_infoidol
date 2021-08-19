@@ -1,0 +1,40 @@
+.InternshipTab{
+    margin-top: 11vh;
+    margin-left: 5vw;
+}
+.internship-tabs {
+    font-size: small;
+    font-weight: bold;
+}
+.InternshipOverview button{
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.InternshipTab button{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.InternshipCourse button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+
+}
+.InternshipPrice button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+}
+.InternshipProcess button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+}
+.InternshipPartner button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+
+}

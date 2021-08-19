@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.slick-arrow.slick-next::before {
+  color: purple;
+  margin-left: -5vw;
+  font-size: 5vh;
+  opacity: 0.5;
+}
+button.slick-arrow.slick-prev{
+  /* border: solid 1px red; */
+  margin-left: 2vw;
+}
+button.slick-arrow.slick-next{
+  /* border: solid 1px red; */
+  margin-right: 1vw;
+}
+button.slick-arrow.slick-prev::before {
+  color: purple;
+  opacity: 0.5;
+  font-size: 5vh;
+}
+.slick-list {
+  height: 95px;
+  width: 86vw;
+  margin-left: 5rem;
+}
+
+.carouselCat_wrapper {
+  outline: none
+}
+
+/*old  carousel used in blog detail page and feed detail page   */
+/* .galrjd {
+  margin-left: 1rem;
+} */
+
+@media only screen and (max-width: 400px){
+  button.slick-arrow.slick-prev{
+    /* border: solid 1px red; */
+    margin-left: 10%;
+  }
+}
+@media only screen and (min-width: 401px)  and (max-width:500px){
+  button.slick-arrow.slick-prev{
+    /* border: solid 1px red; */
+    margin-left: 10%;
+  }
+  button.slick-arrow.slick-next{
+    /* border: solid 1px red; */
+    margin-right: 6vw;
+  }
+  button.slick-arrow.slick-next::before {
+    color: purple;
+    margin-left: -1vw;
+    font-size: 5vh;
+    opacity: 0.5;
+}
+}

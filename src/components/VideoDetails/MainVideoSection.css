@@ -1,0 +1,221 @@
+.MainVideoSection_SelectedVideo_video {
+    width: 51vw !important;
+    height: 60vh !important;
+    margin-top: 2rem;
+    margin-left: 1vw;
+    border-radius: 10px;
+    border: 2px solid #dadada
+}
+.MainVideoSection_Wrapper {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 1vw;
+    /* width: 51vw; */
+    /* background: yellow; */
+}
+.MainVideoSection_Views {
+    margin-right: 2vw;
+    /* width: 44vw; */
+}
+.MainVideoSection_UploadDate {
+    color: grey;
+}
+.MainVideoSection_Subscribe button {
+    background: transparent linear-gradient( 
+90deg
+ , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    margin-top: 0vh;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 0;
+    outline: none;
+    width: 9vw;
+    height: 3rem;
+    border-radius: 10px;
+    margin-left: 32.5vw;
+}
+.MainVideoSection_Subscribe button{
+    /* background: rgb(165, 42, 42); */
+    opacity: 0.8;
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 9vw;
+    margin-left: 32.5vw;
+    border-radius: 10px;
+}
+.MainVideoSection_videoTitle {
+    /* width: 48rem; */
+    margin-top: 0vh;
+    margin-left: 1vw;
+    width: 44vw;
+}
+.MainVideoSection_videoCaption {
+    color: #333;
+    margin-left: 1vw;
+    width: 44vw;
+    margin-bottom: 2rem;
+}
+.MainVideoSection_videoCaption {
+    color: #333;
+    margin-left: 1vw;
+    width: 44vw;
+}
+
+@media only screen and (max-width:320px){
+    .MainVideoSection_SelectedVideo_video {
+        width: 78vw !important;
+        height: 41vh !important;
+        margin-top: 1rem;
+        margin-left: 2vw;
+        border-radius: 10px;
+        border: 2px solid #dadada;
+    }
+    .MainVideoSection_videoCaption {
+        color: #333;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+    .MainVideoSection_Subscribe button {
+        background: transparent linear-gradient( 
+    90deg
+    , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+        margin-top: 0vh;
+        padding: 0.5rem 2rem;
+        color: white;
+        border: 0;
+        outline: none;
+        width: 36vw;
+        height: 3rem;
+        border-radius: 10px;
+        margin-left: 3.5vw;
+    }
+    .MainVideoSection_Views {
+        /* margin-right: 2vw; */
+        width: 20vw;
+    }
+    .MainVideoSection_UploadDate b {
+        font-size: small;
+    }
+    .MainVideoSection_Subscribe button{
+        /* background: rgb(165, 42, 42); */
+        opacity: 0.8;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 38vw;
+        margin-left: 3.5vw;
+        border-radius: 10px;
+    }
+    .MainVideoSection_videoTitle {
+        
+        margin-top: 0vh;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    .MainVideoSection_SelectedVideo_video {
+        width: 78vw !important;
+        height: 41vh !important;
+        margin-top: 1rem;
+        margin-left: 2vw;
+        border-radius: 10px;
+        border: 2px solid #dadada;
+    }
+    .MainVideoSection_videoCaption {
+        color: #333;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+    .MainVideoSection_Subscribe button {
+        background: transparent linear-gradient( 
+    90deg
+    , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+        margin-top: 0vh;
+        padding: 0.5rem 2rem;
+        color: white;
+        border: 0;
+        outline: none;
+        width: 33vw;
+        height: 3rem;
+        border-radius: 10px;
+        margin-left: 11.5vw;
+    }
+    .MainVideoSection_Views {
+        /* margin-right: 2vw; */
+        width: 18vw;
+    }
+    .MainVideoSection_UploadDate b {
+        font-size: small;
+    }
+    .MainVideoSection_Subscribe button{
+        /* background: rgb(165, 42, 42); */
+        opacity: 0.8;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 33vw;
+        margin-left: 8.5vw;
+        border-radius: 10px;
+    }
+    .MainVideoSection_videoTitle {
+        
+        margin-top: 0vh;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .MainVideoSection_SelectedVideo_video {
+        width: 78vw !important;
+        height: 41vh !important;
+        margin-top: 1rem;
+        margin-left: 2vw;
+        border-radius: 10px;
+        border: 2px solid #dadada;
+    }
+    .MainVideoSection_videoCaption {
+        color: #333;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+    .MainVideoSection_Subscribe button {
+        background: transparent linear-gradient( 
+    90deg
+    , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+        margin-top: 0vh;
+        padding: 0.5rem 2rem;
+        color: white;
+        border: 0;
+        outline: none;
+        width: 33vw;
+        height: 3rem;
+        border-radius: 10px;
+        margin-left: 11.5vw;
+    }
+    .MainVideoSection_Views {
+        /* margin-right: 2vw; */
+        width: 18vw;
+    }
+    .MainVideoSection_UploadDate b {
+        font-size: small;
+    }
+    .MainVideoSection_Subscribe button{
+        /* background: rgb(165, 42, 42); */
+        opacity: 0.8;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 33vw;
+        margin-left: 8.5vw;
+        border-radius: 10px;
+    }
+    .MainVideoSection_videoTitle {
+        
+        margin-top: 0vh;
+        margin-left: 1vw;
+        width: 80vw;
+    }
+}

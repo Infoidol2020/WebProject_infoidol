@@ -1,0 +1,95 @@
+.VV_elems{
+    width:55vw;
+    height:79vh;
+  
+}
+.VV_SelectedOne video {
+    width: 51vw;
+    height: 60vh;
+    margin-top: 2rem;
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+.VV_titleSection{
+    margin-left: 1vw;
+    width:44vw;
+    justify-content: space-between;
+    
+}
+.VV_information{
+    display: flex;
+}
+
+/* .VV_caption{
+    height: 8vh;
+    overflow-y: scroll;
+} */
+
+.VV_Heading h3{
+    color:00B1FF;
+    width: 48rem;
+    margin-top: 0vh;
+}
+.VV_Views{
+    display: flex;
+    margin-top: 0.3rem;
+}
+.VV_caption >span {
+    color: #333;
+}
+.VV_Subscribe button{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    margin-top: 0vh;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 0;
+    outline: none; 
+    width: 9vw;
+    height: 3rem;
+    border-radius: 10px;
+    margin-left: -2vw; 
+
+    /* style={{background: 'transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%)', 
+                                            border: '0', 
+                                            outline: 'none', 
+                                            color: '#fff', 
+                                            width: '9vw',
+                                            marginLeft: '-2vw', 
+                                            borderRadius: '10px'}}  */
+}
+
+.VV_caption::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.VV_caption::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.VV_caption::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.VV_caption::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+
+/* .VV_additional_information{
+    display: flex;
+    color: black;
+    margin-top: 1vh;
+}
+.VV_control_button{
+    margin-left: 15vw;
+    margin-top: -4vh;
+}
+.subscribe_VV button{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    margin-top: 0vh;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 20px;
+} */

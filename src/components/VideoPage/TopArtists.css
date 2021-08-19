@@ -1,0 +1,20 @@
+@media only screen and (max-width: 350px)
+{
+    .styling-example-top-artist{
+        /* border: solid 1px red; */
+    }
+    .top-artists-thumbnail{
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .styling-example-top-artist{
+        /* border: solid 1px red; */
+    }
+    .top-artists-thumbnail{
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+}

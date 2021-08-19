@@ -1,0 +1,78 @@
+.MusicComment_commentTitle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 46rem;
+    height: 4rem;
+    background: transparent linear-gradient( 
+80deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+}
+.MusicComment_ReplyButton,.MusicComment_ButtonsReply {
+    justify-content: center;
+    display: flex;
+}
+.MusicComment_Title {
+    font-size: large;
+    color: white;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.MusicComment_CommentList {
+    width: 30vw;
+    height: 18vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* width */
+.MusicComment_CommentList::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  /* .MusicComment_CommentList::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+  .MusicComment_CommentList::-webkit-scrollbar-thumb {
+    background: linear-gradient( 
+        90deg
+         , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .MusicComment_CommentList::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+.MusicComment_ReplyBlock{
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    background: rgb(204, 204, 204);
+}
+
+@media only screen and (max-width: 500px)
+{
+  .Container_MusicComment{
+    /* border: solid 1px red; */
+    margin: 0 !important;
+  }
+  .MusicComment_commentTitle{
+    width: 100%;
+  }
+  .audio-comment-input{
+    width: 100%;
+  }
+  .MusicComment_CommentList{
+    width: 100%;
+  }
+  .MusicComment_CommentList::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+}

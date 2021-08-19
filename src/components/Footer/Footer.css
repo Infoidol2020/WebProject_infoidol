@@ -1,0 +1,72 @@
+.Footer_container{
+    width: 96%;
+    margin-left: 5%;
+    background-color:#0D1B27;
+    opacity: 0.8;
+    /* padding-top: 10px; */
+    margin-top: 0.5rem;
+}
+.footer_elems{
+    display: flex;
+    padding-left: 15px;
+}
+.middleSection{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sideSection{
+    margin-left: 30px;
+}
+.companyicon img{
+    height: 14rem;
+    width: 17rem;
+    margin-top: 3rem;
+}
+.middleSection h2{
+    color:rgb(116, 179, 204);
+}
+.sideSection h2, h3 {
+    color: rgb(116, 179, 204);
+    font-size: 1.8rem;
+}
+.middleSection p{
+    color: White;
+    
+}
+.sideSection{
+    margin-top: 20px;
+}
+.sideSection p{
+    color:white;
+}
+.HomeSection{
+    display: flex;
+    border-top:1px solid rgb(116, 179, 204);
+}
+.HomeSection h3{
+    margin-left: 149px;
+}
+.footer_signUp h2{
+    font-family: 'Fascinate', cursive;
+    color: #74b3cc;
+}
+.footer_signUp h4{
+    color: #74b3cc;
+}
+.footer_form_wrapper{
+    display: flex;
+}
+.footerInput_wrapper, input[type="text"]{
+    margin-bottom: 1rem;
+}
+.footerSubmit_btn button{
+    padding: 0.5rem 1.4rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    background: #74b3cc;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.footer_signUp {
+    margin-left: 37rem;
+}

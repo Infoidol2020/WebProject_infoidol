@@ -1,0 +1,41 @@
+.playListTopArtists_Wrapper{
+    display: flex;
+}
+/* .Artists_Dp{
+    display: inline-grid;
+    text-align: center;
+} */
+.Artists_Dp img {
+    border-radius: 14%;
+    width: 8vw;
+    height: 17vh;
+    margin: 0.8rem;
+}
+.Top_Artists_Block {
+    margin-top: -1.2rem;
+    margin-left: 7rem;
+    width: 65%;
+}
+.musicPlayerArtists {
+    height: 37.9rem;
+    width: 97rem;
+    /* background: turquoise; */
+}
+.musicPlayerArtists h2 {
+    margin: 0.4rem 1rem 1rem 1rem;
+}
+.Artists_Dp {
+    display: inline-grid;
+    text-align: center;
+    width: 9vw;
+    height: 23vh;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    border-radius: 16%;
+    background: transparent linear-gradient( 
+133deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+}
+.Artists_Dp span {
+    margin-top: -1rem;
+}

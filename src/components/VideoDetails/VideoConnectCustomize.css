@@ -1,0 +1,195 @@
+.VideoConnectCustomize {
+    display: flex;
+    margin-left: 2rem;
+    width: 45rem;
+    height: 9rem;
+}
+.VideoCC_UploadersDp {
+    width: 9rem;
+}
+.VideoCC_UploadersDp> img {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+.VideoCC_ConnectionWrapper {
+    width: 19rem;
+}
+.VideoCC_CustomizeWrapper option {
+    background: rgb(85, 85, 85);
+}
+.VideoCC_ConnectionWrapper> button {
+    background: linear-gradient( 
+90deg
+ , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 8vw;
+    height: 5vh;
+    margin-left: 3vw;
+    margin-top: 3.5vh;
+    border-radius: 10px;
+}
+.VideoCC_CustomizeWrapper {
+    width: 17rem;
+}
+.VideoCC_CustomizeWrapper select {
+    background: linear-gradient( 
+90deg
+ , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 8vw;
+    height: 5vh;
+    margin-left: 3vw;
+    margin-top: 3.5vh;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:320px){
+    .VideoCC_UploadersDp> img {
+        height: 9vh;
+        width: 17vw;
+        margin-left:-4vw;
+        border-radius: 50px;
+        margin-top: 1rem;
+    }
+    .VideoCC_UploadersDp {
+        width: 7rem;
+    }
+    .VideoCC_ConnectionWrapper {
+        width: 10rem;
+    }
+    .VideoCC_CustomizeWrapper {
+        width: 0rem;
+    }
+    .VideoCC_ConnectionWrapper> button {
+        background: linear-gradient( 
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 24vw;
+        height: 5vh;
+        margin-left: -1vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoCC_CustomizeWrapper select {
+        background: linear-gradient( 
+    90deg
+     , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 22vw;
+        height: 5vh;
+        margin-left: 0vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoConnectCustomize {
+        display: flex;
+        margin-left: 2rem;
+        width: 19rem;
+        height: 9rem;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .VideoCC_UploadersDp> img {
+        height: 10vh;
+        width: 17vw;
+        border-radius: 50px;
+        margin-top: 1rem;
+    }
+    .VideoCC_ConnectionWrapper {
+        width: 10rem;
+    }
+    .VideoCC_CustomizeWrapper {
+        width: 0rem;
+    }
+    .VideoCC_ConnectionWrapper> button {
+        background: linear-gradient( 
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 24vw;
+        height: 5vh;
+        margin-left: -2vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoCC_CustomizeWrapper select {
+        background: linear-gradient( 
+    90deg
+     , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 22vw;
+        height: 5vh;
+        margin-left: 0vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoConnectCustomize {
+        display: flex;
+        margin-left: 2rem;
+        width: 19rem;
+        height: 9rem;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .VideoCC_UploadersDp> img {
+        height: 10vh;
+        width: 17vw;
+        border-radius: 50px;
+        margin-top: 1rem;
+    }
+    .VideoCC_ConnectionWrapper {
+        width: 10rem;
+    }
+    .VideoCC_CustomizeWrapper {
+        width: 0rem;
+    }
+    .VideoCC_ConnectionWrapper> button {
+        background: linear-gradient( 
+    90deg
+    , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 24vw;
+        height: 5vh;
+        margin-left: -2vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoCC_CustomizeWrapper select {
+        background: linear-gradient( 
+    90deg
+     , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+        border: 0px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        width: 22vw;
+        height: 5vh;
+        margin-left: 0vw;
+        margin-top: 3.5vh;
+        border-radius: 10px;
+    }
+    .VideoConnectCustomize {
+        display: flex;
+        margin-left: 2rem;
+        width: 19rem;
+        height: 9rem;
+    }
+}

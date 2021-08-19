@@ -1,0 +1,78 @@
+.User-cover-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.User-cover-pic-container {
+    width: 71vw;
+    height: 40vh;
+    position: relative;
+    margin-left: 1vw;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .User-cover-pic-container {
+        width: 85vw;
+        height: 40vh;
+        position: relative;
+        margin-left: 3.4vw;
+        margin-top: -25rem;
+        /* margin-bottom: 1.5rem; */
+    }
+    .User-cover-pic-upload {
+        position: absolute !important;
+        top: 6% !important;
+        left: 91% !important;
+        transform: translate(-50%, 50%) !important;
+    }
+    .User-cover-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: -67rem;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    .User-cover-pic-container {
+        width: 85vw;
+        height: 40vh;
+        position: relative;
+        margin-left: 3.4vw;
+        margin-top: -25rem;
+        /* margin-bottom: 1.5rem; */
+    }
+    .User-cover-pic-upload {
+        position: absolute !important;
+        top: 6% !important;
+        left: 91% !important;
+        transform: translate(-50%, 50%) !important;
+    }
+    .User-cover-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: -67rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .User-cover-pic-container {
+        width: 85vw;
+        height: 40vh;
+        position: relative;
+        margin-left: 3.4vw;
+        margin-top: -25rem;
+        /* margin-bottom: 1.5rem; */
+    }
+    .User-cover-pic-upload {
+        position: absolute !important;
+        top: 6% !important;
+        left: 91% !important;
+        transform: translate(-50%, 50%) !important;
+    }
+    .User-cover-pic {
+        width: 30rem;
+        height: 100%;
+        object-fit: cover;
+        margin-top: -68rem;
+    }
+}

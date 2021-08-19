@@ -1,0 +1,26 @@
+.PrivacyPolicy_Container{
+    box-sizing:border-box
+}
+section.PrivacyPolicy {
+    margin: 9rem 15rem 5rem 22rem;
+    font-size: larger;
+}
+.Pr_Policy {
+    font-size: medium;
+    color: gray;
+}
+
+@media only screen and (max-width:320px){
+    section.PrivacyPolicy {
+        margin: 5rem 0rem 0rem 2rem;
+        font-size: initial;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:500px){
+    section.PrivacyPolicy {
+        margin: 6rem 0rem 0rem 3rem;
+        font-size: initial;
+    }
+}

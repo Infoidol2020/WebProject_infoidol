@@ -1,0 +1,150 @@
+.FooterMain{
+    background: #0D1B27;
+    width: 93.9vw;
+    margin-left:3.99vw;
+    opacity: 0.8;
+}
+.Footer_Section{
+    display:flex;
+    width:100%;
+}
+.Footer_Section img{
+    width: 15vw;
+    height: 15vh;
+    object-fit: cover;
+}
+.FS_ContactUs{
+    width: 30%;
+    margin: 1rem;
+}
+.FS_END{
+    display: flex;
+    justify-content: 'space-between';
+}
+@media only screen and (max-width:320px){
+    .FooterMain {
+        background: #0D1B27;
+        width: 93.9vw;
+        margin-left: 5.4vw;
+        opacity: 0.8;
+    }
+    .Footer_Section{
+        flex-direction: column;
+        width:100%;
+    }
+    .Footer_Section img {
+        width: 58vw;
+        height: 15vh;
+        object-fit: cover;
+    }
+    .FooterIcon{
+        margin-left: 38vw;
+    }
+    .FS_About p{
+        color: rgb(255, 255, 255);
+        opacity: 0.9;
+        font-size: small;
+        width: 81vw;
+    }
+    .FS_ContactUs{
+        width: 70%;
+    margin: 1rem;
+    }
+    .FS_Contact h4{
+        margin-left: -5vw;
+    }
+    .FS_Contact p{
+        margin-left: -5vw;
+    }
+    .FS_END{
+        color: #00FFFF;
+        flex-direction: column;
+    justify-content: space-between;
+
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    .FooterMain {
+        background: #0D1B27;
+        width: 93.9vw;
+        margin-left: 5.9vw;
+        opacity: 0.8;
+    }
+    .Footer_Section{
+        flex-direction: column;
+        width:100%;
+    }
+    .Footer_Section img {
+        width: 48vw;
+        height: 15vh;
+        object-fit: cover;
+    }
+    .FooterIcon{
+        margin-left: 25vw;
+    }
+    .FS_About p{
+        color: rgb(255, 255, 255);
+        opacity: 0.9;
+        font-size: small;
+        width: 48vw;
+    }
+    .FS_ContactUs{
+        width: 70%;
+    margin: 1rem;
+    }
+    .FS_Contact h4{
+        margin-left: -5vw;
+    }
+    .FS_Contact p{
+        margin-left: -5vw;
+    }
+    .FS_END{
+        color: #00FFFF;
+        flex-direction: column;
+    justify-content: space-between;
+
+    }
+}
+@media only screen and (min-width:401px) and (max-width:500px)
+{
+    .FooterMain {
+        background: #0D1B27;
+        width: 93.9vw;
+        margin-left: 6vw;
+        opacity: 0.8;
+    }
+    .Footer_Section{
+        flex-direction: column;
+        width:100%;
+    }
+    .Footer_Section img {
+        width: 48vw;
+        height: 15vh;
+        object-fit: cover;
+    }
+    .FooterIcon{
+        margin-left: 25vw;
+    }
+    .FS_About p{
+        color: rgb(255, 255, 255);
+        opacity: 0.9;
+        font-size: small;
+        width: 48vw;
+    }
+    .FS_ContactUs{
+        width: 70%;
+    margin: 1rem;
+    }
+    .FS_Contact h4{
+        margin-left: -5vw;
+    }
+    .FS_Contact p{
+        margin-left: -5vw;
+    }
+    .FS_END{
+        color: #00FFFF;
+        flex-direction: column;
+    justify-content: space-between;
+
+    }
+}

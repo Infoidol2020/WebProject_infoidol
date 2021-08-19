@@ -1,0 +1,66 @@
+.Affiliate_Affiliate {
+    width: 60%;
+    height: 90rem;
+    margin: 10rem auto;
+    background: #EBEBEB;
+}
+
+.Affiliate_Header {
+    display: flex;
+    justify-content: space-between;
+}
+.Pb_LeftSectiom {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 22rem;
+    justify-content: space-between;
+}
+.Pb_LeftSectiom >h4 {
+    font-size: x-large;
+    font-weight: bold;
+    /* word-spacing: 0.1px; */
+    letter-spacing: 0.5px;
+}
+.amtBtn {
+    width: 9rem;
+    background: #0F2552;
+    color: white;
+    height: 3rem;
+    align-self: center;
+}
+.purchaseNowBtn {
+    width: 15rem;
+    background: #0F2552;
+    color: white;
+    height: 3rem;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
+    align-self: center;
+}
+.Pb_ReferralInput {
+    margin-top: 2rem;
+}
+.Pb_ReferralInput >input {
+    margin-left: 29rem;
+    height: 3rem;
+}
+.PB_RupeeSymbol {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 0.4rem;
+}
+.Affiliate_AffiliateImg {
+    text-align: center;
+    margin: 5rem;
+}
+.Affiliate_Details ul li {
+    margin-bottom: 1.1rem;
+    font-size: large;
+    font-weight: bold;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4F4F4F;
+}

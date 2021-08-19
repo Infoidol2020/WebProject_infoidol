@@ -1,0 +1,62 @@
+.LearnEarn_container{
+    width: 100%;
+}
+#ninternshipLearn-blank {
+    height: 5rem;
+}
+.LearnEarn_container h2{
+    /* color: black;
+    font-size: xx-large;
+    font-weight: bold; */
+    font: normal normal bold 38px/63px Roboto;
+letter-spacing: 0px;
+color: #322F2F;
+text-align: center;
+    /* margin-left: 35vw; */
+    /* margin-top: 9vh;  */
+}
+.LearnEarn_container P{
+    text-align: center;
+    font: normal normal 300 20px/21px Roboto;
+    letter-spacing: 0px;
+color: #635A5A;
+opacity: 1;
+}
+.LearnEarn{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+.Internship_learn{
+    text-align: center;
+
+}
+.Internship_Earn{
+    text-align: center;
+    margin-left: 9vw;
+}
+.Internship_profit{
+    text-align: center;
+    margin-left: 9vw;
+}
+.Internship_learn img{
+    width: 5vw;
+}
+.Internship_Earn img{
+    width: 5vw;
+}
+.Internship_profit img{
+    width: 5vw;
+}
+.Internship_learn h4{
+    font-weight: bold;
+    font-size: x-large;
+}
+.Internship_Earn h4{
+    font-weight: bold;
+    font-size: x-large;
+}
+.Internship_profit h4{
+    font-weight: bold;
+    font-size: x-large;
+}

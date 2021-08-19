@@ -1,0 +1,54 @@
+.NewInternshipPricingContainer {
+    margin-left: 6rem;
+    background: #083058;
+    /* margin-bottom: 5rem; */
+    text-align: center;
+    color: white;
+    width: 93.9vw;
+}
+.newInternship-pricing-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+.pricing-comparision {
+    /* background: yellow; */
+    height: 47.875rem;
+    display: flex;
+    justify-content: center;
+}
+.pricing-compare-tabs {
+    background: #fff;
+    height: 43.875rem;
+    width: 37.813rem;
+    margin: 2rem 1rem;
+}
+.pricing-30days-pic {
+    width: 33rem;
+    height: 19rem;
+    margin-top: -1rem;
+}
+.pricing-Learning-Program {
+    font-family: ui-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pricing-Details {
+    color: black;
+    font-size: large;
+    text-align: start;
+    font-family: ui-sans-serif;
+    word-spacing: 0.1rem;
+}
+.newInternship-pricing-desc {
+    font-family: sans-serif;
+    letter-spacing: 0.08rem;
+}
+.pricing-Details > ul {
+    color: darkslategray;
+}
+#newinternshipPricing-blank{
+    height: 6rem;
+}

@@ -1,0 +1,72 @@
+.WalletContainer {
+    margin-top: 3rem;
+    /* margin-left: -10rem; */
+    margin-bottom: 5rem;
+    width: 41rem;
+    height: 53rem;
+    /* background: yellow; */
+}
+.Referral_Balance {
+    height: 16rem;
+    background: transparent linear-gradient(
+115deg
+, #2693E9 0%, #3650BE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2rem 0 0 2rem;
+    color: white;
+}
+.Referral_Amt {
+    padding: 2rem 0 0 2rem;
+    font-size: large;
+}
+.Referral_Amt button {
+    width: 11rem;
+    color: black;
+    border-radius: 1rem;
+    margin-left: 12.7rem;
+    margin-top: 2rem;
+}
+.Referral_RecentActivity {
+    background: #AAAAAA;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    border-radius: 40px 0px 0px 0px;
+    text-align: center;
+}
+.Wallet_TxnHistory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Wallet_TxnDate {
+    display: flex;
+}
+.Acc_Activity {
+    height: 37rem;
+    overflow-y: scroll;
+}
+.Account_Txn_date {
+    margin-left: -8.0rem;
+    margin-top: 1.5rem;
+    font-size: small;
+    color: darkslategray;
+    font-weight: 600;
+}
+.TransferredTo {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: -0.3rem;
+}
+.Wallet_TxnAmount {
+    margin-right: 1rem;
+    color: red;
+    font-size: large;
+}
+.Wallet_TxnAmountDebit {
+    margin-right: 1rem;
+    color: red;
+}
+.Wallet_TxnAmountCredit{
+    margin-right: 1rem;
+    color: green;
+}

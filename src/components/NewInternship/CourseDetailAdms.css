@@ -1,0 +1,37 @@
+.course-details-adms-process-container {
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center;
+    background: #B5C1CD; */
+    margin-left: 8rem;
+    width: 94%;
+    height: 35rem;
+    margin-top: 7vh;
+    margin-bottom: 10rem;
+    background: #ebf1f8;;
+}
+.adms-process-img-container{
+    border: 1px solid lightgray;
+    box-shadow: -6px 20px 20px #00000029;   
+    width: 18vw;
+    margin-left: 9vw;
+    height: 28rem;
+    margin-top: 5vh;
+    background: white;
+
+}
+.adms-process-brief {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.CourseDetailAdmsHeading {
+    margin-left: 8rem;
+    font-size: 36px;
+    font-weight: bold;
+}
+.adms-process-img {
+    width: 27rem;
+    height: 20rem;
+}

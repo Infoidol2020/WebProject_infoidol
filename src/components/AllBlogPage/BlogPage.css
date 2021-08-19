@@ -1,0 +1,308 @@
+.BlogViewAll-wrapper {
+    display: inline-block;
+    background: rgb(153, 153, 153);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 1rem;
+}
+.BlogViewAll-thumbnail-wrapper {
+    width: 15vw;
+    height: 15vh;
+}
+.BlogViewAll-cat_image_link, .BlogViewAll-blog_thumbnail_link {
+    width: 14vw;
+    height: 7vw;
+    margin: 0.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* .BlogViewAll-blog_thumbnail_link{
+    width: 14vw;
+    height: 7vw;
+    margin: 0.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+} */
+.BlogViewAll-like-comment-section {
+    border: 1px solid rgb(205, 205, 205);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+.BlogViewAll-blog_title {
+    border: 1px solid rgb(205, 205, 205);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+.BlogViewAll-angle-double-left {
+    width: 86%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+.BlogViewAll-next-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+.BlogViewAll-prev-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 4vw;
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+}
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .BlogViewAll-container {
+        display: inline-grid;
+        margin-left: 8rem;
+    }
+    .BlogViewAll-wrapper {
+        display: block;
+        background: #ddd;
+        border: none;
+        border-radius: 10px;
+        margin: 1rem;
+        height: 19rem;
+        width: 20.5rem;
+    }
+    .BlogViewAll-blog_title {
+        border: none;
+        opacity: 0.8;
+        border-radius: 5px;
+        margin: 0.5rem;
+        color: black;
+        font-weight: bold;
+        margin-top: -18.6rem;
+    }
+    .BlogViewAll-cat_image_link, .BlogViewAll-blog_thumbnail_link {
+        width: 46vw;
+        height: 26vw;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 3rem;
+    }
+    .BlogViewAll-like-comment-section {
+        border: none;
+        opacity: 0.8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        color: black;
+        border-radius: 5px;
+        margin: 6rem 0.5rem 1rem 0.5rem;
+    }
+    .BlogViewAll-angle-double-left {
+        width: 86%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        margin-left: 2rem;
+    }
+    .BlogViewAll-prev-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        margin-right: 14vw;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+    .BlogViewAll-next-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 400px){
+    .BlogViewAll-container {
+        display: inline-grid;
+        margin-left: 8rem;
+    }
+    .BlogViewAll-wrapper {
+        display: block;
+        background: #ddd;
+        border: none;
+        border-radius: 10px;
+        margin: 1rem;
+        height: 19rem;
+        width: 20.5rem;
+    }
+    .BlogViewAll-blog_title {
+        border: none;
+        opacity: 0.8;
+        border-radius: 5px;
+        margin: 0.5rem;
+        color: black;
+        font-weight: bold;
+        margin-top: -18.6rem;
+    }
+    .BlogViewAll-cat_image_link, .BlogViewAll-blog_thumbnail_link {
+        width: 52vw;
+        height: 26vw;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 3rem;
+    }
+    .BlogViewAll-like-comment-section {
+        border: none;
+        opacity: 0.8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        color: black;
+        border-radius: 5px;
+        margin: 6rem 0.5rem 1rem 0.5rem;
+    }
+    .BlogViewAll-angle-double-left {
+        width: 86%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        margin-left: 2rem;
+    }
+    .BlogViewAll-prev-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        margin-right: 14vw;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+    .BlogViewAll-next-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+}
+@media only screen and (max-width: 320px){
+    .BlogViewAll-container {
+        display: inline-grid;
+        margin-left: 3rem;
+    }
+    .BlogViewAll-wrapper {
+        display: block;
+        background: #ddd;
+        border: none;
+        border-radius: 10px;
+        margin: 1rem;
+        height: 19rem;
+        width: 20.5rem;
+    }
+    .BlogViewAll-blog_title {
+        border: none;
+        opacity: 0.8;
+        border-radius: 5px;
+        margin: 0.5rem;
+        color: black;
+        font-weight: bold;
+        margin-top: -18.6rem;
+    }
+    .BlogViewAll-cat_image_link, .BlogViewAll-blog_thumbnail_link {
+        width: 61vw;
+        height: 38vw;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 3rem;
+    }
+    .BlogViewAll-like-comment-section {
+        border: none;
+        opacity: 0.8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        color: black;
+        border-radius: 5px;
+        margin: 6rem 0.5rem 1rem 0.5rem;
+    }
+    .BlogViewAll-angle-double-left {
+        width: 86%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        margin-left: 2rem;
+    }
+    .BlogViewAll-prev-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        margin-right: 14vw;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+    .BlogViewAll-next-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(153, 153, 153);
+        color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 10vw;
+        height: 5vh;
+    }
+}

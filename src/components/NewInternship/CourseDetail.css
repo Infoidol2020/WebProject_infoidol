@@ -1,0 +1,30 @@
+.course-details-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    margin-top: 6vh;
+    margin-left: 8rem;
+    margin-bottom: 10rem;
+    background: #ebf1f8;
+}
+.pgm-highlight-sect {
+    margin-left: 8rem;
+    font-size: 36px;
+    font-weight: bold;
+}
+.course-detail-img {
+    width: 22em;
+    height: 30rem;
+}
+.course-value-list >ul li {
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.01rem;
+}
+.course-detail-li {
+    margin-left: 1rem;
+}

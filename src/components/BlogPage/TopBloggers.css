@@ -1,0 +1,57 @@
+.TopBloggers_ProfilePic{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 3px solid rgb(112, 112, 112);
+}
+@media only screen and (min-width:401px) and (max-width:500px){
+    .TopBloggers_Contents {
+        height: 30vh;
+        width: 33rem;
+        margin-left: 3rem;
+    }
+    .TopBloggers_ProfilePic {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 3px solid rgb(112, 112, 112);
+        margin-left: -1rem;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .TopBloggers_Contents {
+        height: 30vh;
+        width: 27rem;
+        margin-left: 3rem;
+    }
+    .TopBloggers_ProfilePic {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 3px solid rgb(112, 112, 112);
+        margin-left: -1rem;
+    }
+    .TopBloggers_Contents .slick-list {
+        height: 106px;
+        margin-left: 1.5rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .TopBloggers_Contents {
+        height: 30vh;
+        width: 22rem;
+        margin-left: 3rem;
+        margin-top: -1rem;
+    }
+    .TopBloggers_ProfilePic {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 3px solid rgb(112, 112, 112);
+        margin-left: -1rem;
+    }
+    .TopBloggers_Contents .slick-list {
+        height: 106px;
+        margin-left: 0rem;
+    }
+}

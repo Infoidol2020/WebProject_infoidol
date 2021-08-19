@@ -1,0 +1,100 @@
+.left_picture{
+    margin-top: 20vh;
+     float: left; 
+     width: 5vw;
+     height: 5vh;
+    }
+    .left_picture::after {
+     content: "";
+     clear: both;
+   }
+    .center_picture{
+     float: left; 
+     width: 88%;
+      height: 100%;
+     /* border: 1px solid red; */
+     margin: 1px;
+     overflow: hidden;
+     /*will change this to hidden later to deny scolling to user*/
+     white-space: nowrap;
+    }
+    .center_picture::after {
+     content: "";
+     clear: both;
+   }
+    
+    .right_picture{
+    margin-top: 20vh;
+     float: right; 
+     width: 5vw;
+     height: 5vh;
+    }
+    .right_picture::after {
+     content: "";
+     clear: both;
+   }
+   .Picture_Container{
+    width: 100%;
+    display: inline-block;
+   }
+   .Heading_picture{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-top: 10vh;
+  
+  }
+  .Picture_elems{
+    display: flex;
+    width:100%;
+    /* border: solid red; */
+    margin-bottom: 3vh;
+  }
+  .internal_picture{
+    margin: 1.5rem; 
+    /* border: 1px solid; */
+    padding: 10px;
+    width:23vw;
+    box-shadow: 9px 15px 15px #00000029;
+    border: rgba(171, 183, 183, 0.2) 1px solid;
+  }
+    .internal_picture img{
+        border-radius: 10px;
+        width: 16vw;
+        height: 19vh;
+        /* margin: 0.6rem 0.6rem 0.6rem 1.0rem; */
+    
+    }
+    .Profile_picture{
+        display: flex;
+    }
+    .Profile_picture img{
+        border-radius: 50%;
+        width: 3vw;
+      height: 6vh;
+        margin: 0.5rem;
+    }
+    .description_picture{
+      border: 1px solid black;
+      border-radius: 27px;
+      margin:0.5rem;
+      width: 72%;
+      padding: 0.5rem;
+    }
+    .Aside{
+      display: flex;
+    }
+    .pictureCount{
+      margin: 2rem 0 1rem 1rem;
+    }
+    .likes_picture {
+      border: 1px solid lightgray;
+      margin-left: 0.5rem;
+      padding-right: 0.5rem;
+      border-radius: 1rem;
+      height: 18vh;
+      box-shadow: -1px 5px 4px #00000029;
+  
+  }
+  

@@ -1,0 +1,90 @@
+.RW-beneficiery-container {
+    display: flex;
+}
+.btns-beneficiary {
+    width: 18rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    background: white;
+}
+.RW-Add-Beneficiary-Upi-Icon {
+    width: 2rem;
+    height: 2rem;
+}
+.RW-add-beneficiary-card-details {
+    /* margin-left: 3rem; */
+}
+.RW-beneficiery-withdrawal-container {
+    /* background: yellow; */
+    margin: 5rem auto;
+}
+.RW-add-beneficiery-btn-wrapper {
+    /* background: tomato; */
+    width: 63vw;
+    height: 42rem;
+    margin: 4rem auto;
+}
+.RW-Add-Beneficiary-Card {
+    margin-top: 1rem;
+}
+.RW-Add-Beneficiary-Card-buttons {
+    margin-top: 17rem;
+}
+.RW-Add-Beneficiary-Upi-Icon {
+    width: 3rem;
+    height: 3rem;
+    margin-left: -6rem;
+    margin-right: 2rem;
+}
+.RW-add-beneficiary-details-wrapper {
+    margin-top: -43rem;
+    margin-left: 27rem;
+    background: white;
+    width: 26vw;
+    text-align: center;
+}
+.RW-beneficiery-list {
+    margin-top: 12rem;
+    margin-left: 2rem;
+}
+.RW-beneficiary-forms input{
+    height: 3rem;
+    width: 18vw;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background: honeydew;
+}
+input[type="submit"] {
+    background: linear-gradient(
+10deg
+, #20e51d, #d9edf7);
+    width: 11rem;
+    font-size: large;
+    font-weight: bold;
+}
+.RW-beneficiery-Withdrawal-btn {
+    border-radius: 3rem;
+    height: 3rem;
+    background: rgb(49, 112, 143);
+    color: white;
+}
+.RW-beneficiery-Withdrawal-btn :hover{
+    background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+.RW-beneficieryList-info {
+    /* background: aqua; */
+    width: 30vw;
+    border-bottom: 0.05rem solid black;
+    margin-bottom: 2rem;
+}
+.RW-beneficieryList-info :hover{
+    background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    cursor: pointer;
+    /* text-align: center; */
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-bottom: none;
+
+}

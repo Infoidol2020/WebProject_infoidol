@@ -1,0 +1,26 @@
+.filter-search-data-buttons{
+    border: solid 1px #dadada;
+    background: transparent;
+    width: 8vw;
+    height: 5vh;
+    margin-top: 5vh;
+    outline: none;
+    font-weight: bold;
+}
+
+.search-data-users{
+    border: solid 1px #dadada; 
+    width: 15vw; 
+    height: 20vh; 
+    margin: 2vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 3px 3px #dadada;
+}
+.search-data-users-scrollable::-webkit-scrollbar {
+    display: none;
+  }
+  .search-data-users-scrollable{
+    scrollbar-width: none;
+  }

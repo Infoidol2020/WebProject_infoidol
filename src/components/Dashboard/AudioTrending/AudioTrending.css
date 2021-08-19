@@ -1,0 +1,150 @@
+.Audio_container{
+    width:90%;
+    margin-left: 5%;
+}
+.Audio_viewall{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+/* .Audio_viewall h3{
+    color:#000000;
+    font-size: large;
+    margin-left: 2%;
+}
+.Audio_viewall p{
+    color:#2699FB;
+    font-size: large;
+    margin-left: 80%;
+} */
+.user_name_TA {
+    color: #FFFFFF;
+    width: 16rem;
+    height: 2rem;
+    font: normal bold 22px/22px Segoe UI;
+}
+.Audio_container{
+    width: 93%;
+    margin-left: 2%;
+    margin-top: 1vh;
+}
+.Audio_Img{
+    width: 20%;
+    display: inline-block; 
+    margin: 0.5rem 1.5%;
+}
+.AudioBox{
+    border-radius: 2.0rem;
+    display: flex;
+    padding: 10px;
+    background-color: #E7E7E7;
+    box-shadow: 9px 15px 15px #00000029;
+    background: transparent linear-gradient(270deg, #CCBEBE 0%, #070808 100%);
+    height: 11vh;
+    width: 17vw;
+    margin-bottom: 2rem;
+}
+.AudioBox img{
+    border-radius: 1.0rem;
+    width: 5vw;
+    height: 7vh;
+}
+.Trending_audio_description{
+    margin-left: 0.5em;
+}
+.Trending_audio_Wrapper{
+    display: flex;
+}
+.audio_title{
+    /* border: solid 1px red; */
+    width: 11vw;
+}
+.likes_Audio{
+        display: flex;
+        color: #fff
+}
+
+@media only screen and (max-width:400px){
+    .TrendingAudio_Styling h2{
+        margin-left: 10%;
+        font-size: x-large;
+    }
+    .Audio_container{
+        width: 100%;
+        height: 40vh;
+        overflow: scroll;
+        margin-left: 6%;
+        margin-top: 1vh;
+    }
+    .Audio_Img{
+        width: 20%;
+        display: block;
+        flex-direction: column;
+        margin: 0.5rem 1.5%;
+    }
+    .AudioBox {
+        border-radius: 2.0rem;
+        display: flex;
+        padding: 10px;
+        background-color: #E7E7E7;
+        box-shadow: 9px 15px 15px #00000029;
+        background: transparent linear-gradient(
+    270deg
+    , #CCBEBE 0%, #070808 100%);
+        height: 11vh;
+        width: 73vw;
+        margin-bottom: 2rem;
+    }
+    .AudioBox img {
+        border-radius: 1.0rem;
+        width: 13vw;
+        height: 8vh;
+    }
+    .audio_title {
+        /* border: solid 1px red; */
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .TrendingAudio_Styling h2{
+        margin-left: 10%;
+        font-size: x-large;
+    }
+    .Audio_container{
+        width: 100%;
+        height: 40vh;
+        overflow: scroll;
+        margin-left: 6%;
+        margin-top: 1vh;
+    }
+    .Audio_Img{
+        width: 20%;
+        display: block;
+        flex-direction: column;
+        margin: 0.5rem 1.5%;
+    }
+    .AudioBox {
+        border-radius: 2.0rem;
+        display: flex;
+        padding: 10px;
+        background-color: #E7E7E7;
+        box-shadow: 9px 15px 15px #00000029;
+        background: transparent linear-gradient(
+    270deg
+    , #CCBEBE 0%, #070808 100%);
+        height: 11vh;
+        width: 73vw;
+        margin-bottom: 2rem;
+    }
+    .AudioBox img {
+        border-radius: 1.0rem;
+        width: 13vw;
+        height: 8vh;
+    }
+    .audio_title {
+        /* border: solid 1px red; */
+        width: 50vw;
+    }
+}

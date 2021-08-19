@@ -1,0 +1,15 @@
+
+.videos-by-category::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.videos-by-category::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+.videos-by-category::-webkit-scrollbar-thumb {
+    background: #b30000; 
+    border-radius: 10px;
+}

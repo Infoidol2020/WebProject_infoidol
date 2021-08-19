@@ -1,0 +1,44 @@
+.VideoLikeShare_Container{
+    
+margin-top: 15rem;
+}
+#VD_shareIcon{
+    font-size:2vw;
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width:320px){
+    #VD_shareIcon {
+        font-size: xx-large;
+        margin-left: 17vw;
+        margin-top: 0rem;
+    }
+    .VideoLikeShare_Container{
+        display: flex;
+        margin-top: 0rem;
+        }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .VideoLikeShare_Container{
+        display: flex;
+        margin-top: 0rem;
+        }
+        #VD_shareIcon{
+            font-size:xx-large;
+            margin-left: 21vw;
+            margin-top: 0rem;
+        }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .VideoLikeShare_Container{
+        display: flex;
+        margin-top: 0rem;
+        }
+        #VD_shareIcon{
+            font-size:xx-large;
+            margin-left: 21vw;
+            margin-top: 0rem;
+        }
+}

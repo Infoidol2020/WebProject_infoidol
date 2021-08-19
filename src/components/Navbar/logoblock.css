@@ -1,0 +1,38 @@
+.Nav-II-Logo {
+    height: 15vh;
+    width: 33vh;
+    margin-left: -3rem;
+    margin-top: -2.2rem;
+}
+.Nav-II-Logo-Min{
+    display: none;
+}
+@media only screen and (max-width: 400px)
+{
+    .Nav-II-Logo {
+        display: none;
+    }
+    .Nav-II-Logo-Min{
+    display: block;
+    width: 6rem;
+    margin-top: 0rem;
+    margin-right: 2rem;
+    margin-left: -1rem;
+    height: 4rem;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 500px)
+{
+    .Nav-II-Logo {
+        display: none;
+    }
+    .Nav-II-Logo-Min {
+        display: block;
+        width: 9rem;
+        margin-top: 0.5rem;
+        margin-right: 2rem;
+        margin-left: -1rem;
+        height: 4rem;
+    }
+    
+}

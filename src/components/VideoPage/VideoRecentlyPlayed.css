@@ -1,0 +1,96 @@
+.styling_videoRecently{
+    /* border:darkblue solid; */
+
+    margin-left: 5vw;
+}
+.styling_videoRecently h2{
+    /* font: normal normal bold 40px/46px Arial Rounded MT; */
+    margin-left: 1.5rem;
+letter-spacing: 0px;
+}
+.RecentlyBlock {
+    margin: 1.5rem;
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 18vw !important;
+    border: 1px solid lightgray;
+    box-shadow: -6px 20px 20px #00000029;
+    /* background: transparent linear-gradient( 
+90deg
+ , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box; */
+    background: transparent linear-gradient( 
+133deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+}
+.RecentlyBlock video{
+    border-radius: 10px;
+    width: 25.5rem;
+    height: 14rem;
+}
+.VideoRecent_description {
+    border: 1px dashed black;
+    border-radius: 9px;
+    /* margin: 1rem 0rem 0 0; */
+    width: 25.2rem;
+}
+.RecentView {
+    margin-left: 1rem;
+    margin-left: 0.4rem;
+    width: 24rem;
+    background: transparent linear-gradient( 
+335deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10rem;
+    color: white;
+    font-weight: bold;
+}
+.VideoRecent_description> h4 {
+    color: white;
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+.VideoRecent_description h3{
+    color: black;
+}
+@media only screen and (max-width: 500px)
+{
+    /* .styling_videoRecently{
+        border: solid 1px red;
+    } */
+    .RecentlyBlock{
+        width: 80% !important;
+        
+    }
+    .mobile-video-recently-thumbnail{
+        width: 90% !important;
+        height: 9vh !important;
+    }
+}
+
+@media only screen and (max-width: 350px)
+{
+    .VideoRecent_description{
+        width: 100% !important;
+    }
+    .RecentView{
+        width: 90% !important;
+    }
+    .mobile-video-recently-played-view-all{
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+    .mobile-video-recently-played-heading{
+        white-space: nowrap;
+
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .VideoRecent_description{
+        width: 90% !important;
+
+    }
+    .RecentView{
+        width: 90% !important;
+    }
+}

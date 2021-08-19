@@ -1,0 +1,39 @@
+.Cr_rightSection,.CopyRightFooter{
+    display: flex;
+}
+.CopyRightFooter {
+    margin-left: 10rem;
+    height: 5rem;
+    border-top: 2px solid lightgray;
+}
+.CopyRightTitle {
+    font-size: medium;
+    color: gray;
+    margin-right: 55rem;
+}
+.Cr_rightSection{
+    margin-top: 0.5rem;
+}
+.Cr_leftSection {
+    margin-top: 0.5rem;
+        display: flex;
+
+}
+.Cr_FacebookIcon:hover{
+    color: #3b5998;
+}
+.Cr_InstagramIcon:hover{
+    color: #8a3ab9;
+}
+.Cr_LinkedInIcon:hover{
+    color: #3b5998;
+}
+.Cr_TwitterIcon:hover{
+    color: #0077b5;
+}
+.Cr_PinterestIcon:hover{
+    color: #E60023;
+}
+.Cr_YouTubeIcon:hover{
+    color: #FF0000;
+}

@@ -1,0 +1,755 @@
+.portfolio-container{
+    /* border: solid 1px red; */
+    /* margin-left: 25vw; */
+    /* overflow: hidden; */
+    background: #F0F0F0;
+    height: 8vh;
+    width: 71vw;
+    margin-left: 1vw;
+}
+.userPortfolio-left-buttons-wrapper{
+    display: flex;
+    /* border: solid 1px blue; */
+    width: 80%;
+}
+.userPortfolio-left-buttons{
+    outline: none;
+    border: none;
+    background: transparent;
+    font: normal bold 20px/20px Arial;
+}
+.userPortfolio-left-buttons-container:hover {
+    border-bottom: solid 3px black;
+}
+.userPortfolio-follow-buttons{
+    background: transparent linear-gradient(90deg, #1E9FC8 0%, #3C34AC 100%);
+    border: 1px solid #707070;
+    border-radius: 15px;
+    width: 6vw;
+    height: 4vh;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+.userPortfolio-content-container{
+    width: 71vw;
+    margin-left: 1rem;
+}
+.userPortfolio-content-container::-webkit-scrollbar {
+    display: none;
+}
+
+.work-section-sub-header{
+    cursor: pointer;
+    width: 10vw;
+    font-weight: bold;
+    border: solid 1px #dadada;
+    margin: 0 0.5rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px #888888;
+
+}
+
+.my-works-scrollable-section::-webkit-scrollbar {
+    display: none;
+}
+
+.followers-section-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.subscribed-section-scrollable::-webkit-scrollbar {
+    display: none;
+}
+#userPortfolio-myWorksTabs {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+}
+.myWork_VideoTitle,
+.myWork_AudioTitle,
+.myWork_PictureTitle,
+.myWork_BlogTitle{
+    font-size: larger;
+    font-weight: bold;
+    color: chocolate;
+}
+.MyWorks_BlogWrapper {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    margin: 1rem;
+    width: 38%;
+    padding: 1rem;
+    height: 29vh;
+    margin-left: 7rem;
+    display: inline-block;
+}
+.editDeleteBtnContainer {
+    width: 6rem;
+}
+.editDeleteBtnContainer buttons {
+    margin: 0 0.8rem;
+}
+.UP_editVideoTitle,.UP_editVideoDescription,.VideoEditContainer,
+.UP_editAudioTitle,.UP_editAudioDescription,.AudioEditContainer,
+.UP_editPictureTitle,.UP_editPictureDescription,.PictureEditContainer,
+.UP_editBlogTitle,.UP_editBlogDescription,.BlogEditContainer
+
+{
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+#VideoCategory {
+    margin-left: 5.2rem;
+}
+#description {
+    margin-left: 3.8rem;
+}
+#title {
+    margin-left: 8rem;
+}
+.editVideoDp {
+    /* border: 1px solid black;
+    height: 16rem;
+    background: yellow;
+    width: 14rem; */
+    margin-left: 2.2rem;
+}
+.editVideoDp > video{
+    margin-top: -4.8rem;
+    width: 20rem;
+    height: 21rem;
+}
+.AudioEditorsDp,.PictureEditorsDp,.BlogEditorsDp {
+    height: 16rem;
+    width: 15rem;
+    margin-left: 4rem;
+}
+.portfolio-customizeList-wrapper{
+    width: 20vw;
+    padding: 1rem;
+    background: #dadada;
+}
+#userPortfolio-myWorksTabs {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+}
+.my-works-scrollable-section {
+    height: 32vh;
+    overflow-y: scroll;
+    display: block;
+}
+.my-works-uploadedVideo-section {
+    width: 16vw;
+    height: 20vh;
+    display: inline-block;
+    margin: 1rem;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+.my-works-thumbnail_link {
+    width: 15.2vw;
+    height: 15vh;
+    margin: 0.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.my-works-uploadedMusic-section {
+    width: 16vw;
+    height: 10vh;
+    display: inline-block;
+    margin: 1rem;
+}
+.user-portfolio-blog_thumbnail {
+    width: 25.6vw;
+    height: 20vh;
+}
+/* .UP_RenderBtns {
+    background: rgb(218, 218, 218);
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: space-around;
+} */
+.my-works-uploadedPicture-section {
+    width: 16vw;
+    height: 20vh;
+    display: inline-block;
+    margin: 1rem;
+}
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .user-portfolio-container {
+        margin-top: 1.5rem;
+        margin-left: 0.9rem;
+    }
+    .userPortfolio-left-buttons {
+        outline: none;
+        border: none;
+        background: transparent;
+        font: normal bold 20px/20px Arial;
+        font-size: revert;
+        padding: 0 1.3rem !important;
+        width: 9rem;
+    }
+    .userPortfolio-left-buttons-wrapper {
+        display: flex;
+        /* border: solid 1px blue; */
+        width: inherit;
+    }
+    .portfolio-container {
+        /* border: solid 1px red; */
+        /* margin-left: 25vw; */
+        /* overflow: hidden; */
+        background: #F0F0F0;
+        height: auto;
+        width: auto;
+        margin-left: 1vw;
+    }
+    .portfolio-customizeList-wrapper{
+        width: 20vw;
+        padding: 1rem;
+        background: #dadada;
+    }
+    .userPortfolio-content-container {
+        width: 85vw;
+        margin-left: 0.7rem;
+        /* background: violet; */
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 1vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .work-section-sub-header {
+        cursor: pointer;
+        width: 18vw;
+        font-weight: bold;
+        border: solid 1px #dadada;
+        margin: 0 0.5rem;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #d6e3ef;
+        border-radius: 10px;
+        box-shadow: 2px 2px #888888;
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 0.5vh;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .my-works-uploadedVideo-section {
+        width: 36vw;
+        height: 21vh;
+        display: inline-block;
+        margin: 0.5rem;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        margin-left: 1.7rem;
+    }
+    .my-works-thumbnail_link {
+        width: 33vw;
+        height: 15vh;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .myWork_VideoTitle, .myWork_AudioTitle, .myWork_PictureTitle, .myWork_BlogTitle {
+        font-size: smaller;
+        font-weight: bold;
+        color: chocolate;
+        /* margin-left: 1rem; */
+    }
+    .myWork_BlogTitle {
+        font-size: small !important;
+        width: 25rem;
+    }
+    .my-works-uploadedMusic-section {
+        width: 37vw;
+        height: 4vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .UP_RenderBtns {
+        background: none !important;
+        display: flex !important;
+        padding: 0.2rem !important;
+        margin-top: 0rem !important;
+        /* margin-left: 0.8rem; */
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .MyWorks_BlogWrapper {
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 7px;
+        margin: 0rem;
+        margin-bottom: 2rem;
+        width: 94%;
+        height: 28.1vh;
+        display: inline-block;
+        margin-left: 0rem;
+    }
+    .user-portfolio-blog_thumbnail {
+        width: 75vw;
+        height: 18vh;
+    }
+    .my-works-uploadedPicture-section {
+        width: 37vw;
+        height: 22vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .followers-scrollable-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 16rem !important;
+    }
+    .followers-profile-container {
+        text-align: center;
+        display: inline-block;
+        /* border: 1px solid rgb(218, 218, 218); */
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 38vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+    .subscribed-section-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 16rem !important;
+    }
+    .subscribed-profiles-container {
+        text-align: center;
+        display: inline-block;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 38vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    .user-portfolio-container {
+        margin-top: 1.5rem;
+        margin-left: 0.9rem;
+    }
+    .userPortfolio-left-buttons {
+        outline: none;
+        border: none;
+        background: transparent;
+        font: normal bold 20px/20px Arial;
+        font-size: smaller;
+        padding: 0 1.3rem !important;
+        width: 9rem;
+    }
+    .userPortfolio-left-buttons-wrapper {
+        display: flex;
+        /* border: solid 1px blue; */
+        width: inherit;
+    }
+    .portfolio-container {
+        /* border: solid 1px red; */
+        /* margin-left: 25vw; */
+        /* overflow: hidden; */
+        background: #F0F0F0;
+        height: auto;
+        width: auto;
+        margin-left: 1vw;
+    }
+    .portfolio-customizeList-wrapper{
+        width: 20vw;
+        padding: 1rem;
+        background: #dadada;
+    }
+    .userPortfolio-content-container {
+        width: 85vw;
+        margin-left: 0.7rem;
+        /* background: violet; */
+    }
+    .portfolio-myWorks {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly !important;
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 1vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .work-section-sub-header {
+        cursor: pointer;
+        width: 18vw;
+        font-weight: bold;
+        border: solid 1px #dadada;
+        margin: 0 0.5rem;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #d6e3ef;
+        border-radius: 10px;
+        box-shadow: 2px 2px #888888;
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 0.5vh;
+        margin-bottom: 1vh;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .my-works-uploadedVideo-section {
+        width: 39vw;
+        height: 21vh;
+        display: inline-block;
+        margin: 0.5rem;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        margin-left: 0rem;
+    }
+    .my-works-thumbnail_link {
+        width: 33vw;
+        height: 15vh;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .myWork_VideoTitle, .myWork_AudioTitle, .myWork_PictureTitle, .myWork_BlogTitle {
+        font-size: smaller;
+        font-weight: bold;
+        color: chocolate;
+        /* margin-left: 1rem; */
+    }
+    .myWork_VideoTitle{
+        width: 10rem !important;
+    }
+    .myWork_BlogTitle {
+        font-size: small !important;
+        width: 25rem;
+    }
+    .my-works-uploadedMusic-section {
+        width: 37vw;
+        height: 4vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .UP_RenderBtns {
+        background: none !important;
+        display: flex !important;
+        padding: 0.2rem !important;
+        margin-top: 0rem !important;
+        /* margin-left: 0.8rem; */
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .MyWorks_BlogWrapper {
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 7px;
+        margin: 0rem;
+        margin-bottom: 2rem;
+        width: 94%;
+        height: 28.1vh;
+        display: inline-block;
+        margin-left: 0rem;
+    }
+    .user-portfolio-blog_thumbnail {
+        width: 75vw;
+        height: 18vh;
+    }
+    .my-works-uploadedPicture-section {
+        width: 37vw;
+        height: 22vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .followers-scrollable-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 13rem !important;
+    }
+    .followers-profile-container {
+        text-align: center;
+        display: inline-block;
+        /* border: 1px solid rgb(218, 218, 218); */
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 36vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+    .subscribed-section-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 13rem !important;
+    }
+    .subscribed-profiles-container {
+        text-align: center;
+        display: inline-block;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 38vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+    .followers-profile_name {
+    font-size: smaller;
+}
+.editDeleteBtnContainer {
+    width: 8rem;
+}
+.myWork_VideoTitle > .editDeleteBtnVideo {
+    width: 6rem !important;
+}
+.user-profile-user-info {
+    margin-top: 2vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 0, 0, .2);
+    padding: 0 0.3rem;
+}
+.subscribed-profile-name {
+    font-size: x-small;
+    word-spacing: 0.1rem;
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .user-portfolio-container {
+        margin-top: 1.5rem;
+        margin-left: 0.9rem;
+    }
+    .userPortfolio-left-buttons {
+        outline: none;
+        border: none;
+        background: transparent;
+        font: normal bold 20px/20px Arial;
+        font-size: smaller;
+        padding: 0 1.3rem !important;
+        width: 9rem;
+    }
+    .userPortfolio-left-buttons-wrapper {
+        display: flex;
+        /* border: solid 1px blue; */
+        width: inherit;
+    }
+    .portfolio-container {
+        /* border: solid 1px red; */
+        /* margin-left: 25vw; */
+        /* overflow: hidden; */
+        background: #F0F0F0;
+        height: auto;
+        width: auto;
+        margin-left: 1vw;
+    }
+    .portfolio-customizeList-wrapper{
+        width: 20vw;
+        padding: 1rem;
+        background: #dadada;
+    }
+    .userPortfolio-content-container {
+        width: 85vw;
+        margin-left: 0.7rem;
+        /* background: violet; */
+    }
+    .portfolio-myWorks {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly !important;
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 1vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .work-section-sub-header {
+        cursor: pointer;
+        width: 18vw;
+        font-weight: bold;
+        border: solid 1px #dadada;
+        margin: 0rem;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #d6e3ef;
+        border-radius: 10px;
+        box-shadow: 2px 2px #888888;
+        font-size: smaller;
+    }
+    #userPortfolio-myWorksTabs {
+        margin-top: 0.5vh;
+        margin-bottom: 1vh;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 6vh;
+        align-items: center;
+    }
+    .my-works-uploadedVideo-section {
+        width: 39vw;
+        height: 21vh;
+        display: inline-block;
+        margin: 0.5rem;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        margin-left: 0rem;
+    }
+    .my-works-thumbnail_link {
+        width: 33vw;
+        height: 15vh;
+        margin: 0.5rem;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .myWork_VideoTitle, .myWork_AudioTitle, .myWork_PictureTitle, .myWork_BlogTitle {
+        font-size: smaller;
+        font-weight: bold;
+        color: chocolate;
+        /* margin-left: 1rem; */
+    }
+    .myWork_VideoTitle{
+        width: 18rem !important;
+    }
+    .myWork_BlogTitle {
+        font-size: small !important;
+        width: 25rem;
+    }
+    .my-works-uploadedMusic-section {
+        width: 37vw;
+        height: 4vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .UP_RenderBtns {
+        background: none !important;
+        display: flex !important;
+        padding: 0.2rem !important;
+        margin-top: 0rem !important;
+        /* margin-left: 0.8rem; */
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .MyWorks_BlogWrapper {
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 7px;
+        margin: 0rem;
+        margin-bottom: 2rem;
+        width: 94%;
+        height: 28.1vh;
+        display: inline-block;
+        margin-left: 0rem;
+    }
+    .user-portfolio-blog_thumbnail {
+        width: 75vw;
+        height: 18vh;
+    }
+    .my-works-uploadedPicture-section {
+        width: 37vw;
+        height: 22vh;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .followers-scrollable-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 13rem !important;
+    }
+    .followers-profile-container {
+        text-align: center;
+        display: inline-block;
+        /* border: 1px solid rgb(218, 218, 218); */
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 36vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+    .subscribed-section-container {
+        display: inline-block;
+        margin: 1rem;
+        box-shadow: rgb(218 218 218) 3px 3px;
+        border-radius: 10px;
+        width: 13rem !important;
+    }
+    .subscribed-profiles-container {
+        text-align: center;
+        display: inline-block;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 38vw !important;
+        cursor: pointer;
+        background: #dff0d8;
+    }
+    .followers-profile_name {
+    font-size: smaller;
+}
+.editDeleteBtnContainer {
+    width: 8rem;
+}
+.myWork_VideoTitle > .editDeleteBtnVideo {
+    width: 6rem !important;
+}
+.user-profile-user-info {
+    margin-top: 2vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 0, 0, .2);
+    padding: 0 0.5rem;
+}
+.subscribed-profile-name {
+    font-size: x-small;
+    word-spacing: 0.1rem;
+}
+.editDeleteBtnContainer {
+    width: 11rem;
+}
+.editDeleteBtnContainer buttons {
+    margin: 0 0.4rem;
+}
+}

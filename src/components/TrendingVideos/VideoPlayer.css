@@ -1,0 +1,70 @@
+.Videos_main_container{
+    display:flex;
+}
+.VP_Heading{
+    margin-left: 2%;
+    font-size: 5Vh;
+    font-style: oblique;
+}
+.VP_elems video{
+    width: 63vw;
+    margin-left: 4%;
+}
+.Video_information{
+    /* background: darkgray; */
+    margin-left: 4%;
+    width:94%;
+    height:5vh;
+    display: flex;
+
+}
+.VP_additional_information{
+    display: flex;
+}
+.VP_Created_Time{
+    margin-left: 0.5rem;
+}
+.VP_Button_Section{
+    display: flex;
+    margin-left: 44%;
+    /* width:30%;
+    height: 5vh;
+    margin-left: 49%; */
+    /* background: darkgray; */
+}
+.Video_Profile{
+    border-top: 1px solid blue;
+    margin-left: 4%;
+}
+.Video_Profile_subclass{
+    margin-top: 1.5rem;
+    display: flex;
+}
+.Video_Profile_subclass img{
+    border-radius: 50%;
+    width: 4vw;
+    height: 7vh;
+
+}
+.Video_User_info{
+    margin-left:1.5rem;
+}
+.Video_description{
+    margin-top: 0.5rem;
+}
+.Video_Description_subclass{
+    margin-left:9%;
+}
+.Video_subBlock_Wrrapper{
+    display: flex;
+}
+.Video_subBlock video{
+    width:14vw;
+    height:20vh;
+}
+.Video_subBlock_info{
+    margin-left: 1.5rem;
+}
+.subBlock_additional_information{
+    display:flex;
+}

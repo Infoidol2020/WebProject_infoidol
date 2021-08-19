@@ -1,0 +1,65 @@
+.MainVideoSection {
+    width: 94%;
+    margin-top: 9rem;
+    margin-left: 9rem;
+    background: #F1F4F5E8 0% 0% no-repeat padding-box;
+    box-shadow: 8px 19px 17px #00000029;
+    border: 1px solid #707070;
+    border-radius: 21px;
+    opacity: 1;
+    display: flex;
+}
+.VD_LikecommentSec{
+    display: flex;
+}
+
+@media only screen and (max-width:320px){
+    .MainVideoSection {
+        width: 93%;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        opacity: 1;
+        display: block;
+    }
+    .VD_LikecommentSec{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .MainVideoSection {
+        width: 90%;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        opacity: 1;
+        display: block;
+    }
+    .VD_LikecommentSec{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .MainVideoSection {
+        width: 91%;
+        margin-top: 5rem;
+        margin-left: 3.5rem;
+        background: #F1F4F5E8 0% 0% no-repeat padding-box;
+        box-shadow: 8px 19px 17px #00000029;
+        border: 1px solid #707070;
+        border-radius: 21px;
+        opacity: 1;
+        display: block;
+    }
+    .VD_LikecommentSec{
+        display: block;
+    }
+}

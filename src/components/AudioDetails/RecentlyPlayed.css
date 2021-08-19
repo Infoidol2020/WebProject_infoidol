@@ -1,0 +1,47 @@
+.RecentlyPlayed_SongInfos {
+    height: 28vh;
+    width: 10vw;
+    border-radius: 16%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background: transparent linear-gradient( 
+133deg
+ , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+}
+.RecentlyPlayed_SongInfos> img {
+    width: 10vw;
+    height: 23vh;
+    border-radius: 15%;
+}
+.RecentlyPlayed_SongTitle {
+    margin: 0.5rem 0px 0.5rem 1rem;
+    font-size: medium;
+    font-weight: 600;
+}
+.RecentlyPlayed_Wrapper {
+    height: 44rem;
+    overflow-y: scroll;
+}
+/* width */
+.RecentlyPlayed_Wrapper::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  /* .RecentlyPlayed_Wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+  .RecentlyPlayed_Wrapper::-webkit-scrollbar-thumb {
+    background: linear-gradient( 
+        90deg
+         , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .RecentlyPlayed_Wrapper::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }

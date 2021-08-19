@@ -1,0 +1,90 @@
+.musicPlayerContainer {
+    margin: 12rem;
+    margin-bottom: 3rem;
+    background: black;
+    height: 34vh;
+    width: 64%;
+    display: flex;
+}
+.ReactAudioPlayer {
+    margin-top: -5rem;
+    margin-left: 20rem;
+}
+audio.react-audio-player {
+    width: 55%;
+    opacity: 0.4;
+}
+.musicPlayerDescriptions {
+    margin-left: 8vw;
+    height: 37rem;
+    width: 22%;
+    overflow-y: scroll;
+    background: black;
+    color: hotpink;
+    border-radius: 19px;
+}
+/* .musicPlayerDescriptions h2{
+    position: fixed;
+    z-index: 9999;
+    width: 19.6%;
+    margin: -2.099rem 0rem;
+    color: whitesmoke;
+    background: black;
+    text-align: -webkit-center;
+    padding: 0.3rem;
+    border-bottom: 2px solid white;
+    border-radius: 2rem;
+} */
+.musicPlayerDescriptions p h2 {
+    color: white;
+    margin: 1rem 0;
+    color: lightpink;
+    text-align: center;
+}
+.musicName{
+border-bottom: 1px solid lightgray;
+border-radius: 12px;
+cursor: pointer;
+text-align: center;
+margin-bottom: 1rem;
+}
+.musicPlayerDescriptions::-webkit-scrollbar{
+    display: none;
+}
+#SongInfos, .song_Playing{
+    display: flex;
+}
+.songDescription {
+    color: white;
+    font-size: larger;
+    padding: 2rem 0;
+    margin-top: 5rem;
+}
+.song_details {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.song_Playing img{
+    height: 17rem;
+    width: 18rem;
+    margin: 2.5rem;
+    border-radius: 8%;
+}
+.likeShare {
+    margin-left: 1.7rem;
+    color: #a09797;
+    margin-top: 2.5rem;
+}
+/* .audioBanner {
+    margin-left: 30rem;
+    height: 22rem;
+    width: 34rem;
+} */
+/* .mp_Holder{
+    display: flex;
+} */
+.audioBanner img {
+    margin-top: 2rem;
+    height: 22rem;
+    border: 1px solid black;
+}

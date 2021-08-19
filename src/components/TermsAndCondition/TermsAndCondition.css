@@ -1,0 +1,28 @@
+.TnC_Container {
+    margin: 9rem 9rem 5rem 13rem;
+}
+.TnC_Container p {
+    font-size: initial;
+}
+
+@media only screen and (max-width:320px){
+    .TnC_Container {
+        margin: 5rem 0rem 0rem 2rem;
+        width: 88vw;
+    }
+    .termAndCoondition{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .TnC_Container {
+        margin: 6rem 0rem 0rem 3rem;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .TnC_Container {
+        margin: 7rem 0rem 0rem 3rem;
+    }
+}

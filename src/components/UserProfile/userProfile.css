@@ -1,0 +1,27 @@
+.Userprofile-UserPortfolio-container {
+    margin-left: 5vw;
+    margin-top: 12.5vh;
+    display: flex;
+}
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .Userprofile-UserPortfolio-container {
+        margin-left: 5vw;
+        margin-top: 12.5vh;
+        display: block;
+    }
+    
+}
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    .Userprofile-UserPortfolio-container {
+        margin-left: 5vw;
+        margin-top: 12.5vh;
+        display: block;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .Userprofile-UserPortfolio-container {
+        margin-left: 5vw;
+        margin-top: 12.5vh;
+        display: block;
+    }
+}

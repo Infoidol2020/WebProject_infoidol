@@ -1,0 +1,153 @@
+.VV_CommentBlock{
+    /* width: 30%; */
+    margin-top: 1vh;
+    /* margin-left: 0vw; */
+}
+.VV_CommentProfile {
+    display: flex;
+    margin-left: 2rem;
+    width: 45rem;
+    height: 9rem;
+}
+.VV_picProfileComment img{
+    width:5vw;
+    height:8vh;
+    border-radius: 50%;
+}
+.VideoViewComment_followInCommentBtn button{
+    /* width:9vw;
+    height: 6vh;
+    border: none; */
+    background: linear-gradient(
+90deg
+, rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+    border: 0px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    width: 8vw;
+    height: 5vh;
+    margin-left: 3vw;
+    margin-top: 3.5vh;
+    border-radius: 10px;
+}
+.VideoViewpage_commentTitle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 46rem;
+    height: 4rem;
+    background: transparent linear-gradient( 
+        80deg
+         , #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+}
+.VideoViewpage_commentBox {
+    margin-left: 4.5vw;
+    margin-top: -23rem;
+    width: 46rem;
+    height: 41rem;
+
+}
+.commentSectionVC {
+    width: 6rem;
+    margin-left: -5rem;
+}
+.VideoViewpage_CommentList {
+    width: 30vw;
+    height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.VideoViewpage_CommentList::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.VideoViewpage_CommentList::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.VideoViewpage_CommentList::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.VideoViewpage_CommentList::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+.replySection::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.replySection::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.replySection::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.replySection::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+.VideoViewComment_Customize {
+    width: 17rem;
+}
+.VideoViewComment_followInCommentBtn {
+    width: 19rem;
+}
+.picProfileComment {
+    width: 9rem;
+}
+.VideoViewComment_Usernamecommented {
+    width: 32rem;
+    color: #1a1b1d;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: small;
+    font-weight: 500;
+}
+.VideoViewComment_UsercommentedTime{
+    font-size: small;
+    margin-top: 0.5rem;
+}
+.VideoViewComment_CommentTitle {
+    font-size: large;
+    color: white;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+.VideoViewComment_PostButton {
+    height: 3rem;
+    width: 8rem;
+    background: linear-gradient( 
+90deg
+ , rgb(30, 159, 200) 0%, rgb(60, 52, 172) 100%) transparent;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 38rem;
+}
+.VideoViewComment_replySection {
+    margin: 1rem 0;
+    /* height: 12vh; */
+    width: 45.5rem;
+    border-radius: 5px;
+    /* overflow-y: scroll; */
+    overflow-wrap: break-word;
+    background: rgb(204, 204, 204);
+}
+.VideoViewComment_UserComment {
+    /* border: 1px solid blue; */
+    width: 29vw;
+    /* max-width: 23vw; */
+    height: -webkit-fill-available;
+    /* overflow-y: scroll; */
+    display: inline-block;
+    overflow-wrap: break-word;
+}

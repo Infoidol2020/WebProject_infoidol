@@ -1,0 +1,25 @@
+@media only screen and (max-width: 500px)
+{
+    .report-audio-container{
+        font-size: 2rem !important;
+    }
+    .report-modal-audio{
+        width: 80vw;
+        font-size: 1rem;
+        margin-left: 7vw;
+
+    }
+    .audio-report-submit-btn{
+        width: 25vw;
+    }
+
+}
+@media only screen and (max-width: 350px)
+{
+    .report-modal-audio{
+        margin-left: 7vw;
+        width: 100vw;
+
+    }
+
+}

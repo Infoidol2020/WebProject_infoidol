@@ -1,0 +1,20 @@
+@media only screen and (max-width: 500px)
+{
+    .like-audio-container{
+        font-size: 2rem !important;
+    }
+    .share-audio-container{
+        font-size: 2rem !important;
+
+    }
+    .share-modal-audio{
+        width: 88vw;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .share-modal-audio{
+        width: 100vw;
+        margin-left: 9vw;
+    }
+}

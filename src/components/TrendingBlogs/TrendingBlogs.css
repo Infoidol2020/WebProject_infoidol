@@ -1,0 +1,115 @@
+.left{
+    margin-top: 20vh;
+     float: left; 
+     width: 5vw;
+     height: 5vh;
+    }
+    .left::after {
+     content: "";
+     clear: both;
+   }
+    .center{
+     float: left; 
+     width: 88%;
+      height: 100%;
+     margin: 1px;
+     overflow: hidden;
+     white-space: nowrap;
+    }
+    .center::after {
+     content: "";
+     clear: both;
+   }
+    
+    .right{
+    margin-top: 20vh;
+     float: right; 
+     width: 5vw;
+     height: 5vh;
+    }
+    .right::after {
+     content: "";
+     clear: both;
+   }
+   .Blog_Container{
+    width: 100%;
+    display: inline-block;
+   }
+   .Heading{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  
+  }
+  .Blog_elems{
+    display: flex;
+    height: 25rem;
+    margin-bottom: 3vh;
+}
+  
+  .internal_blog{
+    margin: 1.5rem;
+    padding: 10px;
+    border: 1px solid lightgray;
+    box-shadow: -6px 20px 20px #00000029;   
+    }
+    .internal_blog .clv{
+      display: flex;
+    }
+    .internal_blog img{
+      border-radius: 10px;
+    width: 20rem;
+    height: 14rem;
+    }
+    .Profile_blog{
+        display: flex;
+    }
+    .Profile_blog img{
+      border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem 0 0;
+    border: 3px dashed #74b3cc;
+    }
+    .description_blog{
+      border: 1px dashed #74b3cc;
+      border-radius: 47px;
+      margin: 1rem 1rem 0 0;
+      width: 18rem;
+      height: 5rem;
+    }
+    .description_blog p {
+      margin: -4px 0px 0px 20px;
+      color: slategrey;    }
+    .description_blog h4{
+      color: #74b3cc;
+      margin-left: 5rem;
+      margin-top: 0rem;
+    }
+    .blog_counts{
+      margin: 2rem 0 1rem 1rem;
+    }
+    .likes_blog {
+      border: 1px solid lightgray;
+      margin-left: 0.5rem;
+      padding-right: 0.5rem;
+      border-radius: 1rem;
+      box-shadow: -1px 5px 4px #00000029;
+    }
+
+  #left-button{
+    font-size: 6rem;
+    height: 50%;
+    margin-top: -8rem;
+  }
+  .likes_blog .b1{
+    color: tomato;
+  }
+  .likes_blog .b2{
+    color: lightslategrey;
+  }
+  .likes_blog .b3{
+    color: lightseagreen;
+  }
+

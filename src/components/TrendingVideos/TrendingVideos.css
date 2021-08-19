@@ -1,0 +1,117 @@
+ /* scroll horizontal */
+ .left_video{
+   margin-top: 20vh;
+    float: left; 
+    width: 5vw;
+    height: 5vh;
+   }
+   .left_video::after {
+    content: "";
+    clear: both;
+  }
+   
+   
+   .center_video{
+    float: left; 
+    width: 88%;
+     height: 100%;
+    /* border: 1px solid red; */
+    margin: 1px;
+    overflow: hidden;
+    /*will change this to hidden later to deny scolling to user*/
+    white-space: nowrap;
+   }
+   .center_video::after {
+    content: "";
+    clear: both;
+  }
+   
+   .right_video{
+   margin-top: 20vh;
+    float: right; 
+    width: 5vw;
+    height: 5vh;
+   }
+   .right_video::after {
+    content: "";
+    clear: both;
+  }
+  /* .internal{
+    width: 70%;
+    height: 20vh;
+    display: inline-block;
+    border: solid 1px red;
+    margin: 0 1rem;
+   } */
+  
+
+.Video_Container{
+  /* border:solid blue; */
+  width: 100%;
+  display: inline-block;
+}
+.Heading_video{
+  margin-left: 2vw;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-top: 3vh;
+
+}
+.Video_elems{
+  display: flex;
+  width:100%;
+  /* border: solid red; */
+  margin-bottom: 3vh;
+
+}
+.internal_video{
+  margin: 1.5rem; 
+  /* border: 1px solid; */
+  padding: 10px;
+  width:23vw;
+  box-shadow: 9px 15px 15px #00000029;
+  border: rgba(171, 183, 183, 0.2) 1px solid;
+  }
+  .internal_video video{
+      border-radius: 10px;
+      width: 16vw;
+      height: 19vh;
+      /* margin: 0.6rem 0.6rem 0.6rem 1.0rem; */
+  
+  }
+  .sideSection{
+    display: flex;
+  }
+  .Profile_video{
+      display: flex;
+  }
+  .Profile_video img{
+      border-radius: 50%;
+      width: 3vw;
+      height: 6vh;
+      margin: 0.5rem;
+  }
+  .description_video{
+    border: 1px solid black;
+    border-radius: 27px;
+    margin:0.5rem;
+    width: 72%;
+    padding: 0.5rem;
+  }
+  /* .likes_video{
+    display: flex;
+    margin-left: 3%;
+  } */
+  .videocount{
+    margin: 2rem 0 1rem 1rem;
+  }
+  .likes_video {
+    border: 1px solid lightgray;
+    margin-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+    height: 18vh;
+    box-shadow: -1px 5px 4px #00000029;
+
+}

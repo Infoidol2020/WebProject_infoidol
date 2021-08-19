@@ -1,0 +1,187 @@
+/* .styling_example1{
+    width:25vw;
+    margin-left:12vw;
+}
+.PeopleProfile img{
+    width:3vw;
+    border-radius: 50%;
+}
+.rec.rec-arrow {
+    border-radius: 0;
+}
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+}
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+} */
+.Signup_main_Container{
+    border:springgreen solid;
+    display: flex;
+    width: 92%;
+    margin-left: 3vw;
+    margin-top: 13vh;
+   
+    
+}
+.firstContainer{
+    margin:2rem;
+    width:98%;
+    height: 54vh;
+    /* border:slateblue solid; */
+    /* background: transparent url('img/pexels-haste-leart-v-690597.png') 0% 0% no-repeat padding-box; */
+border: 1px solid #707070;
+border-radius: 24px;
+/* opacity: 0.6; */
+}
+.tagline h3{
+    background: #00C2FFD6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 34px;
+    opacity: 0.94;
+    color:white;
+    font-size: 1.5rem;
+    margin-left: 13vw;
+    width: 22vw;
+    padding:1rem;
+
+}
+.tagline span{
+    margin-left: 4vw;
+    
+}
+.styling-example img{
+    width:15vw !important;
+    height: 20vh !important;
+}
+.styling-example .slick-list{
+    width: 35vw;
+}
+.joinedlist h3{
+    background: #00B9FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029; 
+    color:white;
+    width:9vw;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: 17vw;
+    border-radius: 26px;
+
+}
+.styling_example1{
+    width: 36vw;
+    margin-left: 3vw;
+}
+.styling_example1 .slick-list{
+    width: 30vw;
+}
+.PeopleProfile img{
+    width:7rem;
+    border-radius: 50%;
+    height: 7rem;
+    border: solid 1px #333
+}
+
+.secondContainer{
+    width:100%;
+    height:54vh;
+    margin:2rem;
+    background: transparent linear-gradient(224deg, #3D3FB2 0%, #4BA4E9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 24px;
+    opacity: 1;
+}
+.secondContainer input{
+    border-radius: 5px;
+    width: 19vw;
+    height: 4vh;
+    color: black;
+    border: white;
+}
+.RegisterName{
+    /* display: flex; */
+}
+.RegisterName h3{
+    color:white;
+    font-size: 24px;
+    margin-left: 27rem;
+}
+.signUp{
+    display:flex;
+    margin-left:4rem;
+}
+.FullName{
+    color:white;
+    
+}
+.FullName label{
+    margin-top: 2vh;
+
+}
+.contact{
+    color:white;
+    margin-left: 2rem;
+}
+.contact label{
+    margin-top: 2vh;
+
+}
+.MailId{
+    color:white;
+}
+.UserId{
+    color:white;
+    margin-left: 2rem;
+}
+.Password{
+    color:white;
+}
+.Confirm_Password{
+    color:white;
+    margin-left: 2rem;
+}
+.InsertLink{
+    margin-top: 1vh;
+    color:white;
+}
+.DOB{
+    color:white;
+    margin-top: 1vh;
+    margin-left: 2rem;
+}
+/* .contact{
+    color:white;
+    margin-top: 1vh;
+
+} */
+.verify{
+    
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.verify button{
+    background: #00D3FFE6 0% 0% no-repeat padding-box;
+    box-shadow: 8px 10px 8px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    width: 6vw;
+    height: 4vh;
+}
+.submit input{
+    background: #EC2D6D 0% 0% no-repeat padding-box;
+    box-shadow: 8px 10px 8px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    width: 8vw;
+    height: 4vh;
+    margin-top:2rem;
+    margin-left: 18vw;
+    padding: 0.5rem;
+}

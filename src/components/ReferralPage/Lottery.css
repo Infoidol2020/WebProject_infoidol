@@ -1,0 +1,129 @@
+.LotteryContainer {
+    background: transparent linear-gradient( 
+141deg
+ , #FF72A5 0%, #005ECC 100%) 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    width: 92rem;
+    height: 54rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    overflow-y: scroll;
+}
+.LotteryBtns {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+.Lottery_Daily_buttons {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 20rem 0rem 0rem 20rem;
+    outline: none;
+    border-right: 0;
+}
+.Lottery_Weekly_buttons {
+    width: 20rem;
+    height: 3.5rem;
+    outline: none;
+    border: 1px 0;
+    border-left: 0;
+    border-right: 0;
+}
+.Lottery_Monthly_buttons {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 0 20rem 20rem 0;
+    outline: none;
+    border-left: 0;
+}
+.btns_lottery:hover{
+    background-color: #00FFEE;
+}
+.TopRankersWrapper {
+    margin-left: -2.4rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+.Lottery_TopList_WinningAmt {
+    font-size: large;
+    margin-top: 1.7rem;
+    margin-left: 6rem;
+    width: 6rem;
+}
+.Lottery_TopList_ProfilePix {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 3px solid #00FFEE;
+    margin-right: 2rem;
+    margin-left: 17rem;
+    margin-top: 0.7rem;
+}
+.Lottery_TopListWrapper {
+    margin-left: 16rem;
+    display: flex;
+}
+.RankBadge {
+    height: 4.7rem;
+    margin-top: 1rem;
+}
+.Lottery_TopList_Contestents{
+    display: flex;
+}
+.Lottery_TopList_WinnersName {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.LotteryContainer> h3 {
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    /* margin-top: 2rem; */
+}
+/* user List Container */
+.Lottery_UserList {
+    display: flex;
+}
+img.Lottery_Userpic {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 3px solid #00FFEE;
+}
+.Lottery_UserList {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    color: whitesmoke;
+}
+.Lottery_UserRank {
+    margin: 1.3rem 3rem 0;
+    font-size: larger;
+    font-weight: bold;
+}
+img.Lottery_Userpic {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid #00FFEE;
+    margin-right: 2rem;
+    margin-top: 0.3em;
+}
+.Lottery_UserName {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 1rem;
+    width: 18rem;
+
+}
+.Lottery_UserNetIncome {
+    margin-top: 1rem;
+    margin-left: 53rem;
+    font-size: large;
+    font-weight: bold;
+}
+.Headline {
+    color: #00FFEE;
+}

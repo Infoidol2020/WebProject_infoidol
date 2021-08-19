@@ -1,0 +1,49 @@
+.recentlyMusicDetail img{
+width:20vw;
+height:20vh;
+}
+.recentlyMusicDetail img {
+    width: 10vw;
+    height: 23vh;
+    border-radius: 15%;
+    /* background: background: transparent linear-gradient(180deg, #00FFFF80 0%, #006DB080 100%) 0% 0% no-repeat padding-box; */
+    background: transparent linear-gradient(
+180deg
+, #00FFFF80 0%, #006DB080 100%) 0% 0% no-repeat padding-box;
+}
+.rescentMusicPlayed {
+    margin-left: 8vw;
+}
+.recentlyMusicDetail {
+    height: 27vh;
+    width: 10vw;
+    /* background: transparent linear-gradient(
+180deg
+, #00FFFF80 0%, #006DB080 100%) 0% 0% no-repeat padding-box; */
+    border-radius: 16%;
+    background: transparent linear-gradient(
+133deg
+, #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 36px black;
+}
+.recentPlayedSongsTitle {
+    text-align: center;
+    color: #333;
+    font-size: larger;
+    /* background: transparent linear-gradient(
+180deg
+, #00FFFF80 0%, #006DB080 100%) 0% 0% no-repeat padding-box; */
+    border-radius: 32%;
+}
+.recentlyMusicDetail {
+    height: 27vh;
+    width: 10vw;
+    /* background: transparent linear-gradient(
+180deg
+, #00FFFF80 0%, #006DB080 100%) 0% 0% no-repeat padding-box; */
+    border-radius: 16%;
+    background: transparent linear-gradient(
+133deg
+, #006DB0 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 36px black;
+}

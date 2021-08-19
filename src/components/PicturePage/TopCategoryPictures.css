@@ -1,0 +1,128 @@
+.PP_FIndex{
+  width: 40vw;
+  /* object-fit:cover; */
+  height: 58vh;
+  cursor: pointer;
+}
+.top-category-pictures-container{
+    margin-top: 13vh;
+    margin-left: 5vw;
+    height: 70vh;
+    display: flex
+
+}
+.PP_rightSec{
+  width: 20vw;
+  object-fit: cover;
+  height: 20vh;
+  margin: 0.5rem;
+}
+.right-pictures-section{
+    padding-left: 4vw;
+    padding-top: 3vh;
+    overflow-y: scroll;
+}
+
+.right-pictures-section::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .right-pictures-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  .right-pictures-section::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .right-pictures-section::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  @media only screen and (max-width:320px){
+    .top-category-pictures-container {
+      margin-top: 13vh;
+      margin-left: 5vw;
+      height: 62vh;
+      display: block;
+  }
+  .PP_FIndex {
+    width: 76vw;
+    /* object-fit: cover; */
+    height: 18vh;
+    cursor: pointer;
+}
+.right-pictures-section{
+  padding-left: 10%;
+  padding-top: 0vh;
+  height: 34vh;
+  overflow-y: scroll;
+}
+    .PP_rightSec {
+      width: 67vw;
+      object-fit: cover;
+      height: 12vh;
+      margin: 0.5rem;
+  }
+
+  }
+
+  @media only screen and (min-width:321px) and (max-width:400px){
+    .top-category-pictures-container{
+      margin-top: 13vh;
+      margin-left: 5vw;
+      height: 70vh;
+      display: block;
+  
+  }
+  .PP_FIndex {
+    width: 81vw;
+    object-fit: cover;
+    height: 28vh;
+    cursor: pointer;
+}
+.right-pictures-section{
+  padding-left: 10%;
+  padding-top: 0vh;
+  height: 34vh;
+  overflow-y: scroll;
+}
+.PP_rightSec{
+  width: 72vw;
+    object-fit: cover;
+    height: 20vh;
+    margin: 0.5rem;
+}
+  }
+
+  @media only screen and (min-width:401px) and (max-width:500px){
+    .top-category-pictures-container{
+      margin-top: 13vh;
+      margin-left: 5vw;
+      height: 73vh;
+      display: block;
+  
+  }
+    .PP_FIndex {
+      width: 82vw;
+      /* object-fit: cover; */
+      height: 30vh;
+      cursor: pointer;
+  }
+  .right-pictures-section{
+    padding-left: 4%;
+    padding-top: 0vh;
+    height: 34vh;
+    overflow-y: scroll;
+  }
+  .PP_rightSec {
+    width: 39vw;
+    object-fit: cover;
+    height: 20vh;
+    margin: 0.5rem;
+}
+  }

@@ -1,0 +1,341 @@
+
+.videoPlaying {
+    display: flex;
+}
+.commentBlock{
+   
+    width: 30%;
+    margin-top: 1vh;
+    margin-left: 7vw;
+    /* background: blueviolet;
+    border: 4px solid red; */
+}
+.commentSection {
+    display: contents;
+    margin-left: -2vw;
+}
+.picProfileComment img {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+.commentProfile {
+    display: flex;
+    margin-left: 15vw;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Follower {
+    margin-left: 2.8rem;
+    margin-top: 0.5rem;
+}
+.followInCommentBtn button {
+    border-radius: 23px;
+    padding: 0.8rem 1.2rem;
+    background: transparent linear-gradient( 
+        190deg
+        , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    font-size: large;
+    margin-left: 2rem;
+}
+.iconComment{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.commentSection{
+    display: flex;
+}
+.commentTitle {
+    margin-top: 1.2rem;
+    background: transparent linear-gradient(
+90deg
+ , #1E9FC8 0%, #3C34AC 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 1rem 0.8rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    width: 43rem;
+}
+span.hgf {
+    padding: 0px 64px;
+    font-size: large;
+    color: ghostwhite;
+}
+.likeSharePicture {
+    margin-left: -3.5rem;
+    margin-top: 5.5rem;
+    margin-right: 3rem;
+}
+.commentReply span {
+    color: lightskyblue;
+}
+
+
+.CommentList::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.CommentList::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.CommentList::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.CommentList::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+.replySection::-webkit-scrollbar {
+    width: 5px;
+}
+  /* Track */
+.replySection::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.replySection::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.replySection::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+.commentProfile button{
+    border: 0; 
+    outline: none; 
+    color: #fff; 
+    width: 9vw;
+    height: 5vh;
+    margin-left: 2vw;
+    margin-top:4vh;
+    border-radius: 10px;
+}
+.followInCommentBtn select{
+    width: 9vw;
+}
+
+#PD_ShareIcon{
+    font-size:xx-large;
+    margin-top:3vh;
+}
+#PD_ReportIcon{
+    font-size:xx-large;
+    margin-top:3vh;
+    margin-left:0.6rem;
+}
+.CommentList{
+    width:29vw;
+    height:40vh;
+    overflow-y:scroll;
+}
+.PD_CommentDp {
+    border-radius:50%;
+    width:3vw;
+    height:5vh
+}
+.PD_Commenthere{
+    color: Black;
+    width:27vw;
+}
+.PD_Commenttoreplybox{
+    width:23vw;
+    border-radius:6px;
+}
+
+@media only screen and (max-width:320px){
+    .commentSection{
+        display: block;
+    }
+    .picProfileComment img {
+        height: 8vh;
+        width: 16vw;
+        margin-left: 31vw;
+        border-radius: 50px;
+        margin-top: -1rem;
+    }
+    .commentProfile button{
+        width: 28vw;
+        margin-top: 7vh;
+
+    }
+    .followInCommentBtn select {
+        width: 25vw;
+    }
+    .likeSharePicture {
+        display: flex;
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        margin-right: 0rem;
+    }
+    #PD_ShareIcon{
+        font-size:xx-large;
+        margin-top: 0vh;
+        margin-left: 10vw;
+    
+    }
+    #PD_ReportIcon {
+        font-size: xx-large;
+        margin-top: 0.5rem;
+        margin-left: 3.6rem;
+    }
+    .commentTitle {
+        width: 22rem;
+    }
+    .CommentList {
+        width: 67vw;
+        height: 40vh;
+        overflow-y: scroll;
+    }
+    .PD_CommentDp {
+        border-radius: 50%;
+        width: 9vw;
+        /* display: flex; */
+        height: 5vh;
+    }
+    .PD_Commenthere {
+        color: Black;
+        width: 58vw;
+        border: 1px black solid;
+        margin-bottom: 1vh;
+    }
+    .PD_Commenttoreplybox {
+        width: 43vw;
+        border-radius: 6px;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .commentSection{
+        display: block;
+    }
+    .picProfileComment img {
+        height: 10vh;
+        width: 15vw;
+        margin-left:31vw;
+        border-radius: 50px;
+        margin-top: 0rem;
+    }
+    .commentProfile button{
+        width: 28vw;
+        margin-top: 7vh;
+
+    }
+    .followInCommentBtn select {
+        width: 25vw;
+    }
+    .likeSharePicture {
+        display: flex;
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        margin-right: 0rem;
+    }
+    #PD_ShareIcon{
+        font-size:xx-large;
+        margin-top: 0vh;
+        margin-left: 10vw;
+    
+    }
+    #PD_ReportIcon {
+        font-size: xx-large;
+        margin-top: 0.5rem;
+        margin-left: 3.6rem;
+    }
+    .commentTitle {
+        width: 27rem;
+
+    }
+    .CommentList{
+        width:71vw;
+        height:40vh;
+        overflow-y:scroll;
+    }
+    .PD_CommentDp {
+        border-radius: 50%;
+        width: 9vw;
+        height: 5vh;
+    }
+    .PD_Commenthere {
+        color: Black;
+        width: 62vw;
+        /* border: 1px black solid; */
+        margin-bottom: 1vh;
+    }
+    .PD_Commenttoreplybox {
+        width: 50vw;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .commentSection{
+        display: block;
+    }
+    .picProfileComment img {
+        height: 10vh;
+        width: 15vw;
+        margin-left:31vw;
+        border-radius: 50px;
+        margin-top: 0rem;
+    }
+    .commentProfile button{
+        width: 28vw;
+        margin-top: 9vh;
+
+    }
+    .followInCommentBtn select {
+        width: 25vw;
+    }
+    .likeSharePicture {
+        display: flex;
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        margin-right: 0rem;
+    }
+    #PD_ShareIcon{
+        font-size:xx-large;
+        margin-top: 0vh;
+        margin-left: 10vw;
+    
+    }
+    #PD_ReportIcon {
+        font-size: xx-large;
+        margin-top: 0.5rem;
+        margin-left: 3.6rem;
+    }
+    .commentTitle {
+        width: 27rem;
+
+    }
+    .CommentList{
+        width:71vw;
+        height:40vh;
+        overflow-y:scroll;
+    }
+    .PD_CommentDp {
+        border-radius: 50%;
+        width: 9vw;
+        height: 5vh;
+    }
+    .PD_Commenthere {
+        color: Black;
+        width: 62vw;
+        /* border: 1px black solid; */
+        margin-bottom: 1vh;
+    }
+    .PD_Commenttoreplybox {
+        width: 51vw;
+        border-radius: 6px;
+    }
+}
