@@ -1,13 +1,12 @@
 .course-overview-heading{
-    margin-left: 8rem;
     font-size: 36px;
-    /* font-weight: bold; */
+    color: teal;
 }
 .overview-description p{
     width: 50vw;
     word-spacing: 0.2rem;
     /* letter-spacing: 0.1rem; */
-    margin-left: 9vw;
+    margin-left: 3rem;
     font-size: initial;
     font-family: 'Roboto', sans-serif !important;
     font-weight: normal;
@@ -17,6 +16,30 @@
 
 }
 .course-overview-container{
-    margin-top: 7vh;
+    margin-left: 1rem;
     margin-bottom: 10vh;
+    background: rgba(243,241,238 );
+    width: 147.5rem;
+}
+.overview-hero-pic {
+    height: 40rem;
+    width: 49rem;
+}
+.overview-container {
+    display: flex;
+    margin-left: 1rem;
+}
+.overview-content {
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+.overview-details {
+    font-size: 1.8rem;
+    width: 84rem;
+    margin-right: 5rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.05rem;
+}
+.overview-img{
+    display: flex;
 }

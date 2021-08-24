@@ -2,63 +2,60 @@ import React,{useEffect,useState} from 'react'
 import LearningBoy from '../../assets/LearningBoy.svg'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import './CourseDetail.css'
+import checkList from '../../assets/checkList.jpg';
+import projectBased from '../../assets/projectBased.jpg';
+import workExp from '../../assets/working.svg';
+import support from '../../assets/support.jpg';
+import coworkers from '../../assets/coworkers.jpg';
+
 
 const CourseDetail = (props) => {
+    // console.log(' props CourseDetail', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.subject_detail.sub_name)
     const [Feature,setFeature]=useState();
 
     useEffect(() => {
         if(props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess &&
             props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails){
-                setFeature( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails)
-                console.log(' props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0]', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess)
+                setFeature(props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.subject_detail.sub_name)
+                console.log(' props CourseDetail',Feature)
             }
-        
-    
         }, [props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess])
     return (
         <div className="course-details-container">
-            <p className="pgm-highlight-sect">
-                Program Highlights
-            </p>
             <div className="course-details-wrapper">
-                <section className="course-detail-img-section">
-                    <img className="course-detail-img" src={LearningBoy} alt="LearningBoyimg" />
-                </section>
-                <section className="course-detail-brief-section">
-                    {
-                        Feature && Feature.map((featureelem, featureindex) =>{
-                            return(
-                                <div>
-                                {
-                                    featureelem && featureelem.type === "1" &&
-                                    <div>
-                                        {
-                                            featureelem.intern_value && featureelem.intern_value.map((valelem,valindex) => {
-                                                return(
-                                                    <div className="course-value-list">
-                                                        <ul style={{listStyleType: 'none'}}>
-                                                            <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li">{valelem}</span></li>
-                                                        </ul>
-                                                    </div>
-                                                )
-                                            })
-                                        }
-                                    </div>
-                                }
-                                </div>
-                            )
-                        })
-                    }
-                    {/* <ul style={{listStyleType: 'none'}}>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Project based Learning.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Real work experience.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Internship and Learning certificate.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Job ready portfolio on Git hub.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Personalized carrier guidance and support.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Recorded video of live classes.</span></li>
-                        <li><DoubleArrowIcon style={{width: '28px',height: '23px',color: '#A435F0'}}/><span className="course-detail-li"> Chance of getting placement infoidol pvt.ltd.</span></li>
-                    </ul> */}
-                </section>
+                <p className="course-details-Career">
+                    Take Your Developer Career to New Levels
+                </p>
+                <p className="course-details-highlight">
+                    Hands-on, project-based learning is at the heart of everything you do at Infoidol. Land top {Feature} developer jobs with real work experience in key skills by working on internship-grade development projects.
+                </p>
+            </div>
+
+            <div className="course-value-list">
+                <div className="course-list">
+                    <img className="course-list-img" src={projectBased} alt="" />
+                    <p className="Project-based">True, Project-based Learning</p>
+                </div>
+
+                <div className="course-list">
+                    <img className="course-list-img" src={workExp} alt="" />
+                    <p className="Project-based">Real Work Experience</p>
+                </div>
+
+                <div className="course-list">
+                    <img className="course-list-img" src={checkList} alt="" />
+                    <p className="Project-based">Job-ready Portfolio on GitHub</p>
+                </div>
+
+                <div className="course-list">
+                    <img className="course-list-img" src={support} alt="" />
+                    <p className="Project-based">Personalised Career Guidance & Support</p>
+                </div>
+                <div className="course-list">
+                    <img className="course-list-img" src={coworkers} alt="" />
+                    <p className="Project-based">Chances Of getting placed at Infoidol</p>
+                </div>
+
             </div>
         </div>
     )

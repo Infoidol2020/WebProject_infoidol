@@ -17,9 +17,9 @@ import InternshipCard from './InternshipCard'
 const NewInternship = (props) => {
         console.log('props from  New internship detail',props)
         useEffect(() => {
-            // sessionStorage.setItem('internshipSubjectId', 1)
+            sessionStorage.setItem('internshipSubjectId', 0)
             props.fetchInternshipCourses()
-            // props.fetchInternshipCoursesDetails()
+            // props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
         }, [])
     return (
         <div>
@@ -57,7 +57,7 @@ return{
 const mapDispatchToProps = dispatch => {
 return {
     fetchInternshipCourses: () => dispatch(fetchInternshipCourses()),
-    // fetchInternshipCoursesDetails : (Subject_Id) => dispatch(fetchInternshipCoursesDetails(Subject_Id)),
+    fetchInternshipCoursesDetails : (Subject_Id) => dispatch(fetchInternshipCoursesDetails(Subject_Id)),
     // fetchInternshipRegisterMap : (regd_id,order_id) => dispatch(fetchInternshipRegisterMap(regd_id,order_id)),
 }
 }

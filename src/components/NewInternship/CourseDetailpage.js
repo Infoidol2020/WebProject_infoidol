@@ -17,30 +17,40 @@ import CourseToolCovered from './CourseToolCovered'
 import CourseCertificate from './CourseCertificate'
 import CourseGraph from './CourseGraph'
 import CourseBanner from './CourseBanner'
+import CourseDummyBlock from './CourseDummyBlock'
 
 
 const CourseDetailpage = (props) => {
     console.log('Course Detail console',props)
     useEffect(() => {
-        // sessionStorage.setItem('internshipSubjectId',)
+        // sessionStorage.setItem('internshipSubjectId')
         // props.fetchInternshipCourses()
         props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
     }, [])
     return (
         <div>
-            <Navbar/>
-            <Sidebar/>
+            {/* <Navbar/>
+            <Sidebar/> */}
             <NewInternshipTabs/>
             <CourseBanner {...props}/>
             <CourseOverview {...props}/>
             <CourseDetail {...props}/>
+            <CourseDummyBlock/>
+            <CourseAdvantage {...props}/>
+            <CourseCertificate/>
+            <CourseDetailAdms/>
+            {/* <CourseGraph {...props} /> */}
+
+            {/* <CourseIdeal/>  */}
+
+            {/* <CourseDetail {...props}/>
             <CourseAdvantage {...props}/>
             <CourseCertificate/>
             <CourseDescription  {...props}/>
             <CourseToolCovered {...props}/>
             <CourseDetailAdms/>
             <CourseGraph {...props} />
-            <CourseIdeal/>
+            <CourseIdeal/> */}
 
         </div>
     )

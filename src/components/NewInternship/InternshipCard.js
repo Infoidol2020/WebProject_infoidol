@@ -22,7 +22,7 @@ const InternshipCard = (props) => {
     const handleCourseClick = (sub_id) => {
         sessionStorage.setItem('internshipSubjectId',sub_id)
         sessionStorage.setItem('emiStatus',0)
-        // props.fetchInternshipCoursesDetails(sub_id)
+        // props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
 
     }
     return (
@@ -34,27 +34,32 @@ const InternshipCard = (props) => {
             
             {
                 CardSubject &&
-                CardSubject.map((element,elemindex) => {
+                CardSubject.map((cardelem,elemindex) => {
                 return(
                 <div className="Cardsinternship" style={{cursor:'pointer',display:'inline-block',borderRadius:'10px'}}
-                onClick={() => handleCourseClick(element.sub_id)}
+                onClick={() => handleCourseClick(cardelem.sub_id)}
                 >
-                    <Link to={{pathname: '/course-detail-page'}}>
+                    <Link to={{pathname: '/course-detail-page',
+                cardelem:{cardelem:cardelem}}}>
                     <div className="COurses">
-                    <LazyLoadImage className="InternshipCard_Image" placeholder={<div><img src={miniLoader} /></div>} src={element.back_image}   alt=""/>
+                    <LazyLoadImage className="InternshipCard_Image" placeholder={<div><img src={miniLoader} /></div>} src={cardelem.back_image}   alt=""/>
                     </div>
                     <div className="CourseSubCard">
                         {/* <div className="CourseDescription"> */}
-                        <h3 style={{color:'black'}}><b>{element.sub_name}</b></h3>
-                        {
-                        element.sub_des && element.sub_des.map((discElement,discIndex) => {
+                        <h3 style={{color:'black'}}><b>{cardelem.sub_name}</b></h3>
+                        {/* {
+                        cardelem.sub_des && cardelem.sub_des.map((disccardelem,discIndex) => {
                             return(
                                 <div>
-                                    <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{discElement}</p>
+                                    <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{disccardelem}</p>
                                 </div>
                             )
                         })
-                        }
+                        } */}
+                        <div>
+                                    <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{cardelem.sub_des}</p>
+                                </div>
+
                         {/* </div> */}
                     
                     </div>

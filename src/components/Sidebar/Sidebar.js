@@ -54,12 +54,12 @@ const Sidebar = () => {
                         <div className="SideBar_ContentTitle">Blogs</div>
                     </Link>
                 </div>
-                <div className="sidebar-elements" onClick= {handleClick}>
+                {/* <div className="sidebar-elements" onClick= {handleClick}>
                     <Link to='/internship' style={{color: '#fff'}}>
                         <span  ><SchoolIcon id="iconnn"/></span>
                         <div className="SideBar_ContentTitle">Learning</div>
                     </Link>
-                </div>
+                </div> */}
                 <div className="sidebar-elements" onClick= {handleClick}>
                     <Link to='/internship-page-new' style={{color: '#fff'}}>
                         <span  ><SchoolIcon id="iconnn"/></span>
