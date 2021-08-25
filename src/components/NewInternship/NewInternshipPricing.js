@@ -10,6 +10,7 @@ import illus2 from '../../assets/illus90.png'
 const NewInternshipPricing = () => {
     return (
         <div className="NewInternshipPricingContainer">
+            
             <p className="newInternship-pricing-title">
                 Pricing
             </p>
@@ -55,7 +56,8 @@ const NewInternshipPricing = () => {
                     </p>
                 </div>
             </section>
-
+            <div id="newInternship-partner-blank" style={{height:'6vh',background:'white'}}>
+            </div>
         </div>
     )
 }

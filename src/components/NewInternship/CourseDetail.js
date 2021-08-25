@@ -57,6 +57,9 @@ const CourseDetail = (props) => {
                 </div>
 
             </div>
+            <div id="course-description-blank" style={{height:'8vh'}}>
+
+            </div>
         </div>
     )
 }

@@ -1,16 +1,21 @@
 .course-heading{
-    margin-left: 8rem;
+    margin-left: 2rem;
     font-size: 36px;
     font-weight: bold;
+    color: white;
+}
+.course-description-container{
+    height: 57rem;
+    background: rgb(39, 40, 61);
 }
 .course-flex-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 6vh;
 }
 .desciption-one-month{
     width: 40vw;
-    margin-left: 6vw;
+    /* margin-left: 6vw; */
     /* background: #A435F0 0% 0% no-repeat padding-box; */
     background: cadetblue;
 border: 1px solid #B5C1CD;
@@ -26,7 +31,7 @@ opacity: 1;
     border: 1px solid #B5C1CD;
     border-radius: 20px;
     opacity: 1;
-    margin-left: 2vw;
+    /* margin-left: 2vw; */
 }
 .description-top{
     margin-top:2vh;

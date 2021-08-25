@@ -36,7 +36,7 @@
 .InternshipForm_container {
   flex: 0 1 700px;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 3rem;
   padding: 10px;
 }
 
@@ -183,10 +183,12 @@
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
-  font-size: 14px;
+  color: #f979ad;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
+  letter-spacing: 0.07rem;
+  word-spacing: 0.2rem;
 }
 
 .app-form-button:hover {
@@ -220,6 +222,16 @@
 .IF_BannerImg {
   width: 111%;
   height: 17rem;
+}
+.emiList {
+  margin-bottom: 1rem;
+  display: none;
+}
+.emiListDetailsTopic {
+  color: white;
+}
+.emiDetailsPrice {
+  color: #a9a9a9;
 }
 @media screen and (max-width: 520px) {
   .screen-body {

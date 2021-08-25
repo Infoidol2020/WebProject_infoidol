@@ -38,6 +38,9 @@ export const fetchInternshipCoursesDetails = (Subject_Id) => {
         }).then( response => {
                 const internshipSubjectDetailResponse = response.data.data
                 dispatch(internshipSubjectDetailsSuccess(internshipSubjectDetailResponse))
+                setTimeout(function(){ 
+                    dispatch(internshipSubjectDetailsReset())
+                    }, 3000);
         }).catch(error => {
             const errorMsg = error.message
             dispatch(internshipSubjectDetailsFailure(errorMsg))

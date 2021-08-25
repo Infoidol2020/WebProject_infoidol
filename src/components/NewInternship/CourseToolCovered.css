@@ -15,3 +15,13 @@
 .course-tools img{
     width:5vw;
 }
+.course-tools-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: -4vw;
+}
+.course-ToolCovered-Container {
+    margin-left: 1rem;
+    text-align: center;
+    background: lavender;
+}

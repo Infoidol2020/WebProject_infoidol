@@ -12,4 +12,10 @@
 .course-Block{
     /* background: rgba(9,115,108)!important; */
     justify-content: center;
+            display: flex;
+        background: rgb(39, 40, 61);
+        width: 96vw;
+        margin-left: 1rem;
+        padding: 4rem;
+    
 }

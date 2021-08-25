@@ -7,9 +7,10 @@ import './NewInternshipCompanies.css'
 const NewInternshipCompanies = () => {
     return (
         <div className="NewInternshipCompaniesContainer">
+            
             <section className="InternshipCompanies">
                 <p className="InternshipCompanies-Partners">
-                Top Partners
+                Top Hiring Companies
                 </p>
                 <p className="InternshipCompanies-slogan">
                 Coming together is a beginning, staying <br /> together is progress, and working <br /> together is success.

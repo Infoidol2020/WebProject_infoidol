@@ -3,13 +3,21 @@
     font-weight: bold;
 }
 .course-graph-subheading{
-    font-size: 22px;
-    margin-left: 2vw;
-    margin-top: 1vh;
+    font-size: 2rem;
+    width: 83rem;
+    margin-left: 17vw;
+    margin-top: -1vh;
 }
 .course-graph-container img{
-    width: 91vw;
-    height: 64vh;
+    width: 80vw;
+    height: 58vh;
     margin-bottom: 10vh;
     margin-top: 4vh;
+}
+.course-graph-container{
+    background: rgb(39, 40, 61);
+    color: white;
+    padding: 3rem;
+    margin-left: 1rem;
+    text-align: center;
 }

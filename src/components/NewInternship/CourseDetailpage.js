@@ -18,6 +18,7 @@ import CourseCertificate from './CourseCertificate'
 import CourseGraph from './CourseGraph'
 import CourseBanner from './CourseBanner'
 import CourseDummyBlock from './CourseDummyBlock'
+import CourseTab from './CourseTab'
 
 
 const CourseDetailpage = (props) => {
@@ -26,20 +27,26 @@ const CourseDetailpage = (props) => {
         // sessionStorage.setItem('internshipSubjectId')
         // props.fetchInternshipCourses()
         props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
+        // window.location.reload();
     }, [])
     return (
         <div>
             {/* <Navbar/>
             <Sidebar/> */}
-            <NewInternshipTabs/>
+            <section style={{marginTop:'-7rem'}}> 
+            <CourseTab/>
+            </section>
             <CourseBanner {...props}/>
             <CourseOverview {...props}/>
             <CourseDetail {...props}/>
-            <CourseDummyBlock/>
+            <CourseDescription  {...props}/>
             <CourseAdvantage {...props}/>
             <CourseCertificate/>
+            <CourseDummyBlock/>
+            <CourseIdeal/> 
             <CourseDetailAdms/>
-            {/* <CourseGraph {...props} /> */}
+            <CourseToolCovered {...props}/>
+            <CourseGraph {...props} />
 
             {/* <CourseIdeal/>  */}
 

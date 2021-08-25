@@ -33,8 +33,8 @@ export const hitTokenGenerationAPI = (appId, customerName, customerEmail, custom
     // console.log('executed from TokenGeneration action', DEVICE_ID, USER_ID, appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, orderId)
     return (dispatch) => {
         dispatch(TokenGeneration())
-            axios.post(`${BASE_URL}generate_signature`,{
-            // axios.post(`https://dev.infoidol.com/admin/WebApi/generate_signature`,{
+            // axios.post(`${BASE_URL}generate_signature`,{
+            axios.post(`https://dev.infoidol.com/admin/LearningApi/generateSignature`,{
             "device_id": DEVICE_ID,
             "user_id": USER_ID,
             "appId": appId,

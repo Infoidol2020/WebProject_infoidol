@@ -6,7 +6,7 @@ import InternCertificate from '../../assets/Internship_certificate.jpeg'
 
 const CourseCertificate = () => {
     return (
-        <div style={{marginLeft:'8rem',marginBottom:'2vh'}}>
+        <div style={{marginLeft:'8rem'}}>
             <p className="course-certification-heading">Why Infoidol learning and Intership program..?</p>
             <div style={{display:'flex'}}>
                 <div className="course-certificate-points" style={{marginTop:'3vh'}}>
@@ -21,6 +21,9 @@ const CourseCertificate = () => {
                 <div className="course-internship-certificate-image">
                     <img src={InternCertificate}/>
                 </div>
+            </div>
+            <div id="course-Dummy-blank" style={{height:'8vh'}}>
+
             </div>
         </div>
     )

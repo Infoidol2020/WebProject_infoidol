@@ -36,6 +36,9 @@ const CourseOverview = (props) => {
                     {/* <img src={superhero} alt="broken-heroPic" className="overview-superheroS-pic" /> */}
                 </p>
             </div>
+            <div id="course-detail-blank" style={{height:'8vh'}}>
+
+            </div>
         </div>
     )
 }

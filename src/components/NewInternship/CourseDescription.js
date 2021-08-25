@@ -8,7 +8,7 @@ import './CourseDesciption.css'
 
 const CourseDescription = (props) => {
 
-    console.log('des ',props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[1])
+    // console.log('des ',props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[1])
     const [CourseDescription,setCourseDescription]= useState();
 
     useEffect(() => {
@@ -19,16 +19,14 @@ const CourseDescription = (props) => {
 
     useEffect(() => {
     if(props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess &&
-        props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails){
-            setCourseDescription( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails)
+        props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.package_detail){
+            setCourseDescription( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.package_detail)
             console.log(' props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0]', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess)
         }
-    // setCourseDescription( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0])
-    // console.log(' props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0]', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess)
 
     }, [props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess])
     return (
-        <div className="course-description-container" style={{marginBottom:'10vh'}}>
+        <div className="course-description-container" >
             <p className="course-heading">What You'll Learn</p>
             <div className="course-flex-container">
             {
@@ -38,7 +36,7 @@ const CourseDescription = (props) => {
                         <div className="course-desciption-component">
 
                             {
-                                courseElem && courseElem.type === '1' &&
+                                courseElem.days && courseElem.days === '30' &&
                                 <div className="desciption-one-month">
                                 <div className="description-top">
                                     <p className="num-of-days"> For {courseElem.days} days Learning</p>
@@ -57,7 +55,7 @@ const CourseDescription = (props) => {
                                     </div>
 
                                     <div className="course-register-30button">
-                                    <Link to='/internship-form'>
+                                    <Link to='/course-onemonth-form'>
                                         <button  onClick={() => sessionStorage.setItem('internshipPackageId', courseElem.package_id)} >Register Now</button>
                                         </Link>
                                     </div>
@@ -65,7 +63,7 @@ const CourseDescription = (props) => {
                             }
 
                             {
-                                courseElem && courseElem.type === '2' &&
+                                courseElem.days && courseElem.days === '90' &&
                                 <div className="desciption-three-month">
                                 <div className="description-top">
                                     <p className="num-of-days"> For {courseElem.days} days Learning</p>
@@ -97,6 +95,10 @@ const CourseDescription = (props) => {
                     )
                 })
             }
+            
+            </div>
+            <div id="course-certificate-blank" style={{height:'8vh'}}>
+
             </div>
             
         </div>

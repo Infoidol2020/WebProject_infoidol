@@ -48,9 +48,9 @@ const NewInternshipTimeline = () => {
                 </ol>
             </div>
     </div>
-    <din id="newInternshipTimeline-blank">
+    <div id="newInternshipTimeline-blank">
         
-    </din>
+    </div>
         </div>
     )
 }

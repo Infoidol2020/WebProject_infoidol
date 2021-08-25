@@ -13,6 +13,7 @@ import NewInternshipTabs from './NewInternshipTabs'
 import InternshipBanner from './InternshipBanner'
 import NInternshipLearn from './NInternshipLearn'
 import InternshipCard from './InternshipCard'
+import NewInternshipVideo from './NewInternshipVideo'
 
 const NewInternship = (props) => {
         console.log('props from  New internship detail',props)
@@ -31,6 +32,7 @@ const NewInternship = (props) => {
             <section className="new-internship-banner">
             <InternshipBanner/>
             </section>
+            <NewInternshipVideo/>
             <section className="New-internship-tab">
                 <NInternshipLearn/>
             </section>

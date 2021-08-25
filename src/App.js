@@ -7,8 +7,6 @@ import ContextState from './context/ContextState';
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import NInternshipLearn from './components/NewInternship/NInternshipLearn';
-import NewInternshipSubCard from './components/NewInternship/NewInternshipSubCard';
-import NewInternshipPricing from './components/NewInternship/NewInternshipPricing';
 
 // import Home from './components/Home';
 
@@ -113,6 +111,9 @@ const ReferAndEarnWithdraw =  lazy(() => import('./components/ReferralPage/Refer
 const NewInternship =  lazy(() => import('./components/NewInternship/NewInternship')) 
 
 const CourseDetailpage =  lazy(() => import('./components/NewInternship/CourseDetailpage')) 
+const CourseonemonthForm =  lazy(() => import('./components/NewInternship/CourseonemonthForm')) 
+
+
 
 
 
@@ -189,6 +190,9 @@ function App() {
               <Route path="/internship-learning" component={NInternshipLearn} />
               {/* <Route path="/internship-page-new" component={NewInternshipSubCard} />
               <Route path="/internship-page-new" component={NewInternshipPricing} /> */}
+              <Route path="/course-onemonth-form" component={CourseonemonthForm} />
+
+              
 
 
               <Route path="/course-detail-page" component={CourseDetailpage} />

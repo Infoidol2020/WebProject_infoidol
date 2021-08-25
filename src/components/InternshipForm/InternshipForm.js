@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useRef,useEffect,useState }from 'react'
 import { connect } from 'react-redux'
 import uuid from 'react-uuid'
 import './InternshipForm.css'
@@ -14,6 +14,7 @@ const InternshipForm = (props) => {
   const [price, setPrice] = useState()
   const [registerId, setRegisterId] = useState()
   const [emiDetail, setemiDetail] =useState([]);
+  const EmiSection =useRef()
   useEffect(() => {
     if(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess
       && props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.response_code){
@@ -80,13 +81,23 @@ const InternshipForm = (props) => {
       }
   },[props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetailsSuccess])
 
+  useEffect(() => {
+    if(props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetailsSuccess){
+      
+    }
+  },[props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetailsSuccess])
+  
   const handleEmiDeatils = (e) => {
     props.fetchemiDetail(sessionStorage.getItem('internshipPackageId'))
     sessionStorage.setItem('emiStatus', 1)
-
-
+    EmiSection.current.style.display = "block"
   }
-  console.log('emi',props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetails)
+  const handleNoEmiDeatils = (e) => {
+    props.fetchemiDetail(sessionStorage.getItem('internshipPackageId'))
+    sessionStorage.setItem('emiStatus',0)
+    EmiSection.current.style.display = "none"
+  }
+  console.log('emi',props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetails.instalment)
     return (
         <div>
             <div className="InternshipForm_background">
@@ -164,8 +175,9 @@ const InternshipForm = (props) => {
                 type="radio" value="yes"  name="emi" required/>
                 <label className="IF_Emi_Container" >Yes</label>
                 
-                <input onChange={(e) => {handleInputChange(e)}} 
-                onClick={() => sessionStorage.setItem('emiStatus',0)}
+                <input onChange={(e) => {handleInputChange(e)}}
+                  onClick={(e) => {handleNoEmiDeatils(e)}} 
+                // onClick={() => sessionStorage.setItem('emiStatus',0)}
                 type="radio" value="no" name="emi" required/>
                 <label className="IF_Emi_Container">No</label>
             </div>
@@ -195,7 +207,24 @@ const InternshipForm = (props) => {
                     })
                   }
                 </div> */}
-
+            <div className="emiList" ref={EmiSection}>
+            <p className="emiListDetailsTopic">EMI Price Break-ups</p>
+            {
+                props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetailsSuccess &&
+                props.InternshipRegisterationApi.EMIDetail.emiDetailsGetApi.emiDetails.instalment.map((instalmentElem,instalmentindex) => {
+                  console.log('instalmentElem',instalmentindex)
+                return(
+                    <div className="emiListDetails">
+                      <div className="emiDetailsPrice">
+                      {instalmentindex+1} Installment &nbsp;-&nbsp; &#8377;&nbsp;{instalmentElem.price}&nbsp;&nbsp;&nbsp;{instalmentElem.tag}
+                      </div>
+                      <div className="emiDetailsPrice">
+                      </div>
+                    </div>
+                )
+                })
+            }
+            </div>    
             
 
             <div className="app-form-group buttons">

@@ -1,3 +1,7 @@
+.CourseIdealContainer{
+    /* margin-left: 8rem; */
+    text-align: center;
+}
 .course-user{
     border-radius: 4px;
     border: solid 1px #d2d6de;
@@ -31,10 +35,10 @@
 }
 .course-eligible-heading{
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
     margin-top: 1vh;
 }
 .course-content{
-    word-spacing: 0.1rem;
+    word-spacing: 0.3rem;
     font-size: initial;
 }

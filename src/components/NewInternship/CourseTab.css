@@ -1,0 +1,40 @@
+.courseTab{
+    margin-top: 11vh;
+    margin-left: 5vw;
+}
+.course-tabs {
+    font-size: small;
+    font-weight: bold;
+}
+.courseOverview button{
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.courseTab button{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.courseCourse button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+
+}
+.coursePrice button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+}
+.courseProcess button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+}
+.coursePartner button{
+    margin-left: 5vw;
+    border: none;
+    background: none;
+
+}

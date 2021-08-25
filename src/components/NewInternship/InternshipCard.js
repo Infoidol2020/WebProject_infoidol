@@ -30,7 +30,7 @@ const InternshipCard = (props) => {
         <div className="CardContainer" id="CardContainer" >
 
             <div id="CardContainer-blank"></div>
-            <h2 style={{fontWeight:'bold'}}>Infoidol Learning Courses</h2>
+            <h2 style={{fontWeight:'bold',marginBottom:'4vh',marginLeft:'2vw',marginTop:'3vh'}}>Infoidol Learning Courses</h2>
             
             {
                 CardSubject &&

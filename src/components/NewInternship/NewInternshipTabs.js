@@ -58,18 +58,18 @@ const NewInternshipTabs = () => {
                     <button>Courses</button>
                     </a>                
                 </div>
-                <div className="InternshipPrice">
+                <div className="InternshipProcess">
                 <a href="#ninternshipCard-blank">
-                    <button>Price</button>
+                    <button>Process</button>
                 </a>                  
                 </div>
-                <div className="InternshipProcess">
-                <a href="#newinternshipPricing-blank">
-                    <button>Process</button>
+                <div className="InternshipPrice">
+                <a href="#newInternshipTimeline-blank">
+                    <button>Price</button>
                 </a>                
                 </div>
                 <div className="InternshipPartner">
-                <a href="#newInternshipTimeline-blank">
+                <a href="#newInternship-partner-blank">
                     <button>Partner</button>
                 </a>                
                 </div>

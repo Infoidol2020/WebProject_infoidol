@@ -36,8 +36,7 @@
     margin-left: 1rem;
     width: 96vw;
     height: 46rem;
-    margin-top: 7vh;
-    margin-bottom: 10rem;
+    padding: 2rem;
     /* background: #ebf1f8;; */
     background:rgb(39, 40, 61);
 }

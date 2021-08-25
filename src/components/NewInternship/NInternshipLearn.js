@@ -11,7 +11,7 @@ const NInternshipLearn = () => {
                 
             </div>
             <div className="LearnEarn_container" >
-                <h2>Infoidol Student Learning Program</h2>
+                <h2>Infoidol Internship & Learning Program</h2>
                 <p>A 30-days and 90-days Learning and Training Program aimed at building the leaders of tomorrow.</p>
                     <p>College students from any degree, stream, and year of study can apply for this program.</p>
             </div>
@@ -37,7 +37,7 @@ const NInternshipLearn = () => {
                         <img src={InternGrow} alt=""/>
                         <h4>Profit</h4>
                         <p>Experience professional growth by </p>
-                        <p style={{marginTop:'-1.2vh'}}> solving real-world program.</p>
+                        <p style={{marginTop:'-1.2vh'}}> solving real-world problem.</p>
 
                     </div>
                 
