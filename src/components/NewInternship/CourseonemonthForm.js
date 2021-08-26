@@ -22,36 +22,38 @@ const CourseonemonthForm = (props) => {
   useEffect(() => {
     if(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess
       && props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.response_code){
-        setPrice(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price)
-        
-        const internshipPrice = Math.floor(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price/2)
+        // setPrice(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price)
+        console.log('setPrice',props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi)
+        const internshipPrice = Math.floor(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price)
 
         setRegisterId(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.register_id)
-        sessionStorage.setItem('internshipOrderId', uuid())
+        // sessionStorage.setItem('internshipOrderId', uuid())
+        sessionStorage.setItem('internshipOrderId',53)
+
         sessionStorage.setItem('registerId', props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.register_id)
         sessionStorage.setItem('internshipPrice', internshipPrice)
         sessionStorage.setItem('internFirstName', formDetails.firstName)
-        sessionStorage.setItem('internEmail', formDetails.email)
         sessionStorage.setItem('internphoneNo', formDetails.phoneNo)
+        sessionStorage.setItem('internEmail', formDetails.email)
         props.history.push({  pathname: '/internship-pricing'});
     }
   }, [props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess])
-  // console.log('prrrr', props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi)
+  console.log('prrrr', props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi)
 
   useEffect(() =>{
     if(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess
       && props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.response_code){
         
-        props.fetchInternshipRegisterMap(sessionStorage.getItem('registerId'),sessionStorage.getItem('internshipOrderId'))
-        // console.log('console fetch Internship Register Map',sessionStorage.getItem('registerId'),sessionStorage.getItem('internshipOrderId'))
+        props.fetchInternshipRegisterMap(sessionStorage.getItem('internshipOrderId'),sessionStorage.getItem('registerId'))
+        console.log('console fetch Internship Register Map',sessionStorage.getItem('registerId'),sessionStorage.getItem('internshipOrderId'))
       }
   }, [props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess])
   // const hitInternshipRegistrationApi = props.location.intershipProps.hitInternshipRegistration()
   const [formDetails, setFormDetails] = useState({
         firstName: '',
-        email: '', 
         phoneNo: '',
-        gender: '',
+        email: '', 
+        gender: ''
         // usn: '',
         // college: '',
         // university: '',
@@ -63,7 +65,8 @@ const CourseonemonthForm = (props) => {
   })
   const handleFormSubmit = (e) => {
     e.preventDefault()
-    props.hitInternshipRegistration(formDetails, sessionStorage.getItem('internshipPackageId') , sessionStorage.getItem('emiStatus'),)
+    props.hitInternshipRegistration(formDetails, sessionStorage.getItem('internshipPackageId'), sessionStorage.getItem('emiStatus'))
+    console.log('console by register api',sessionStorage.getItem('internshipPackageId'), sessionStorage.getItem('emiStatus'))
   }
 
   const handleInputChange = (e) => {
@@ -107,11 +110,12 @@ const CourseonemonthForm = (props) => {
             <div className="app-form-group">
               <input onChange={(e) => {handleInputChange(e)}} className="app-form-control" placeholder="FIRST NAME *" name="firstName" required />
             </div>
-            <div className="app-form-group">
-              <input type="email" onChange={(e) => {handleInputChange(e)}} className="app-form-control" placeholder="Email *" name="email" required />
-            </div>
+            
             <div className="app-form-group">
               <input type="number" onChange={(e) => {handleInputChange(e)}} className="app-form-control" type="tel" placeholder="CONTACT NO. *" maxLength="10" name="phoneNo" required />
+            </div>
+            <div className="app-form-group">
+              <input type="email" onChange={(e) => {handleInputChange(e)}} className="app-form-control" placeholder="Email *" name="email" required />
             </div>
             <div className="app-form-group">
                 <p className="IF_Gender_Title">GENDER *</p>
@@ -181,7 +185,7 @@ const mapDispatchToProps = dispatch => {
 return {
 
   hitInternshipRegistration : (data, internshipPackageId, emiStatus) => dispatch(hitInternshipRegistration(data, internshipPackageId, emiStatus)),
-  fetchInternshipRegisterMap : (registerId, internshipOrderId) => dispatch(fetchInternshipRegisterMap(registerId, internshipOrderId)),
+  fetchInternshipRegisterMap : (internshipOrderId, registerId) => dispatch(fetchInternshipRegisterMap(internshipOrderId, registerId)),
   fetchemiDetail : (package_id) => dispatch(fetchemiDetail(package_id))
 }
 }

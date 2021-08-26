@@ -8,6 +8,7 @@ const InternshipPricing = (props) => {
     // const userInfo = props.location.data.userDetails
     useEffect(() => {
         props.hitTokenGenerationAPI(appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, sessionStorage.getItem('internshipOrderId'))
+        console.log('hbkxj',appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, sessionStorage.getItem('internshipOrderId'))
 
     }, [])
     useEffect(() => {
@@ -15,6 +16,7 @@ const InternshipPricing = (props) => {
             props.TokenGeneration.TokenGeneration.TokenGenerationApi.TokenGeneration.status
             ){
                 setToken(props.TokenGeneration.TokenGeneration.TokenGenerationApi.TokenGeneration.data.signature)
+                console.log('signature',props.TokenGeneration.TokenGeneration.TokenGenerationApi.TokenGeneration.data.signature,props.TokenGeneration.TokenGeneration.TokenGenerationApi.TokenGenerationSuccess)
             }
     }, [props.TokenGeneration.TokenGeneration.TokenGenerationApi.TokenGenerationSuccess])
     // console.log('props', props)
@@ -22,13 +24,15 @@ const InternshipPricing = (props) => {
 
     // const [appId, setAppId] = useState('751028e31e3ca4ef21cd75c6c20157')
     const [appId, setAppId] = useState('121418d4bd3f626e1dfdc73fab814121')
-    const [orderAmount, setOrderAmount] = useState(sessionStorage.getItem('internshipPrice'))
+    // const [orderAmount, setOrderAmount] = useState(sessionStorage.getItem('internshipPrice'))
+    const [orderAmount, setOrderAmount] = useState('1499')
+
     const [customerName, setCustomerName] = useState(sessionStorage.getItem('internFirstName'))
     const [customerEmail, setCustomerEmail] = useState(sessionStorage.getItem('internEmail'))
     const [customerPhone, setCustomerPhone] = useState(sessionStorage.getItem('internphoneNo'))
     const [orderCurrency, setOrderCurrency] = useState('INR')
-    const [returnUrl, setReturnUrl] = useState('https://infoidol.com/admin/WebApi/get_internship_txn_status')
-    const [notifyUrl, setNotifyUrl] = useState('https://infoidol.com/admin/WebApi/get_internship_txn_status')
+    const [returnUrl, setReturnUrl] = useState('https://dev.infoidol.com/admin/LearningApi/setTxnStatus')
+    const [notifyUrl, setNotifyUrl] = useState('https://dev.infoidol.com/admin/LearningApi/setTxnStatus')
 
 
     return (

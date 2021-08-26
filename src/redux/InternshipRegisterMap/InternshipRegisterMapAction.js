@@ -26,16 +26,20 @@ export const internshipRegisterMapReset = () => {
     }
 }
 
-export const fetchInternshipRegisterMap = (registerId,internshipOrderId) => {
-    console.log('executed fromIntern Regd. Map action ....',registerId,internshipOrderId)
+export const fetchInternshipRegisterMap = (internshipOrderId,registerId) => {
+    console.log('executed fromIntern Regd. Map action ....',internshipOrderId,registerId)
     return (dispatch) => {
         dispatch(internshipRegisterMap())
-        var formData = new FormData();
-        formData.append('register_id', registerId);
-        formData.append('orderId', internshipOrderId);
+        // var formData = new FormData();
+        // formData.append('register_id', registerId);
+        // formData.append('orderId', internshipOrderId);
         // axios.post(`${BASE_URL}generate_token_for_android_sdk`,{
-            axios.post(`${BASE_URL}internship_register_map`,formData).then( response => {
+            // axios.post(`${BASE_URL}internship_register_map`,formData).then( response => {
         // console.log('response from VerifyReferral action', response)
+        axios.post(`https://dev.infoidol.com/admin/LearningApi/registerMap`,{
+            "orderId":internshipOrderId,
+            "register_id":registerId
+        }).then( response => {
             const internshipRegisterMapResponse = response.data
             dispatch(internshipRegisterMapSuccess(internshipRegisterMapResponse))
             setTimeout(function(){

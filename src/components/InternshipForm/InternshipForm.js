@@ -42,7 +42,7 @@ const InternshipForm = (props) => {
     if(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisterationSuccess
       && props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.response_code){
         
-        props.fetchInternshipRegisterMap(sessionStorage.getItem('registerId'),sessionStorage.getItem('internshipOrderId'))
+        props.fetchInternshipRegisterMap(sessionStorage.getItem('internshipOrderId'),sessionStorage.getItem('registerId'))
 
         // console.log('console fetch Internship Register Map',sessionStorage.getItem('registerId'),sessionStorage.getItem('internshipOrderId'))
       }

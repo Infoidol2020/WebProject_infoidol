@@ -27,27 +27,23 @@ export const internshipRegisterationReset = () => {
 }
 
 export const hitInternshipRegistration = (data, internshipPackageId, emiStatus) => {
-    console.log('executed from user order action ....', data)
+    console.log('executed from user order action ....', data,internshipPackageId, emiStatus)
+    const raw_data = {
+        "full_name": data.firstName,
+        "mobile": data.phoneNo,
+        "email": data.email,
+        "gender": data.gender,
+        "package_id": internshipPackageId,
+        "emi_status" : emiStatus
+
+    };
+    console.log('jk',raw_data)
     return (dispatch) => {
         dispatch(internshipRegisteration)
         // axios.post(`${BASE_URL}internship_register_form`,{
-        axios.post(`https://dev.infoidol.com/admin/LearningApi/studentRegister`,{
-            "full_name": data.firstName,
-            "email": data.email,
-            "mobile": data.phoneNo,
-            "gender": data.gender,
-            // "usn": data.usn,
-            // "college": data.college,
-            // "university": data.university,
-            // "semester": data.semester,
-            // "branch": data.branch,
-            // "degree": data.degree,
-            // "subject_id": internshipSubjectId,
-            "package_id": internshipPackageId,
-            "emi" : emiStatus
-
-        }).then( response => {
+        axios.post(`https://dev.infoidol.com/admin/LearningApi/studentRegister`,raw_data).then( response => {
                 const internshipRegisteration = response.data
+                console.log('response internship Registeration',internshipRegisteration)
                 dispatch(internshipRegisterationSuccess(internshipRegisteration))
         }).catch(error => {
             const errorMsg = error.message
