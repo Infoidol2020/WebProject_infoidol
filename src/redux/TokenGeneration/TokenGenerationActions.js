@@ -33,10 +33,7 @@ export const hitTokenGenerationAPI = (appId, customerName, customerEmail, custom
     // console.log('executed from TokenGeneration action', DEVICE_ID, USER_ID, appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, orderId)
     return (dispatch) => {
         dispatch(TokenGeneration())
-            // axios.post(`${BASE_URL}generate_signature`,{
-            axios.post(`https://dev.infoidol.com/admin/LearningApi/generateSignature`,{
-            "device_id": DEVICE_ID,
-            "user_id": USER_ID,
+        const Signature_data = {
             "appId": appId,
             "customerName": customerName,
             "customerEmail": customerEmail,
@@ -46,11 +43,19 @@ export const hitTokenGenerationAPI = (appId, customerName, customerEmail, custom
             "returnUrl": returnUrl,
             "notifyUrl": notifyUrl,
             "orderId": orderId
+        };
+        console.log('Signature',Signature_data)
+            // axios.post(`${BASE_URL}generate_signature`,{
+            axios.post(`https://dev.infoidol.com/admin/LearningApi/generateSignature`,Signature_data).then( response => {
+            // "device_id": DEVICE_ID,
+            // "user_id": USER_ID,
+            
 
-        }).then( response => {
+       
         // console.log('response from TokenGeneration action', response.data)
             const TokenGenerationResponse = response.data
             dispatch(TokenGenerationSuccess(TokenGenerationResponse))
+            console.log('response token signature',TokenGenerationResponse)
         //     setTimeout(function(){
         //         dispatch(TokenGenerationReset())
         //    }, 1000);

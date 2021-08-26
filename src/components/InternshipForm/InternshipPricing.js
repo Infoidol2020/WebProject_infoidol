@@ -1,3 +1,4 @@
+import { PersonPinSharp } from '@material-ui/icons';
 import React, {useState, useEffect} from 'react'
 import {connect} from 'react-redux';
 
@@ -6,6 +7,7 @@ import { hitTokenGenerationAPI } from '../../redux/TokenGeneration/TokenGenerati
 
 const InternshipPricing = (props) => {
     // const userInfo = props.location.data.userDetails
+    console.log('tokenprops',props)
     useEffect(() => {
         props.hitTokenGenerationAPI(appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, sessionStorage.getItem('internshipOrderId'))
         console.log('hbkxj',appId, customerName, customerEmail, customerPhone, orderAmount, orderCurrency, returnUrl, notifyUrl, sessionStorage.getItem('internshipOrderId'))
@@ -24,8 +26,8 @@ const InternshipPricing = (props) => {
 
     // const [appId, setAppId] = useState('751028e31e3ca4ef21cd75c6c20157')
     const [appId, setAppId] = useState('121418d4bd3f626e1dfdc73fab814121')
-    // const [orderAmount, setOrderAmount] = useState(sessionStorage.getItem('internshipPrice'))
-    const [orderAmount, setOrderAmount] = useState('1499')
+    const [orderAmount, setOrderAmount] = useState(sessionStorage.getItem('internshipPrice'))
+    // const [orderAmount, setOrderAmount] = useState('1499')
 
     const [customerName, setCustomerName] = useState(sessionStorage.getItem('internFirstName'))
     const [customerEmail, setCustomerEmail] = useState(sessionStorage.getItem('internEmail'))
