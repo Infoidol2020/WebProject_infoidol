@@ -9,6 +9,7 @@
 }
 .newInternship-pricing-title {
     font-size: 36px;
+    padding: 2rem;
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
@@ -46,6 +47,8 @@
 .newInternship-pricing-desc {
     font-family: sans-serif;
     letter-spacing: 0.08rem;
+    font-size: 17px;
+    margin-top: -1vh;
 }
 .pricing-Details > ul {
     color: darkslategray;

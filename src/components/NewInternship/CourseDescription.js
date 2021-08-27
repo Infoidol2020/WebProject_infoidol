@@ -16,12 +16,15 @@ const CourseDescription = (props) => {
         // props.fetchInternshipCourses()
         props.fetchInternshipCoursesDetails(sessionStorage.getItem('internshipSubjectId'))
     }, [])
-
+    const handleRegisteronemonth = (package_id) =>{
+        sessionStorage.setItem('internshipPackageId',package_id)
+        sessionStorage.setItem('emiStatus',0)
+    }
     useEffect(() => {
     if(props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess &&
         props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.package_detail){
             setCourseDescription( props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails.package_detail)
-            console.log(' props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0]', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess)
+            // console.log(' props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetails[0]', props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess)
         }
 
     }, [props.InternshipSubjectsApi.InternshipSubjectsDetails.internshipSubjectsDetailsDetailsGetApi.internshipSubjectsDetailsSuccess])
@@ -55,9 +58,11 @@ const CourseDescription = (props) => {
                                     </div>
 
                                     <div className="course-register-30button">
-                                    <Link to='/course-onemonth-form'>
-                                        <button  onClick={() => sessionStorage.setItem('internshipPackageId', courseElem.package_id)} >Register Now</button>
+                                    <Link to='/registeration-form'>
+                                        <button  onClick={() => handleRegisteronemonth(courseElem.package_id)} >Register Now</button>
                                         </Link>
+                                        <br/>
+                                        <p className="internshipCourses-regd-note"><mark>** Register @INR {Math.floor(courseElem.price/2)} only/- & Start your classes. Pay remaining after course completion **</mark></p>
                                     </div>
                                 </div>
                             }

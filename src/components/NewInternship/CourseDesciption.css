@@ -3,6 +3,7 @@
     font-size: 36px;
     font-weight: bold;
     color: white;
+    padding: 2rem;
 }
 .course-description-container{
     height: 57rem;
@@ -11,7 +12,7 @@
 .course-flex-container{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 6vh;
+    /* margin-top: 6vh; */
 }
 .desciption-one-month{
     width: 40vw;
@@ -21,7 +22,7 @@
 border: 1px solid #B5C1CD;
 border-radius: 20px;
 opacity: 1;
-    height: auto;
+height: 59vh;
 }
 .desciption-three-month{
     width: 40vw;
@@ -31,6 +32,8 @@ opacity: 1;
     border: 1px solid #B5C1CD;
     border-radius: 20px;
     opacity: 1;
+    height: 59vh;
+
     /* margin-left: 2vw; */
 }
 .description-top{
@@ -139,4 +142,8 @@ opacity: 1;
     opacity: 1;
 width: 14vw;
 border: none;
+}
+.internshipCourses-regd-note {
+    text-align: center;
+    margin-top: 1rem;
 }

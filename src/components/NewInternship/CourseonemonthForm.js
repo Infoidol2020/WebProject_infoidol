@@ -24,7 +24,7 @@ const CourseonemonthForm = (props) => {
       && props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.response_code){
         // setPrice(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price)
         console.log('setPrice',props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi)
-        const internshipPrice = Math.floor(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price)
+        const internshipPrice = Math.floor(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.price/2)
 
         setRegisterId(props.InternshipRegisterationApi.internshipRegisteration.internshipRegisterationGetApi.internshipRegisteration.data.register_id)
         sessionStorage.setItem('internshipOrderId', uuid())

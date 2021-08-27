@@ -61,9 +61,9 @@ const Sidebar = () => {
                     </Link>
                 </div> */}
                 <div className="sidebar-elements" onClick= {handleClick}>
-                    <Link to='/internship-page-new' style={{color: '#fff'}}>
+                    <Link to='/learning-page' style={{color: '#fff'}}>
                         <span  ><SchoolIcon id="iconnn"/></span>
-                        <div className="SideBar_ContentTitle">Internship</div>
+                        <div className="SideBar_ContentTitle">Learning</div>
                     </Link>
                 </div>
                 {

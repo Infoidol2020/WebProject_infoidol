@@ -20,24 +20,24 @@ const NInternshipLearn = () => {
                     <div className="Internship_learn">
                         <img src={InternLearn} alt=""/>
                         <h4>Learn</h4>
-                        <p>Build your coding and designing</p>
-                        <p style={{marginTop:'-1.2vh'}}>skills from scratch.</p>
+                        <p style={{fontSize:'17px'}}>Build your coding and designing</p>
+                        <p style={{marginTop:'-1.2vh',fontSize:'17px'}}>skills from scratch.</p>
 
 
                     </div>
                     <div className="Internship_Earn">
                         <img src={InternEarn} alt=""/>
                         <h4>Earn</h4>
-                        <p>The more you learn the </p>
-                        <p style={{marginTop:'-1.2vh'}}> more you earn.</p>
+                        <p style={{fontSize:'17px'}}>The more you learn the </p>
+                        <p style={{marginTop:'-1.2vh',fontSize:'17px'}}> more you earn.</p>
 
 
                     </div>
                     <div className="Internship_profit">
                         <img src={InternGrow} alt=""/>
                         <h4>Profit</h4>
-                        <p>Experience professional growth by </p>
-                        <p style={{marginTop:'-1.2vh'}}> solving real-world problem.</p>
+                        <p style={{fontSize:'17px'}}>Experience professional growth by </p>
+                        <p style={{marginTop:'-1.2vh',fontSize:'17px'}}> solving real-world problem.</p>
 
                     </div>
                 

@@ -186,11 +186,11 @@ function App() {
               <Route path="/internship-payment-failure" component={InternshipPaymentFailure} />
 
               <Route path="/referral-withdraw" component={ReferAndEarnWithdraw} />
-              <Route path="/internship-page-new" component={NewInternship} />
+              <Route path="/learning-page" component={NewInternship} />
               <Route path="/internship-learning" component={NInternshipLearn} />
               {/* <Route path="/internship-page-new" component={NewInternshipSubCard} />
               <Route path="/internship-page-new" component={NewInternshipPricing} /> */}
-              <Route path="/course-onemonth-form" component={CourseonemonthForm} />
+              <Route path="/registeration-form" component={CourseonemonthForm} />
 
               
 
