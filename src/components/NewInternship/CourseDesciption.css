@@ -106,12 +106,12 @@ opacity: 1;
 .topic-container::-webkit-scrollbar-thumb:hover {
     background: #FFFFFF; 
 }
-.course-topics{
-    color:white;
+.course-topics {
+    color: white;
     display: flex;
-    font-size: large;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.1rem;
+    font-size: 17px;
+    word-spacing: 0.05rem;
+    letter-spacing: 0.05rem;
 }
 .course-register-30button {
     text-align: center;
@@ -146,4 +146,235 @@ border: none;
 .internshipCourses-regd-note {
     text-align: center;
     margin-top: 1rem;
+}
+
+@media only screen and (max-width:320px){
+    .course-description-container {
+        height: 93rem;
+        width: 93vw;
+        margin-top: 5vh;
+    }
+    .num-of-days {
+        font-size: 21px;
+
+    }
+    .course-heading {
+        margin-left: 1rem;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding: 1.5rem;
+    }
+    .course-flex-container {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 0vh;
+    }
+    .desciption-one-month {
+        width: 89vw;
+        margin-left: 2.1vw;
+        height: 68vh;
+    }
+    .course-price-30 {
+        width: 21vw;
+        margin-left: 3vw;
+        font-size: 21px;
+    }
+    .course-register-30button button {
+        width: 58vw;
+    }
+    .topic-container {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        height: 32vh;
+        margin-bottom: 4vh;
+        padding: 0 0.4rem;
+    }
+    .desciption-three-month {
+        width: 89vw;
+        margin-left: 2.1vw;
+        height: 61vh;
+        margin-top: 3vh;
+    }
+    .course-price-90{
+        width: 21vw;
+        margin-left: 3vw;
+        font-size: 21px;
+    }
+    .course-register-90button button {
+        width: 58vw;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .course-description-container {
+        height: 105rem;
+        margin-top: 5vh;
+    }
+    .course-heading {
+        margin-left: 0rem;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding: 1rem;
+        text-align: center
+    }
+    .course-flex-container {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 0vh;
+    }
+    .desciption-one-month {
+        width: 87vw;
+        margin-left: 2.2vw;
+        height: 68vh;
+    }
+    .course-price-30 {
+        width: 18vw;
+        margin-left: 6vw;
+        font-size: 1.9rem;
+        color: black;
+    }
+    .course-register-30button button {
+        width: 47vw;
+    }
+    .topic-container {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        height: 32vh;
+        margin-bottom: 5vh;
+        padding: 0 0.4rem;
+    }
+    .desciption-three-month {
+        width: 87vw;
+        margin-left: 2.2vw;
+        height: 61vh;
+        margin-top: 3vh;
+    }
+    .course-price-90{
+        width: 18vw;
+        margin-left: 6vw;
+        font-size: 1.9rem;
+        color: black;
+    }
+    .course-register-90button button {
+        width: 47vw;
+    }
+    #course-certificate-blank {
+        height: 0 !important;
+    }
+    .num-of-days {
+        font-weight: bold;
+        font-size: 1.9rem;
+        color: white;
+        /* font-variant-caps: all-small-caps; */
+    }
+}
+@media only screen and (min-width:401px) and (max-width:415px){
+    .course-description-container {
+        height: 105rem;
+        margin-top: 5vh;
+    }
+    .course-flex-container {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 0vh;
+    }
+    .desciption-one-month {
+        width: 89vw;
+        margin-left: 2vw;
+        height: 64vh;
+    }
+    .course-price-30 {
+        width: 18vw;
+        margin-left: 15vw;
+        font-size: 2rem;
+
+    }
+    .course-register-30button button {
+        width: 47vw;
+    }
+    .topic-container {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        height: 32vh;
+        margin-bottom: 5vh;
+        padding: 0 0.4rem;
+    }
+    .desciption-three-month {
+        width: 89vw;
+        margin-left: 2vw;
+        height: 58vh;
+        margin-top: 3vh;
+    }
+    .course-price-90{
+        width: 18vw;
+        margin-left: 15vw;
+        font-size: 2rem;
+
+    }
+    .course-register-90button button {
+        width: 47vw;
+    }
+    #course-certificate-blank {
+        height: 0 !important;
+    }
+    .num-of-days {
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+        /* font-variant-caps: all-small-caps; */
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width:500px){
+    .course-description-container{
+        height: 105rem;
+        margin-top: 5vh;
+    }
+    .course-flex-container {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 0vh;
+    }
+    .desciption-one-month {
+        width: 89vw;
+        margin-left: 2vw;
+        height: 68vh;
+    }
+    .course-price-30 {
+        width: 18vw;
+        margin-left: 15vw;
+        font-size: 2rem;
+    }
+    .course-register-30button button {
+        width: 47vw;
+    }
+    .topic-container {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        height: 32vh;
+        margin-bottom: 5vh;
+        padding: 0 0.4rem;
+    }
+    .desciption-three-month {
+        width: 89vw;
+        margin-left: 2vw;
+        height: 65vh;
+        margin-top: 3vh;
+    }
+    .course-price-90{
+        width: 18vw;
+        margin-left: 15vw;
+        font-size: 2rem;
+    }
+    .course-register-90button button {
+        width: 47vw;
+    }
+    .num-of-days {
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+        /* font-variant-caps: all-small-caps; */
+    }
 }

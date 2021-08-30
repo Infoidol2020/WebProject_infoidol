@@ -64,3 +64,8 @@ return {
 }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(NewInternship)
+
+// @media only screen and (max-width:320px){
+    
+// }
+// @media only screen and (min-width:321px) and (max-width:400px ){

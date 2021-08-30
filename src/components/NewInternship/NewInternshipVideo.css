@@ -1,0 +1,33 @@
+@media only screen and (max-width: 500px){
+    .NewInternshipVideo {
+        width: 68.3vw !important;
+        height: 23vh !important;
+        border-radius: 1rem;
+    }
+    .NewInternship-video {
+        margin-left: 6.5rem !important;
+        margin-top: -23.5vh !important;
+    }
+}
+@media only screen and (max-width:320px){
+    .NewInternship-video {
+        margin-left: 4.8rem !important;
+        margin-top: -21.5vh !important;
+    }
+    .NewInternshipVideo {
+        width: 69.3vw !important;
+        height: 21vh !important;
+        border-radius: 1rem;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:399px ){
+    .NewInternship-video {
+        margin-left: 5.4rem !important;
+        margin-top: -22.5vh !important;
+    }
+    .NewInternshipVideo {
+        width: 69vw !important;
+        height: 22vh !important;
+        border-radius: 1rem;
+    }
+}

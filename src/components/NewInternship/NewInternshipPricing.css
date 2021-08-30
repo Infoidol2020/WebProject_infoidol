@@ -56,3 +56,188 @@
 #newinternshipPricing-blank{
     height: 8rem;
 }
+@media only screen and (max-width: 500px){
+    .NewInternshipPricingContainer {
+        margin-left: 7vw;
+        background: #083058;
+        margin-top: -5rem;
+        text-align: center;
+        color: white;
+        width: 86.9vw;
+        height: 115rem;
+        /* padding: 3rem; */
+    }
+    .newInternship-pricing-title {
+        font-size: 31px;
+        padding: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .newInternship-pricing-desc {
+        font-family: sans-serif;
+        letter-spacing: 0.08rem;
+        font-size: 12px;
+        margin-top: -1vh;
+    }
+    .pricing-comparision {
+        /* background: yellow; */
+        height: 47.875rem;
+        display: block;
+        justify-content: center;
+    }
+    .pricing-compare-tabs {
+        background: #fff;
+        /* background: yellowgreen; */
+        height: 46.875rem;
+        width: 34.813rem;
+        margin: 2rem 1rem;
+        margin-bottom: 6rem;
+    }
+    .pricing-Learning-Program {
+        font-family: ui-serif;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 35rem;
+    }
+    .pricing-30days-pic {
+        width: 33rem;
+        height: 19rem;
+        margin-top: -1rem;
+    }
+    .pricing-Details {
+        color: black;
+        font-size: large;
+        text-align: start;
+        font-family: ui-sans-serif;
+        word-spacing: 0.1rem;
+    }
+    #newInternship-partner-blank {
+        height: 0vh !important;
+    }
+}
+@media only screen and (max-width:320px){
+    .NewInternshipPricingContainer {
+        margin-left: 7vw;
+        background: #083058;
+        margin-top: -5rem;
+        text-align: center;
+        color: white;
+        width: 86vw;
+        height: 121rem;
+    }
+    .newInternship-pricing-title {
+        font-size: 31px;
+        padding: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .newInternship-pricing-desc {
+        font-family: sans-serif;
+        letter-spacing: 0.08rem;
+        font-size: 11px;
+        margin-top: -2vh;
+        padding: 0.5rem;
+    }
+    .pricing-comparision {
+        /* background: yellow; */
+        height: 47.875rem;
+        display: block;
+        justify-content: center;
+    }
+    .pricing-compare-tabs {
+        background: #fff;
+        /* background: yellowgreen; */
+        height: 49rem;
+        width: 25.5rem;
+        margin: 1rem 1rem;
+        margin-bottom: 6rem;
+    }
+    .pricing-Learning-Program {
+        font-family: ui-serif;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: bold;
+        width: auto;
+        /* margin-left: -5rem; */
+        padding-top: 1rem;
+        /* background: yellowgreen; */
+    }
+    .pricing-30days-pic {
+        width: 25rem;
+        height: 15rem;
+        margin-top: -1rem;
+    }
+    .pricing-Details {
+        color: black;
+        font-size: 1.7rem;
+        text-align: start;
+        font-family: ui-sans-serif;
+        /* word-spacing: 0.1rem; */
+        padding: 0.5rem;
+        margin-left: -1rem;
+    }
+
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .NewInternshipPricingContainer {
+        margin-left: 7vw;
+        background: #083058;
+        margin-top: -5rem;
+        text-align: center;
+        color: white;
+        width: 86.9vw;
+        height: 119rem;
+    }
+    .newInternship-pricing-title {
+        font-size: 31px;
+        padding: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .newInternship-pricing-desc {
+        font-family: sans-serif;
+        font-size: 11px;
+        margin-top: -1vh;
+        padding: 0 1.5rem;
+    }
+    .pricing-comparision {
+        /* background: yellow; */
+        height: 47.875rem;
+        display: block;
+        justify-content: center;
+    }
+    .pricing-compare-tabs {
+        background: #fff;
+        /* background: yellowgreen; */
+        height: 49rem;
+        width: 29rem;
+        margin: 1rem 1rem;
+        margin-bottom: 6rem;
+    }
+    .pricing-Learning-Program {
+        font-family: ui-serif;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 29rem;
+        padding: 1rem;
+    }
+    .pricing-30days-pic {
+        width: 29rem;
+        height: 19rem;
+        margin-top: -1rem;
+    }
+    .pricing-Details {
+        color: black;
+        font-size: 1.7rem;
+        text-align: start;
+        font-family: ui-sans-serif;
+        /* word-spacing: 0.1rem; */
+        padding: 0.5rem;
+        margin-left: -1rem;
+    }
+}

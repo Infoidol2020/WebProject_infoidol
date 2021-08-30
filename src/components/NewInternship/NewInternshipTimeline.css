@@ -90,3 +90,8 @@
 #newInternshipTimeline-blank{
   height: 6rem;
 }
+@media only screen and (max-width: 500px){
+  .NewInternshipTimeline {
+    display: none;
+  }
+}

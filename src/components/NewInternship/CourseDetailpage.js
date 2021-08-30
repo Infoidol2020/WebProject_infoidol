@@ -33,7 +33,7 @@ const CourseDetailpage = (props) => {
         <div>
             {/* <Navbar/>
             <Sidebar/> */}
-            <section style={{marginTop:'-7rem'}}> 
+            <section > 
             <CourseTab/>
             </section>
             <CourseBanner {...props}/>
@@ -47,17 +47,7 @@ const CourseDetailpage = (props) => {
             <CourseDetailAdms/>
             <CourseToolCovered {...props}/>
             <CourseGraph {...props} />
-
-            {/* <CourseIdeal/>  */}
-
-            {/* <CourseDetail {...props}/>
-            <CourseAdvantage {...props}/>
-            <CourseCertificate/>
-            <CourseDescription  {...props}/>
-            <CourseToolCovered {...props}/>
-            <CourseDetailAdms/>
-            <CourseGraph {...props} />
-            <CourseIdeal/> */}
+    
 
         </div>
     )

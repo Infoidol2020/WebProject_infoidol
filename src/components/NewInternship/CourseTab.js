@@ -25,7 +25,7 @@ const CourseTab = () => {
                 </div>
                 <div className="courseCourse">
                 <a href="#course-detail-blank">
-                    <button>Key Features</button>
+                    <button>Features</button>
                     </a>                
                 </div>
                 <div className="coursePrice">

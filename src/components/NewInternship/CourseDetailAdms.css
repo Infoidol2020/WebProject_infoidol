@@ -40,3 +40,116 @@
     /* background: #ebf1f8;; */
     background:rgb(39, 40, 61);
 }
+
+@media only screen and (max-width:320px){
+    .course-details-adms-process-container {
+        display: block;
+    }
+    .CourseDetailAdms {
+        margin-left: 0rem;
+        width: 93vw;
+        height: 87rem;
+    }
+    .CourseDetailAdmsHeading {
+        margin-left: 0rem;
+        padding: 0 0.1rem;
+        font-size: 32px;
+    }
+    .adms-process-img-container {
+        margin-left: 0vw;
+        height: 24rem;
+        margin-top: 3vh;
+        width: 81vw;
+    }
+    .adms-process-img {
+        width: 22rem;
+        height: 15rem;
+        margin-left: 6vw;
+        margin-top: 3vh;
+    }
+    .adms-process-brief {
+        font-size: 2.3rem;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px){
+    .course-details-adms-process-container {
+        display: block;
+    }
+    .CourseDetailAdms {
+        margin-left: 0rem;
+        width: 93vw;
+        height: 88rem;
+    }
+    .CourseDetailAdmsHeading {
+        margin-left: 0rem;
+        /* padding: 0 1.1rem; */
+        font-size: 31px;
+        text-align: center;
+    }
+    .adms-process-img-container {
+        margin-left: 4vw;
+        height: 24rem;
+        margin-top: 3vh;
+        width: 76vw;
+    }
+    .adms-process-img {
+        width: 23rem;
+        height: 18rem;
+        margin-left: 6vw;
+    }
+    .adms-process-brief {
+        font-size: 2.3rem;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:415px){
+    .course-details-adms-process-container {
+        display: block;
+    }
+    .CourseDetailAdms {
+        margin-left: 0rem;
+        width: 93vw;
+        height: 95rem;
+    }
+    .CourseDetailAdmsHeading {
+        margin-left: 0rem;
+        padding: 0 1.1rem;
+        text-align: center;
+    }
+    .adms-process-img-container {
+        margin-left: 4vw;
+        height: 26rem;
+        margin-top: 4vh;
+        width: 76vw;
+    }
+    .adms-process-img {
+        width: 26rem;
+        height: 20rem;
+        margin-left: 6vw;
+    }
+}
+@media only screen and (min-width:416px) and (max-width:500px){
+    .course-details-adms-process-container {
+        display: block;
+    }
+    .CourseDetailAdms {
+        margin-left: 0rem;
+        width: 93vw;
+        height: 95rem;
+    }
+    .CourseDetailAdmsHeading {
+        margin-left: 0rem;
+        padding: 0 3.1rem;
+    }
+    .adms-process-img-container {
+        margin-left: 4vw;
+        height: 26rem;
+        margin-top: 4vh;
+        width: 76vw;
+    }
+    .adms-process-img {
+        width: 26rem;
+        height: 20rem;
+        margin-left: 6vw;
+    }
+}

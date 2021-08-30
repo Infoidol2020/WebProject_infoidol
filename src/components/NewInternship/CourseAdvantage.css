@@ -18,3 +18,59 @@
     margin-top: 3vh;
     font-size: large;
 }
+@media only screen and (max-width:320px){
+    .course-advantage-heading {
+        margin-left: 0rem;
+        margin-top: 4vh;
+        text-align: center;
+        font-size: 23px;
+    }
+    .course-advantage {
+        width: 93vw;
+        margin-left: 0vw;
+        background: ghostwhite;
+        font-family: 'Roboto', sans-serif !important;
+        margin-top: 1vh;
+        font-size: initial;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .course-advantage-heading {
+        margin-left: 0rem;
+        margin-top: 8vh;
+        text-align: center;
+        font-size: 29px;
+    }
+    .course-advantage {
+        width: 88vw;
+        margin-left: 2vw;
+        background: ghostwhite;
+        font-family: 'Roboto', sans-serif !important;
+        margin-top: 1vh;
+        font-size: initial;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .course-advantage-container{
+        /* background: aliceblue; */
+    }
+    .course-advantage-heading {
+        margin-left: 0rem;
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 30px;
+    }
+    .course-advantage {
+        width: 92vw;
+        margin-left: 2vw;
+        background: ghostwhite;
+        font-family: 'Roboto', sans-serif !important;
+        margin-top: 1vh;
+        font-size: initial;
+        text-align: center;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-// import internshipbanner from '../../assets/newInternshipBanner.png'
+import newinternshipbanMob from '../../assets/newinternshipbanMob.png'
 import newinternshipbanner from '../../assets/newinternshipbanners.png'
 
 import './InternshipBanner.css'
@@ -8,8 +8,8 @@ const InternshipBanner = () => {
         <div>
             <div className="NewInternship_Picture ">
                     <img src={newinternshipbanner} alt="" className="Ind_img" />
+                    <img src={newinternshipbanMob} alt="" className="newinternshipbanMob-img" />
                 </div>
-            
         </div>
     )
 }

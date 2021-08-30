@@ -17,3 +17,117 @@
     height: 21vw;
     margin-left: 28vw;
 }
+
+@media only screen and (max-width:320px){
+    .course-certification-heading {
+        font-size: 25px;
+        margin-left: 0vw;
+        text-align: center;
+    }
+    .course-certificate-arrow{
+        width: 25px !important;
+        height: 23px !important;
+    }
+    .course-certificate-points {
+        margin-left: -5vw;
+    }
+    .course-certificate-points >ul li {
+        margin-bottom: 0.6rem;
+        font-weight: bold;
+        font-size: initial;
+        display: flex;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.01rem;
+    }
+    .course-certificate-container{
+        margin-left: 0rem !important;
+    }
+    .course-certificate-flex{
+        display: block !important;
+    }
+    .course-internship-certificate-image {
+        display: flex;
+        justify-content: center;
+    }
+    .course-internship-certificate-image img {
+        margin-top: 2rem;
+        width: 77vw;
+        height: 54vw;
+        margin-left: 1vw;
+    }
+    #course-Dummy-blank{
+        height: 5vh !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .course-certification-heading {
+        font-size: 29px;
+        margin-left: 0vw;
+        text-align: center;
+    }
+    .course-certificate-arrow{
+        width: 25px !important;
+        height: 23px !important;
+    }
+    .course-certificate-points {
+        margin-left: -5vw;
+    }
+    .course-certificate-points >ul li {
+        margin-bottom: 0.6rem;
+        font-weight: bold;
+        font-size: initial;
+        display: flex;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.01rem;
+    }
+    .course-certificate-container{
+        margin-left: 0rem !important;
+    }
+    .course-certificate-flex{
+        display: block !important;
+    }
+    .course-internship-certificate-image {
+        display: flex;
+        justify-content: center;
+    }
+    .course-internship-certificate-image img {
+        margin-top: 2rem;
+        width: 74vw;
+        height: 47vw;
+        margin-left: 0vw;
+    }
+    #course-Dummy-blank{
+        height: 5vh !important;
+    }
+    #course-certificate-blank {
+        height: 0 !important;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .course-certification-heading {
+        font-size: 30px;
+        margin-left: 0vw;
+        text-align: center;
+    }
+    .course-certificate-container{
+        margin-left: 0rem !important;
+    }
+    .course-certificate-flex{
+        display: block !important;
+    }
+    .course-internship-certificate-image {
+        display: flex;
+        justify-content: center;
+    }
+    .course-internship-certificate-image img {
+        margin-top: 2rem;
+        width: 74vw;
+        height: 47vw;
+        margin-left: 0vw;
+    }
+    #course-Dummy-blank{
+        height: 5vh !important;
+    }
+}

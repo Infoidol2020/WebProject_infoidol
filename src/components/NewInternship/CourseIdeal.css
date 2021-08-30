@@ -42,3 +42,115 @@
     word-spacing: 0.3rem;
     font-size: initial;
 }
+
+@media only screen and (max-width:320px){
+    div#course-IdealLearning-blank {
+        height: 4vh !important;
+    }
+    .CourseIdealContainer {
+        margin-left: 0rem;
+    }
+    .course-ideal-heading {
+        font-size: 33px;
+    }
+    .course-ideal-sub-heading {
+        font-size: 17px;
+        margin-left: 0vw;
+        margin-top: -1vh;
+    }
+    .course-ideal-flex{
+        display: block !important;
+    }
+    .course-user {
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-eligible{
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-ideal-img {
+        width: 20vw !important;
+    }
+    .course-content {
+        font-size: 16px;
+    }
+    #course-Admission-blank{
+        height: 5vh !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .CourseIdealContainer {
+        margin-left: 0rem;
+    }
+    .course-ideal-heading {
+        font-size: 34px;
+    }
+    .course-ideal-sub-heading {
+        font-size: 17px;
+        margin-left: 0vw;
+    }
+    .course-ideal-flex{
+        display: block !important;
+    }
+    .course-user {
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-eligible{
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-ideal-img{
+        width: 15vw !important;
+    }
+    .course-content {
+        font-size: 16px;
+    }
+    #course-Admission-blank{
+        height: 5vh !important;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .CourseIdealContainer {
+        margin-left: 0rem;
+    }
+    .course-ideal-heading {
+        font-size: 36px;
+    }
+    .course-ideal-sub-heading {
+        font-size: 19px;
+        margin-left: 0vw;
+    }
+    .course-ideal-flex{
+        display: block !important;
+    }
+    .course-user {
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-eligible{
+        border-radius: 22px;
+        padding: 27px 0;
+        width: 83vw;
+        margin-left: 5vw;
+    }
+    .course-ideal-img{
+        width: 15vw !important;
+    }
+    .course-content {
+        font-size: 17px;
+    }
+}

@@ -9,7 +9,7 @@ import giphyy from '../../assets/giphy.gif'
 const CourseDummyBlock = () => {
     return (
         <div className="course-Block" >
-            <img  style={{width:'27vw',height:'30vh',marginLeft:'3vw'}} src={giphyy} alt="broken-img"/>
+            <img  className="course-dummy-img" style={{width:'27vw',height:'30vh',marginLeft:'3vw'}} src={giphyy} alt="broken-img"/>
             <p className="course-dummy-para">Build internship-grade projects and gain real developer work experience today </p>
         </div>
     )

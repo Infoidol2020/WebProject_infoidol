@@ -19,3 +19,63 @@
         padding: 4rem;
     
 }
+
+@media only screen and (max-width:320px){
+    .course-Block {
+        display: block;
+        width: 93vw;
+        margin-left: 0rem;
+        padding: 3rem;
+    }
+    .course-dummy-img{
+        width: 74vw !important;
+    height: 22vh !important;
+    margin-left: 0vw !important;
+    }
+    .course-dummy-para {
+        width: 88vw;
+        margin-left: -7vw;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .course-Block {
+        display: block;
+        width: 93vw;
+        margin-left: 0rem;
+        padding: 4rem;
+    }
+    .course-dummy-img{
+        width: 74vw !important;
+    height: 22vh !important;
+    margin-left: 0vw !important;
+    }
+    .course-dummy-para {
+        width: 88vw;
+        margin-left: -7vw;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .course-Block {
+        display: block;
+        width: 93vw;
+        margin-left: 0rem;
+        padding: 4rem;
+    }
+    .course-dummy-img{
+        width: 74vw !important;
+    height: 30vh !important;
+    margin-left: 0vw !important;
+    }
+    .course-dummy-para {
+        width: 88vw;
+        margin-left: -7vw;
+        font-size: 22px;
+        text-align: center;
+    }
+}

@@ -4,3 +4,24 @@
     height: 42vw;
     margin-left: 1rem;
 }
+@media only screen and  (max-width:320px){
+    .course-banner-container img {
+        width: 93vw;
+        height: 55vw;
+        margin-left: 0rem;
+    }
+    #course-overview-blank{
+        height: 5vh !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:500px){
+    .course-banner-container img {
+        width: 93vw;
+        height: 43vw;
+        margin-left: 0rem;
+    }
+    #course-overview-blank{
+        height: 5vh !important;
+    }
+}

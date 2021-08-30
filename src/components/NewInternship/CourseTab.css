@@ -1,6 +1,7 @@
 .courseTab{
-    margin-top: 11vh;
+    /* margin-top: 11vh; */
     margin-left: 5vw;
+    cursor: pointer;
 }
 .course-tabs {
     font-size: small;
@@ -37,4 +38,88 @@
     border: none;
     background: none;
 
+}
+@media only screen and (max-width:320px){
+    .courseTab{
+        /* margin-top: 11vh; */
+        margin-left: 0vw;
+        margin-top: 2vh;
+        justify-content: space-between !important;
+    }
+    .courseTab button {
+        margin-left: -3vw;
+        font-size: 1.3rem;
+    }
+    .courseCourse button {
+        margin-left: 0vw;
+    }
+    .coursePrice button{
+        margin-left: 0vw;
+    }
+    .courseProcess button{
+        margin-left: 0vw;
+    }
+    .coursePartner button{
+        margin-left: 0vw;
+    }
+    p.course-details-Career {
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .courseTab{
+        /* margin-top: 11vh; */
+        margin-left: 0vw;
+        margin-top: 2vh;
+        justify-content: space-between !important;
+    }
+    .courseTab button {
+        margin-left: -3vw;
+        font-size: 1.35rem;
+    }
+    .courseCourse button {
+        margin-left: 0vw;
+    }
+    .coursePrice button{
+        margin-left: 0vw;
+    }
+    .courseProcess button{
+        margin-left: 0vw;
+    }
+    .coursePartner button{
+        margin-left: 0vw;
+    }
+    p.course-details-Career {
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .courseTab{
+        /* margin-top: 11vh; */
+        margin-left: 0vw;
+        margin-top: 2vh;
+        justify-content: space-between !important;
+    }
+    .courseTab button {
+        margin-left: 0vw;
+        font-size: 1.49rem;
+    }
+    .courseCourse button {
+        margin-left: 0vw;
+    }
+    .coursePrice button{
+        margin-left: 0vw;
+    }
+    .courseProcess button{
+        margin-left: 0vw;
+    }
+    .coursePartner button{
+        margin-left: 0vw;
+    }
+    p.course-details-Career {
+        padding-top: 2rem;
+    }
+    
 }

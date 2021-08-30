@@ -11,19 +11,19 @@ const CourseIdeal = () => {
             </div>
             <p className="course-ideal-heading">Ideal Learner</p>
             <p className="course-ideal-sub-heading">This program requires very basic understanding of programming and is ideal for the following candidates:-</p>
-            <div style={{display:'flex',justifyContent:'space-around'}}>
+            <div className="course-ideal-flex" style={{display:'flex',justifyContent:'space-around'}}>
                 <div className="course-user">
-                    <img style={{width:'5vw'}} src={VerifiedUser}/>
+                    <img className="course-ideal-img" style={{width:'5vw'}} src={VerifiedUser}/>
                     <p className="course-eligible-heading">Target Audience</p>
                     <p className="course-content">Students,Fresher, Software Developers, IT Professionals,Technical Consultants</p>
                 </div>
                 <div className="course-eligible">
-                    <img style={{width:'5vw'}} src={EligibleUser}/>
+                    <img className="course-ideal-img" style={{width:'5vw'}} src={EligibleUser}/>
                     <p className="course-eligible-heading">Pre-requisite Criteria</p>
                     <p className="course-content">College Students,Any technical degree in computer science, and basic programming knowledge.</p>
                 </div>
                 <div className="course-eligible">
-                    <img style={{width:'5vw'}} src={goal}/>
+                    <img className="course-ideal-img" style={{width:'5vw'}} src={goal}/>
                     <p className="course-eligible-heading">Only Skills Matters</p>
                     <p className="course-content"> <em>Grades never matters, Skills matters.</em> <br /> Should be available to take up a
                         job immediately after completing this course.</p>

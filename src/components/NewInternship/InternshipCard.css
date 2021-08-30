@@ -57,3 +57,154 @@ margin-left: 4vw;
     position: relative;
     margin-bottom: 7vh;
 }
+@media only screen and (max-width: 500px){
+    .CardContainer {
+        background: #0830581C 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 93.9vw;
+        margin-left: 4vw;
+        margin-top: -11vh;
+    }
+    .CardContainerTopic {
+        font-weight: bold;
+        margin-bottom: 0vh !important;
+        margin-left: 0vw !important;
+        margin-top: 0vh !important;
+        padding: 1.5rem 3rem !important;
+    }
+    .Cardsinternship {
+        cursor: pointer;
+        display: block !important;
+        border-radius: 10px;
+        margin-left: 0vw !important;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        height: 35.5vh !important;
+        width: 29.1rem !important;
+        margin-bottom: 6vh !important;
+    }
+    .InternshipCard_Image {
+        width: 69vw ;
+        height: 40vw;
+        border-radius: 14px;
+    }
+    .CourseSubCard {
+        width: 68vw;
+        height: 14rem;
+        border-radius: 11px;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        text-align: center;
+        margin-left: 0.5vw;
+        margin-top: -7vh;
+        background: #fafdff;
+        position: relative;
+        margin-bottom: 7vh;
+    }
+    .InternshipCardHolder {
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .CardContainer {
+        background: #0830581C 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 85.9vw;
+        margin-left: 7vw;
+        margin-top: -11vh;
+    }
+    .CardContainerTopic {
+        font-weight: bold;
+        margin-bottom: 0vh !important;
+        margin-left: 0vw !important;
+        margin-top: 0vh !important;
+        padding: 1.1rem 1rem !important;
+        font: normal normal bold 22px/25px Roboto;
+        text-align: center;
+    }
+    .InternshipCard_Image {
+        width: 73vw;
+        height: 52vw;
+        border-radius: 14px;
+    }
+    .CourseSubCard {
+        width: 72vw;
+        height: 15rem;
+        border-radius: 11px;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        text-align: center;
+        margin-left: 0.5vw;
+        margin-top: -7vh;
+        background: #fafdff;
+        position: relative;
+        margin-bottom: 7vh;
+    }
+    .Cardsinternship {
+        cursor: pointer;
+        display: block !important;
+        border-radius: 10px;
+        margin-left: 0vw !important;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        height: 45.5vh !important;
+        width: 23.55rem !important;
+        margin-bottom: 6vh !important;
+    }
+    .InternshipCardHolder {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .CardContainer {
+        background: #0830581C 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 85.9vw;
+        margin-left: 7vw;
+        margin-top: -11vh;
+    }
+    .CardContainerTopic {
+        font-weight: bold;
+        margin-bottom: 0vh !important;
+        margin-left: 0vw !important;
+        margin-top: 0vh !important;
+        padding: 1.1rem 1rem !important;
+        font: normal normal bold 22px/25px Roboto;
+        text-align: center;
+    }
+    .InternshipCard_Image {
+        width: 73vw;
+        height: 50vw;
+        border-radius: 14px;
+    }
+    .CourseSubCard {
+        width: 72vw;
+        height: 15rem;
+        border-radius: 11px;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        text-align: center;
+        margin-left: 0.5vw;
+        margin-top: -7vh;
+        background: #fafdff;
+        position: relative;
+        margin-bottom: 7vh;
+    }
+    .Cardsinternship {
+        cursor: pointer;
+        display: block !important;
+        border-radius: 10px;
+        margin-left: 0vw !important;
+        border: 1px solid lightgray;
+        box-shadow: -1px 5px 4px #00000029;
+        height: 45.5vh !important;
+        width: 26.55rem !important;
+        margin-bottom: 6vh !important;
+    }
+    .InternshipCardHolder {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+}

@@ -36,5 +36,179 @@
     margin-left: 5vw;
     border: none;
     background: none;
-
+}
+.InternshipPrice{
+    display: block;
+}
+.InternshipPriceMobile{
+    display: none;
+}
+.InternshipPartnerMobile{
+    display: none;
+}
+@media only screen and (max-width: 500px){
+    .InternshipTab {
+        margin-top: 11vh;
+        margin-left: 7vw;
+        display: flex;
+        justify-content: space-around !important;
+    }
+    .InternshipCourse button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    
+    }
+    .InternshipPrice button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipProcess button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipPartner button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipTab button {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    .InternshipPrice{
+        display: none;
+    }
+    .InternshipPriceMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPriceMobile{
+        display: block;
+    }
+    .InternshipPartner{
+        display: none;
+    }
+    .InternshipPartnerMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPartnerMobile{
+        display: block;
+    }
+    .InternshipProcess{
+        display: none;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .InternshipTab {
+        margin-top: 8vh;
+        margin-left: 7vw;
+        justify-content: space-between !important;
+    }
+    .InternshipCourse button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    
+    }
+    .InternshipPrice button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipProcess button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipPartner button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipTab button {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    .InternshipPrice{
+        display: none;
+    }
+    .InternshipPriceMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPriceMobile{
+        display: block;
+    }
+    .InternshipPartner{
+        display: none;
+    }
+    .InternshipPartnerMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPartnerMobile{
+        display: block;
+    }
+    .InternshipProcess{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px){
+    .InternshipTab {
+        margin-top: 8vh;
+        margin-left: 7vw;
+        justify-content: space-between !important;
+    }
+    .InternshipCourse button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    
+    }
+    .InternshipPrice button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipProcess button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipPartner button{
+        margin-left: 0vw;
+        border: none;
+        background: none;
+    }
+    .InternshipTab button {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    .InternshipPrice{
+        display: none;
+    }
+    .InternshipPriceMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPriceMobile{
+        display: block;
+    }
+    .InternshipPartner{
+        display: none;
+    }
+    .InternshipPartnerMobile button{
+        border: none;
+        background: none;
+    }
+    .InternshipPartnerMobile{
+        display: block;
+    }
+    .InternshipProcess{
+        display: none;
+    }
 }

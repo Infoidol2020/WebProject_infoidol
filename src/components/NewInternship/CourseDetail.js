@@ -27,7 +27,7 @@ const CourseDetail = (props) => {
                     Take Your Developer Career to New Levels
                 </p>
                 <p className="course-details-highlight">
-                    Hands-on, project-based learning is at the heart of everything you do at Infoidol. Land top {Feature} developer jobs with real work experience in key skills by working on internship-grade development projects.
+                    Hands-on, project-based learning is at the heart of everything you do at Infoidol. Land top <strong>{Feature}</strong> developer jobs with real work experience in key skills by working on internship-grade development projects.
                 </p>
             </div>
 

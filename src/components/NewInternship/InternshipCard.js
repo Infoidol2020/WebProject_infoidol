@@ -26,51 +26,35 @@ const InternshipCard = (props) => {
 
     }
     return (
-        
         <div className="CardContainer" id="CardContainer" >
-
             <div id="CardContainer-blank"></div>
-            <h2 style={{fontWeight:'bold',marginBottom:'4vh',marginLeft:'2vw',marginTop:'3vh'}}>Infoidol Learning Courses</h2>
-            
+            <h2 className="CardContainerTopic"  style={{fontWeight:'bold',marginBottom:'4vh',marginLeft:'2vw',marginTop:'3vh'}}>Infoidol Learning Courses</h2>
+            <section className="InternshipCardHolder">
             {
                 CardSubject &&
                 CardSubject.map((cardelem,elemindex) => {
                 return(
                 <div className="Cardsinternship" style={{cursor:'pointer',display:'inline-block',borderRadius:'10px'}}
-                onClick={() => handleCourseClick(cardelem.sub_id)}
-                >
+                    onClick={() => handleCourseClick(cardelem.sub_id)}
+                    >
                     <Link to={{pathname: '/course-detail-page',
-                cardelem:{cardelem:cardelem}}}>
-                    <div className="COurses">
-                    <LazyLoadImage className="InternshipCard_Image" placeholder={<div><img src={miniLoader} /></div>} src={cardelem.back_image}   alt=""/>
-                    </div>
-                    <div className="CourseSubCard">
-                        {/* <div className="CourseDescription"> */}
-                        <h3 style={{color:'black'}}><b>{cardelem.sub_name}</b></h3>
-                        {/* {
-                        cardelem.sub_des && cardelem.sub_des.map((disccardelem,discIndex) => {
-                            return(
-                                <div>
-                                    <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{disccardelem}</p>
-                                </div>
-                            )
-                        })
-                        } */}
-                        <div>
-                                    <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{cardelem.sub_des}</p>
-                                </div>
-
-                        {/* </div> */}
-                    
-                    </div>
+                        cardelem:{cardelem:cardelem}}}>
+                        <div className="COurses">
+                        <LazyLoadImage className="InternshipCard_Image" placeholder={<div><img src={miniLoader} /></div>} src={cardelem.back_image}   alt=""/>
+                        </div>
+                        <div className="CourseSubCard">
+                            <h3 style={{color:'black'}}><b>{cardelem.sub_name}</b></h3>
+                            <div>
+                                <p style={{color:'black',fontWeight:'bolder',fontSize:'initial'}}>{cardelem.sub_des}</p>
+                            </div>
+                        </div>
                     </Link>
-
                 </div>
                 )
                 })
-                }
-                <div id="ninternshipCard-blank">
-            </div>
+            }
+            </section>
+            <div id="ninternshipCard-blank"></div>
         </div>
     
     )

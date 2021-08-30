@@ -10,7 +10,6 @@ import illus2 from '../../assets/illus90.png'
 const NewInternshipPricing = () => {
     return (
         <div className="NewInternshipPricingContainer">
-            
             <p className="newInternship-pricing-title">
                 Pricing
             </p>

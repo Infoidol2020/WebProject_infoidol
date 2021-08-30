@@ -16,31 +16,26 @@ const NInternshipLearn = () => {
                     <p>College students from any degree, stream, and year of study can apply for this program.</p>
             </div>
             <div className="LearnEarn">
-                
                     <div className="Internship_learn">
                         <img src={InternLearn} alt=""/>
                         <h4>Learn</h4>
                         <p style={{fontSize:'17px'}}>Build your coding and designing</p>
                         <p style={{marginTop:'-1.2vh',fontSize:'17px'}}>skills from scratch.</p>
-
-
                     </div>
+
                     <div className="Internship_Earn">
                         <img src={InternEarn} alt=""/>
                         <h4>Earn</h4>
                         <p style={{fontSize:'17px'}}>The more you learn the </p>
                         <p style={{marginTop:'-1.2vh',fontSize:'17px'}}> more you earn.</p>
-
-
                     </div>
+
                     <div className="Internship_profit">
                         <img src={InternGrow} alt=""/>
                         <h4>Profit</h4>
                         <p style={{fontSize:'17px'}}>Experience professional growth by </p>
                         <p style={{marginTop:'-1.2vh',fontSize:'17px'}}> solving real-world problem.</p>
-
                     </div>
-                
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-.NewInternshipCompaniesContainer {
+#NewInternshipCompaniesContainer {
     margin-left: 8.1rem;
     background-image: url('../../assets/mapBackgd.png');
     width: 94%;
@@ -28,4 +28,84 @@
 .Internship-companies {
     height: 40rem;
     width: 54rem;
+}
+@media only screen and (max-width: 500px){
+    #NewInternshipCompaniesContainer{
+        display: block;
+        margin-left: 7vw;
+        margin-top: 3vh;
+    }
+    .InternshipCompanies {
+        padding: 1rem;
+    }
+    .InternshipCompanies-Partners {
+        font-weight: bold;
+        font-size: 3rem;
+        margin-top: 0rem;
+        padding: 0 1rem;
+    }
+    .InternshipCompanies-slogan {
+        font-size: large;
+        margin-left: 0.5rem;
+        font-weight: bold;
+        font-family: ui-sans-serif;
+    }
+    .InternshipCompany-author {
+        text-align: end;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .Internship-companies{
+        height: 21rem;
+        width: 36rem;
+        padding: 1.5rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .Internship-companies {
+        height: 16rem;
+        width: 26rem;
+        padding: 0.5rem;
+    }
+    .InternshipCompanies-Partners {
+        font-weight: bold;
+        font-size: 2.38rem;
+        margin-top: 0rem;
+        padding: 0 1rem;
+    }
+    .InternshipCompanies-slogan {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        font-weight: bold;
+        font-family: ui-sans-serif;
+    }
+    .InternshipCompany-author {
+        text-align: end;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .Internship-companies {
+        height: 16rem;
+        width: 26rem;
+        padding: 0.5rem;
+    }
+    .InternshipCompanies-Partners {
+        font-weight: bold;
+        font-size: 2.38rem;
+        margin-top: 0rem;
+        padding: 0 1rem;
+    }
+    .InternshipCompanies-slogan {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        font-weight: bold;
+        font-family: ui-sans-serif;
+    }
+    .InternshipCompany-author {
+        text-align: end;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
 }

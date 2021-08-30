@@ -60,3 +60,76 @@ opacity: 1;
     font-weight: bold;
     font-size: x-large;
 }
+@media only screen and (max-width: 500px){
+    .New-internship-tab {
+        /* background: yellow; */
+        margin-left: 7vw;
+        width: 37.45rem;
+        padding: 0rem 1rem;
+    }
+    .Internship_learn img {
+        width: 10vw;
+    }
+    .Internship_Earn img {
+        width: 10vw;
+    }
+    .Internship_profit img {
+        width: 10vw;
+    }
+    .LearnEarn_container h2 {
+        font: normal normal bold 23px/36px Roboto;
+        letter-spacing: 0px;
+        color: #322F2F;
+        text-align: center;
+        margin-top: -3rem;
+    }
+    .LearnEarn_container P {
+        text-align: center;
+        font: normal normal 300 17px/21px Roboto;
+        letter-spacing: 0px;
+        color: #635A5A;
+        opacity: 1;
+    }
+    .LearnEarn {
+        display: block;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .Internship_learn {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .Internship_Earn {
+        text-align: center;
+        margin-bottom: 3rem;
+        margin-left: 0vw;
+    }
+    .Internship_profit {
+        text-align: center;
+        margin-left: 0vw;
+        margin-bottom: 3rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .LearnEarn_container h2 {
+        font: normal normal bold 23px/25px Roboto;
+        letter-spacing: 0px;
+        color: #322F2F;
+        text-align: center;
+        margin-top: -3rem;
+    }
+    .New-internship-tab {
+        /* background: yellow; */
+        margin-left: 7vw;
+        width: 27.45rem;
+        padding: 0rem 1rem;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:400px ){
+    .New-internship-tab {
+        /* background: yellow; */
+        margin-left: 7vw;
+        width: 31rem;
+        padding: 0rem 1rem;
+    }
+}

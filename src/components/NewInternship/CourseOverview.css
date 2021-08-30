@@ -43,3 +43,109 @@
 .overview-img{
     display: flex;
 }
+
+@media only screen and (max-width:320px){
+    .overview-hero-pic {
+        display: none;
+    }
+    .course-overview-container {
+        margin-left: 0rem;
+        margin-bottom: 0vh;
+        padding: 1rem;
+        background: rgba(243,241,238 );
+        width: 93vw;
+}
+.overview-container {
+    margin-left: 0rem;
+}
+.overview-content {
+    margin-left: 0rem;
+    width: 89vw;
+    margin-top: 0rem;
+}
+.course-overview-heading {
+    font-size: 19px;
+    color: teal;
+    padding: 0 1rem;
+}
+.overview-details {
+    font-size: 1.5rem;
+    width: 28rem;
+    /* margin-right: 5rem; */
+    letter-spacing: 0.03rem;
+    word-spacing: 0.03rem;
+}
+#course-detail-blank{
+    height: 0vh !important;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:400px){
+    .overview-hero-pic {
+        display: none;
+    }
+    .course-overview-container {
+        margin-left: 0rem;
+        margin-bottom: 0vh;
+        padding: 1rem;
+        background: rgba(243,241,238 );
+        width: 93vw;
+}
+.overview-container {
+    margin-left: 0rem;
+}
+.overview-content {
+    margin-left: 0rem;
+    width: 89vw;
+    margin-top: 0rem;
+}
+.course-overview-heading {
+    font-size: 24px;
+    color: teal;
+}
+.overview-details {
+    font-size: 1.6rem;
+    width: 32rem;
+    /* margin-right: 5rem; */
+    letter-spacing: 0.03rem;
+    word-spacing: 0.03rem;
+}
+#course-detail-blank{
+    height: 0vh !important;
+}
+}
+
+@media only screen and (min-width:401px) and (max-width:500px){
+    .overview-hero-pic {
+        display: none;
+    }
+    .course-overview-container {
+        margin-left: 0rem;
+        margin-bottom: 0vh;
+        padding: 1rem;
+        background: rgba(243,241,238 );
+        width: 39.5rem
+}
+.overview-container {
+    margin-left: 0rem;
+}
+.overview-content {
+    margin-left: 0rem;
+    width: 89vw;
+    margin-top: 0rem;
+}
+.course-overview-heading {
+    font-size: 28px;
+    color: teal;
+}
+.overview-details {
+    font-size: 1.6rem;
+    width: 37rem;
+    /* margin-right: 5rem; */
+    letter-spacing: 0.03rem;
+    word-spacing: 0.03rem;
+}
+#course-detail-blank{
+    height: 0vh !important;
+}
+}

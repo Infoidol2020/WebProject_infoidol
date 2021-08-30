@@ -4,3 +4,24 @@
     height: 23vw;
     margin-left: 6vw;
 }
+.newinternshipbanMob-img {
+    display: none;
+}
+@media only screen and (max-width: 500px){
+    .Ind_img{
+        display: none;
+    }
+    .NewInternship_Picture img {
+        width: 86vw;
+        margin-top: 2vh;
+        height: 50vw;
+        margin-left: 7vw;
+    }
+    .newinternshipbanMob-img{
+        display: block;
+        width: 86vw;
+        margin-top: 2vh;
+        height: 53vw;
+        margin-left: 8vw;
+    }
+}

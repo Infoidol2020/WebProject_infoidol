@@ -6,8 +6,7 @@ import './NewInternshipCompanies.css'
 
 const NewInternshipCompanies = () => {
     return (
-        <div className="NewInternshipCompaniesContainer">
-            
+        <div id="NewInternshipCompaniesContainer">
             <section className="InternshipCompanies">
                 <p className="InternshipCompanies-Partners">
                 Top Hiring Companies
